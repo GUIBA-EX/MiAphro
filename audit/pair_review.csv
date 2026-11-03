@@ -1,0 +1,17 @@
+name,degF,degR,consensus_flags,checks
+MiAphro-16S,1,1,2,856
+MiAphro-16SD,8,8,1,856
+MiAphro-28S,1,1,0,496
+MiAphro-28SD,2,2,0,496
+MiAphro-16S-S,1,1,1,856
+MiAphro-16S-SD,4,2,1,856
+MiAphro-16S-M,1,1,2,856
+MiAphro-16S-MD,8,8,1,856
+MiAphro-16S-L,1,1,2,856
+MiAphro-16S-LD,8,8,1,856
+MiAphro-28S-S,1,1,0,496
+MiAphro-28S-SD,2,8,0,496
+MiAphro-28S-M,1,1,0,496
+MiAphro-28S-MD,2,2,0,496
+MiAphro-28S-L,1,1,0,496
+MiAphro-28S-LD,2,2,0,496
