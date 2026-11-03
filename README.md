@@ -6,6 +6,8 @@
 
 [现行 12 对引物 FASTA](SML/primers.fasta) · [现行结果](SML/results.csv) · [首轮 4 对基线](baseline/results.csv)
 
+[预印本 PDF](publications/MiAphro_preprint.pdf) · [论文原稿](publications/MiAphro_preprint.md)
+
 ## 摘要
 
 本研究通过序列比对和计算扩增，面向海洋鳞虫类（Aphroditiformia），比较线粒体 16S 和核 28S 各三个扩增窗口，共 12 对普通或简并引物。28S-SD 在 148 bp 的参考跨度下覆盖 59/68 种，47 种双端完全匹配。250 bp 的 28S-MD 覆盖 58/68 种，双端完全匹配增至 53 种。16S-SD 补充了 28S 漏检的 Eulepethidae，但在整个 16S 面板中只有 1 种双端完全匹配。

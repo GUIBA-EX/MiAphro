@@ -6,6 +6,8 @@
 
 [Current 12-pair FASTA](SML/primers.fasta) · [Current results](SML/results.csv) · [Four first-round baseline pairs](baseline/results.csv)
 
+[Preprint PDF](publications/MiAphro_preprint.pdf) · [Manuscript](publications/MiAphro_preprint.md)
+
 ## Abstract
 
 We evaluated in silico 12 ordinary or degenerate primer pairs in three windows per marker for marine scale worms (Aphroditiformia). At 148 bp, 28S-SD covered 59/68 species with 47 paired exact matches. At 250 bp, 28S-MD covered 58/68 species with 53 exact matches. The short 16S degenerate pair recovered Eulepethidae missed by 28S but exactly matched only one species across the 16S panel.
