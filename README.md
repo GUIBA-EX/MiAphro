@@ -4,7 +4,7 @@
 
 [Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
 
-MiPhyllo names the expanded collection; the MiAphro repository URL and sequence identifiers are retained. / 整合版命名MiPhyllo，保留MiAphro仓库地址与序列编号。
+The repository and current primer identifiers use MiPhyllo. / 仓库和现行引物编号统一使用MiPhyllo。
 
 [English](README.en.md) | 中文
 
@@ -42,7 +42,7 @@ graph TD
 
 ## 命名与方案
 
-`MiAphro-{目标类群}-{基因}-{长度}[2][D]_{F|R}`。S/M/L表示短、中、长设计；D表示该对引物至少一条含简并，每条简并度≤8。数字2表示另一套条件候选，不表示两对引物混合。例：`MiAphro-Syllidae-16S-S_F`、`MiAphro-Syllidae-16S-SD_R`、`MiAphro-Syllidae-16S-S2D_R`。同一方案内普通/D的四个结合端点一致；不同方案、类群可能使用不同窗口和参考序列。
+`MiPhyllo-{目标类群}-{基因}-{长度}[2][D]_{F|R}`。S/M/L表示短、中、长设计；D表示该对引物至少一条含简并，每条简并度≤8。数字2表示另一套条件候选，不表示两对引物混合。例：`MiPhyllo-Syllidae-16S-S_F`、`MiPhyllo-Syllidae-16S-SD_R`、`MiPhyllo-Syllidae-16S-S2D_R`。同一方案内普通/D的四个结合端点一致；不同方案、类群可能使用不同窗口和参考序列。
 
 ## 结果概览
 
@@ -84,6 +84,6 @@ python3 scripts/recheck_catalog.py
 
 ## 引用与著作权
 
-Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
+Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiPhyllo](https://github.com/GUIBA-EX/MiPhyllo).
 
 [Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)

@@ -1,4 +1,4 @@
-"""Structural release gate for the integrated MiAphro catalogue."""
+"""Structural release gate for the integrated MiPhyllo catalogue."""
 from pathlib import Path
 import csv,json,re,math,hashlib,sys
 from collections import Counter
@@ -14,7 +14,7 @@ for rs,folder in [(rows,R),(alt,R/'conditional')]:
  seq={x.id:str(x.seq) for x in SeqIO.parse(folder/'primers.fasta','fasta')};assert seq=={x['name']+'_'+side:x[side] for x in rs for side in 'FR'}
  details=read(folder/'species.csv');lookup={x['name']:x for x in rs}
  for x in rs:
-  expected=f"MiAphro-{x['target_taxon']}-{x['gene']}-{x['band']}"+('2' if x['profile']=='conditional' else '')+('D' if x['variant']=='D' else '')
+  expected=f"MiPhyllo-{x['target_taxon']}-{x['gene']}-{x['band']}"+('2' if x['profile']=='conditional' else '')+('D' if x['variant']=='D' else '')
   assert x['name']==expected
   for side in 'FR':
    assert len(x[side])==int(x[side+'_end'])-int(x[side+'_start'])+1

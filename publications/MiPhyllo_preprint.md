@@ -46,9 +46,9 @@ performance.
 We compare designs at the order, suborder and family levels, retain
 multiple amplicon lengths, and explicitly separate strict and loose
 background matching. MiPhyllo denotes the integrated Phyllodocida
-collection. The repository address and MiAphro sequence identifiers
-remain stable for traceability; the original Aphroditiformia preprint
-remains a separate case study.
+collection. The repository and current sequence identifiers use
+MiPhyllo; the original Aphroditiformia preprint remains a separate case
+study.
 
 </div>
 
@@ -205,10 +205,10 @@ units. Candidate use should consider target scope, exact matching and
 both background models. Frozen references, 94 current pairs, eight
 conditional pairs, per-species outcomes, source algorithms and
 independent re-scan records are available at
-[github.com/GUIBA-EX/MiAphro](https://github.com/GUIBA-EX/MiAphro). Full
-canonical identifiers follow
-MiAphro-{target}-{gene}-{length}\[2\]\[D\]\_{F\|R}; these stable
-identifiers are retained despite the expanded manuscript name.
+[github.com/GUIBA-EX/MiPhyllo](https://github.com/GUIBA-EX/MiPhyllo).
+Full canonical identifiers follow
+MiPhyllo-{target}-{gene}-{length}\[2\]\[D\]\_{F\|R}; these identifiers
+are consistent with the repository and manuscript name.
 
 ## References
 
@@ -236,7 +236,7 @@ software version 7: improvements in performance and usability.
 
 ## Appendix A1. Aphroditiformia
 
-Canonical prefix: MiAphro-Aphroditiformia-. All sequences are 5′→3′.
+Canonical prefix: MiPhyllo-Aphroditiformia-. All sequences are 5′→3′.
 Covered and exact counts use the full target reference denominator.
 Strict and loose background values are WC/GT.
 
@@ -282,7 +282,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A2. Phyllodocida
 
-Canonical prefix: MiAphro-Phyllodocida-. All sequences are 5′→3′.
+Canonical prefix: MiPhyllo-Phyllodocida-. All sequences are 5′→3′.
 Covered and exact counts use the full target reference denominator.
 Strict and loose background values are WC/GT.
 
@@ -328,7 +328,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A3. Glyceriformia
 
-Canonical prefix: MiAphro-Glyceriformia-. All sequences are 5′→3′.
+Canonical prefix: MiPhyllo-Glyceriformia-. All sequences are 5′→3′.
 Covered and exact counts use the full target reference denominator.
 Strict and loose background values are WC/GT.
 
@@ -374,7 +374,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A4. Nereidiformia
 
-Canonical prefix: MiAphro-Nereidiformia-. All sequences are 5′→3′.
+Canonical prefix: MiPhyllo-Nereidiformia-. All sequences are 5′→3′.
 Covered and exact counts use the full target reference denominator.
 Strict and loose background values are WC/GT.
 
@@ -420,7 +420,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A5. Phyllodociformia
 
-Canonical prefix: MiAphro-Phyllodociformia-. All sequences are 5′→3′.
+Canonical prefix: MiPhyllo-Phyllodociformia-. All sequences are 5′→3′.
 Covered and exact counts use the full target reference denominator.
 Strict and loose background values are WC/GT.
 
@@ -466,7 +466,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A6. Syllidae
 
-Canonical prefix: MiAphro-Syllidae-. All sequences are 5′→3′. Covered
+Canonical prefix: MiPhyllo-Syllidae-. All sequences are 5′→3′. Covered
 and exact counts use the full target reference denominator. Strict and
 loose background values are WC/GT.
 
@@ -508,7 +508,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A7. Nereididae
 
-Canonical prefix: MiAphro-Nereididae-. All sequences are 5′→3′. Covered
+Canonical prefix: MiPhyllo-Nereididae-. All sequences are 5′→3′. Covered
 and exact counts use the full target reference denominator. Strict and
 loose background values are WC/GT.
 
@@ -554,7 +554,7 @@ Ordinary/D pairs have identical endpoints within each design.
 
 ## Appendix A8. Hesionidae
 
-Canonical prefix: MiAphro-Hesionidae-. All sequences are 5′→3′. Covered
+Canonical prefix: MiPhyllo-Hesionidae-. All sequences are 5′→3′. Covered
 and exact counts use the full target reference denominator. Strict and
 loose background values are WC/GT.
 

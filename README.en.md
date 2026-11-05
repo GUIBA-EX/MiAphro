@@ -4,7 +4,7 @@
 
 [Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
 
-MiPhyllo names the expanded collection; the MiAphro repository URL and sequence identifiers are retained. / 整合版命名MiPhyllo，保留MiAphro仓库地址与序列编号。
+The repository and current primer identifiers use MiPhyllo. / 仓库和现行引物编号统一使用MiPhyllo。
 
 [中文](README.md) | English
 
@@ -42,7 +42,7 @@ The diagram shows included design units, not a complete taxonomic classification
 
 ## Names and profiles
 
-`MiAphro-{taxon}-{gene}-{length}[2][D]_{F|R}`. S/M/L denote short, medium and long designs. D marks degeneracy in at least one oligo of the pair; each oligo has degeneracy ≤8. The suffix 2 identifies a distinct conditional alternative, not a two-pair mixture. Examples: `MiAphro-Syllidae-16S-S_F`, `MiAphro-Syllidae-16S-SD_R`, and `MiAphro-Syllidae-16S-S2D_R`. Ordinary/D counterparts share all four endpoints within a profile. Different profiles or taxa may use different windows and references.
+`MiPhyllo-{taxon}-{gene}-{length}[2][D]_{F|R}`. S/M/L denote short, medium and long designs. D marks degeneracy in at least one oligo of the pair; each oligo has degeneracy ≤8. The suffix 2 identifies a distinct conditional alternative, not a two-pair mixture. Examples: `MiPhyllo-Syllidae-16S-S_F`, `MiPhyllo-Syllidae-16S-SD_R`, and `MiPhyllo-Syllidae-16S-S2D_R`. Ordinary/D counterparts share all four endpoints within a profile. Different profiles or taxa may use different windows and references.
 
 ## Results
 
@@ -84,6 +84,6 @@ The retained preprint reports Aphroditiformia only. The additional order-, subor
 
 ## Citation and copyright
 
-Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
+Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiPhyllo](https://github.com/GUIBA-EX/MiPhyllo).
 
 [Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)

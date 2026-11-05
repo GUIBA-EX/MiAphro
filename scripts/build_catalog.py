@@ -14,7 +14,7 @@ units=[('Aphroditiformia','suborder',R/'studies/Aphroditiformia','SML'),('Phyllo
 opt=A/'Phyllodocida_families/Optimization3';new=read(opt/'results.csv');newdetails=read(opt/'species.csv');catalog=[];conditional=[];allsp=[];condsp=[];inventory=[];mapping=[]
 fields=['name','target_taxon','rank','gene','band','variant','profile','reference','F_start','F_end','R_start','R_end','span','F','R','deg_F','deg_R','target_species','covered','exact','background_species','WC','GT','WCloose','GTloose','source_name','source_results','source_pool','source_id']
 def normalized(x,taxon,rank,profile,path):
- gene,band=x['name'].split('-')[-2:];d=band.endswith('D');length=band.removesuffix('D');slot=length+('2' if profile=='conditional' else '')+('D' if d else '');name=f'MiAphro-{taxon}-{gene}-{slot}'
+ gene,band=x['name'].split('-')[-2:];d=band.endswith('D');length=band.removesuffix('D');slot=length+('2' if profile=='conditional' else '')+('D' if d else '');name=f'MiPhyllo-{taxon}-{gene}-{slot}'
  z=dict(name=name,target_taxon=taxon,rank=rank,gene=gene,band=length,variant='D' if d else 'ordinary',profile=profile,reference=x['reference'],span=int(x['R_end'])-int(x['F_start'])+1,source_name=x['name'],source_results=str(path.relative_to(R)),source_pool=x.get('source_pool','SML' if taxon in ['Aphroditiformia','Phyllodocida'] else 'Expanded'),source_id=x['id'])
  for k in ['F_start','F_end','R_start','R_end','F','R','target_species','covered','exact','background_species','WC','GT','WCloose','GTloose']:z[k]=x[k]
  for end in 'FR':z['deg_'+end]=math.prod(len(I[b]) for b in x[end])
