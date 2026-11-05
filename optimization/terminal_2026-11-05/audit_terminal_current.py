@@ -67,5 +67,5 @@ for x in rows:
  print('PASS',x['name'],f"covered {counts['covered']}/{len(meta)}; homologous terminals {counts['both_match']}/{len(meta)}; excluded by terminal {counts['terminal_excluded']}",flush=True)
 for filename,rs in [('summary.csv',summaries),('species.csv',details),('terminal_positions.csv',positions)]:
  with (OUT/filename).open('w') as h:
-  w=csv.DictWriter(h,fieldnames=list(rs[0]));w.writeheader();w.writerows(rs)
+  w=csv.DictWriter(h,fieldnames=list(rs[0]),lineterminator='\n');w.writeheader();w.writerows(rs)
 (OUT/'audit.json').write_text(json.dumps(dict(status='PASS',pairs=len(rows),oligos=2*len(rows),species_pair_evaluations=len(details),coverage_discrepancies=0,covered_terminal_mismatches=0,method='Homologous anchor projection plus independent unaligned paired-site scan; reverse primer checked in primer orientation; IUPAC compatible; no GT relaxation.'),indent=2))
