@@ -1,3 +1,5 @@
+![MiPhyllo](figures/MiPhyllo_overview.png)
+
 # MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida
 
 **Fei Xia**
