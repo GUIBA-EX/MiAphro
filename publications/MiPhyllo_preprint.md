@@ -26,12 +26,14 @@ catalogue criteria retained 24 sets, comprising 48 primer pairs and 96
 oligos, across six units. Nereididae 16S LD covered 58/61 references
 with 11 exact matches; Hesionidae 28S SD covered 40/45 with eight exact
 matches. Coverage and exact matching remained markedly different for
-several retained designs. All retained sequences and scores are
-unchanged subsets of the 102 originally independently re-scanned pairs.
-The other 54 pairs, source results and previous preprint are archived.
-The curated collection supports target-specific candidate selection; the
-thresholds and matching results do not constitute experimental
-validation.
+several retained designs. A subsequent joint terminal-degeneracy search
+replaced four D pairs after independent target/background verification;
+44 pairs remain unchanged. Nereididae 28S SD increased from 29/52
+covered and eight exact matches to 30/52 and 19, with zero background
+hits in all four models. The other 54 pairs, source results and previous
+preprint are archived. The curated collection supports target-specific
+candidate selection; the thresholds and matching results do not
+constitute experimental validation.
 
 ## 1. Introduction
 
@@ -111,13 +113,19 @@ remain coordinate-matched comparators and need not themselves reach 50%
 coverage. Lengths are not removed merely because another length has
 greater coverage.
 
-The retained 48 pairs are sequence- and score-identical subsets of the
-102 originally scanned pairs, for which C++ and independent Python
-implementations agreed record by record. This revision checks selection
-membership, unchanged sequences and statistics, FASTA exports, endpoint
-identity, degeneracy, bilingual tables and archive completeness. It
-introduces no fresh sequence design, experimental validation,
-common-panel evaluation or independent holdout test.
+The curated catalogue initially retained 48 pairs from 102 independently
+scanned pairs. A subsequent joint terminal search reallocated degeneracy
+in nine D candidates, fixing the 5′ half, lengths and endpoints. Seeds
+comprised original concrete expansions and frequent target-window
+suffixes; masks were jointly assigned across up to three 3′-half
+positions, including complete terminal-triplet allocation within
+degeneracy ≤8. Coverage- and exact-oriented shortlists were combined
+with initial local-search candidates. Replacement required no loss in
+either target metric, at least one strict improvement, and the original
+thermodynamic, background and close-relative gates. C++ and Python
+independently re-scanned the selected sequences. Four D pairs were
+replaced; 44 pairs remain unchanged. No experimental validation,
+common-panel comparison or independent holdout test was added.
 
 </div>
 
@@ -176,13 +184,13 @@ alternative also remained below 50% coverage. Per-set decisions and
 original scores are distributed in the archive.
 
 Retained designs still show tradeoffs. Aphroditiformia 16S SD covers
-62/94 but matches only one species exactly; Glyceriformia 16S SD/MD each
-cover 14/20 with one exact match. Syllidae 16S SD covers 110/180 with
-seven exact matches. Nereididae 16S LD covers 58/61 with 11 exact
-matches but has strict WC/GT background counts of 30/58, compared with
-0/12 for SD (57/61 covered). Nereididae 28S SD covers 29/52 with eight
-exact matches and zero hits in all four background models. Hesionidae
-28S SD covers 40/45 with eight exact matches.
+62/94 but matches only one species exactly; Glyceriformia 16S SD now
+covers 15/20; MD remains at 14/20, with one exact match each. Syllidae
+16S SD covers 110/180 with seven exact matches. Nereididae 16S LD covers
+58/61 with 11 exact matches but has strict WC/GT background counts of
+30/58, compared with 0/12 for SD (57/61 covered). Nereididae 28S SD now
+covers 30/52 with 19 exact matches and zero hits in all four background
+models. Hesionidae 28S SD covers 40/45 with eight exact matches.
 
 ## 4. Discussion
 
@@ -220,6 +228,43 @@ records are available at
 Current identifiers follow
 MiPhyllo-{target}-{gene}-{S\|M\|L}\[D\]\_{F\|R}. Copyright © 2026 Fei
 Xia; repository copyright and third-party data terms apply.
+
+</div>
+
+<div class="section page">
+
+## Terminal optimization: nine-pair comparison
+
+| D pair | Covered | Exact | Strict WC/GT | Loose WC/GT |
+|----|----|----|----|----|
+| Aphroditiformia-28S-MD | 58 → 58/68 | 53 → 53/68 | 1/2 → 1/2 | 17/2 → 17/2 |
+| Glyceriformia-16S-SD | 14 → 15/20 | 1 → 1/20 | 14/33 → 13/33 | 113/104 → 107/105 |
+| Nereididae-16S-LD | 58 → 58/61 | 11 → 11/61 | 30/58 → 30/58 | 166/285 → 166/285 |
+| Nereididae-28S-SD | 29 → 30/52 | 8 → 19/52 | 0/0 → 0/0 | 0/0 → 0/0 |
+| Phyllodociformia-16S-LD | 40 → 41/59 | 3 → 3/59 | 0/1 → 0/0 | 76/29 → 80/31 |
+| Phyllodociformia-16S-SD | 49 → 50/59 | 11 → 11/59 | 0/8 → 0/12 | 81/11 → 82/15 |
+| Phyllodociformia-28S-MD | 52 → 52/63 | 5 → 5/63 | 21/26 → 21/26 | 95/42 → 95/42 |
+| Phyllodociformia-28S-SD | 51 → 51/63 | 4 → 4/63 | 7/23 → 7/23 | 53/53 → 53/53 |
+| Syllidae-16S-SD | 110 → 110/180 | 7 → 7/180 | 1/2 → 1/2 | 15/2 → 15/2 |
+
+**Table 2.** Before and after joint degeneracy redistribution. Four
+replacements were accepted. Ordinary sequences and all endpoints
+remained fixed. The full original background gates, including the
+close-relative gate, were retained; small increases in individual
+background counts are reported rather than treated as zero cost.
+
+![](../figures/terminal_optimization.png)
+
+**Figure 2.** Coverage and exact matching before (open) and after
+(filled) optimization. Teal indicates accepted replacements. Each pair
+uses its own reference denominator.
+
+Syllidae 16S SD retained its sequence: 74,215 forward and 82,665 reverse
+allocations generated no shortlisted pair improving one target metric
+without reducing the other. The 16 species excluded by its terminal
+constraint remain excluded. These staged searches are not proofs of
+global optimality. Per-pair candidate and background results are
+available under optimization/terminal_2026-11-05/.
 
 </div>
 
@@ -299,7 +344,7 @@ comparators.
 | Gene/pair | bp  | Covered | Exact | Strict bg | Loose bg |
 |-----------|-----|---------|-------|-----------|----------|
 | 16S-S     | 110 | 8/20    | 0/20  | 2/3       | 60/27    |
-| 16S-SD    | 110 | 14/20   | 1/20  | 14/33     | 113/104  |
+| 16S-SD    | 110 | 15/20   | 1/20  | 13/33     | 107/105  |
 | 16S-M     | 252 | 7/20    | 1/20  | 1/1       | 40/17    |
 | 16S-MD    | 252 | 14/20   | 1/20  | 10/13     | 81/35    |
 | 28S-S     | 106 | 7/12    | 4/12  | 0/2       | 1/28     |
@@ -314,7 +359,7 @@ comparators.
 | Gene/pair | Forward                | Reverse                |
 |-----------|------------------------|------------------------|
 | 16S-S     | TAAATTTTGTTGGGGCGACA   | ATCCCTAAGGTAGCTATTTCCT |
-| 16S-SD    | TAAATTTTGTTGGGGCGACA   | ATCCCTATGGTAGCTRWTTYCT |
+| 16S-SD    | TAAATTTTGTTGGGGCGACA   | ATCCCTATGGTAGCTRTTTYMT |
 | 16S-M     | CACGAAAATAAAGCTGTCTC   | CCCTAAGGTAGCTATTTCCT   |
 | 16S-MD    | CACGAAAATAAWDCTGTCTC   | CCCTAAGGTAGCTRTTTYCT   |
 | 28S-S     | ACGGCGAGTGAAGCGGGAAGAG | CTCGGACGCCAGAACGCTGC   |
@@ -343,9 +388,9 @@ same-coordinate comparators.
 | Gene/pair | bp  | Covered | Exact | Strict bg | Loose bg |
 |-----------|-----|---------|-------|-----------|----------|
 | 16S-S     | 118 | 31/59   | 2/59  | 0/0       | 10/3     |
-| 16S-SD    | 118 | 49/59   | 11/59 | 0/8       | 81/11    |
+| 16S-SD    | 118 | 50/59   | 11/59 | 0/12      | 82/15    |
 | 16S-L     | 308 | 27/59   | 2/59  | 0/0       | 9/4      |
-| 16S-LD    | 308 | 40/59   | 3/59  | 0/1       | 76/29    |
+| 16S-LD    | 308 | 41/59   | 3/59  | 0/0       | 80/31    |
 | 28S-S     | 198 | 49/63   | 4/63  | 5/18      | 35/30    |
 | 28S-SD    | 198 | 51/63   | 4/63  | 7/23      | 53/53    |
 | 28S-M     | 298 | 12/63   | 6/63  | 0/0       | 44/12    |
@@ -356,9 +401,9 @@ same-coordinate comparators.
 | Gene/pair | Forward                  | Reverse                |
 |-----------|--------------------------|------------------------|
 | 16S-S     | ATAGTTACCATAGGGATAACAGGC | ACCAACCCTTATAGACTGCTAC |
-| 16S-SD    | ATAGTTACCATAGGGATAACAGGC | ACCAACCCTTATARRCTGCTRC |
+| 16S-SD    | ATAGTTACCATADGGATAACAGGY | ACCAACCCTTATARRCTGCTRC |
 | 16S-L     | ACCTAAATTTTAATGAAAGACA   | TTGAACAAACCAACCCTT     |
-| 16S-LD    | ACCTAAATTTTAATRWARGACA   | TTGAACAAACYWACCCTY     |
+| 16S-LD    | ACCTAAATTTTWATRAARGACA   | TTGAACAAACYAACCCTY     |
 | 28S-S     | GAAAGCCACGACCGGTTC       | CACTGTGAACAGTCCTCGCCAG |
 | 28S-SD    | GAAAGCCACGACCGGTTC       | CACTGTGAACAGTCCTCVCCWG |
 | 28S-M     | GTCCTTGGAGTCGGGTTGTTTG   | AAAGTGCGCCCACCGACCAC   |
@@ -417,7 +462,7 @@ comparators.
 | 16S-L     | 412 | 38/61   | 6/61  | 0/40      | 66/106   |
 | 16S-LD    | 412 | 58/61   | 11/61 | 30/58     | 166/285  |
 | 28S-S     | 150 | 19/52   | 1/52  | 0/0       | 0/0      |
-| 28S-SD    | 150 | 29/52   | 8/52  | 0/0       | 0/0      |
+| 28S-SD    | 150 | 30/52   | 19/52 | 0/0       | 0/0      |
 
 ### Primer sequences
 
@@ -430,7 +475,7 @@ comparators.
 | 16S-L     | TTAATTGAAGGCTAGTATGA | CAATGTGATCTCTCTAGT     |
 | 16S-LD    | TTAATTGAAGGYYRGTATGA | CAATGTGATCTCTCTARY     |
 | 28S-S     | GACGCGTGCACTTTCCGG   | CAGAGGGCCTGCGACTCG     |
-| 28S-SD    | GACGCGTGCAMTTTCCRG   | CAGAGGGCCTGCGACYHG     |
+| 28S-SD    | GACGCGTGCACTTBCCRG   | CAGAGGGCCTGCGACYNG     |
 
 Binding coordinates, accessions and per-species matches:
 panels/Nereididae/results.csv and species.csv. Ordinary/D counterparts

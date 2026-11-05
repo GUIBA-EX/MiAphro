@@ -1,0 +1,634 @@
+[
+  {
+    "F": "ATAGTTACCATADGGATAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGAKAACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAABAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACABGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACADGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGBY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGDY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGGC",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 49,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": true
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGKH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGKY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGNY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGRH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGRY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGSB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGSH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAGVY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAKGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAKGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAKRY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAKSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACANGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACARGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACARGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACARKY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACARRY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACARSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACASGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACASGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACASKY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACASRY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACAVGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACHGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACMGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACRGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACRGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACWGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAACWGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAAMAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAAMAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAAVAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAAYAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAMCAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAMCAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAMCAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAMMAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATANCAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATAWCAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATDACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATHACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATMACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGATMACAGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGAWAACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGAWAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGAWAACAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGAWAMCAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGHTAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGMTAACAGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGRTAACAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGRTAACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGRTAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGWTAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGWTAACAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGWTAAMAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGWTAMCAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGGWWAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGRATAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGRATAACAGSY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGRATAAMAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGRATAMCAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGGRWTAACAGGY",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGRGATAACAGGN",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGSGATAACAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATAGSGATAACAGGH",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  },
+  {
+    "F": "ATAGTTACCATASGGATAACAGGB",
+    "R": "ACCAACCCTTATARRCTGCTRC",
+    "covered": 50,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": false
+  }
+]

@@ -1,0 +1,650 @@
+[
+  {
+    "F": "TTAATTGAAGGCBRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCBRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCBRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCHRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCHRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCHRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCNRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCNRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCNRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYDGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYDGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYDGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYNGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYNGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYNGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGKATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGKATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGKATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAKGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAKGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAKGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGM",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGM",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGM",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGR",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGR",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGW",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGW",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATGW",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATKA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATRA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATSA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATSA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTATSA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAWGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAWGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAYGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAYGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTAYGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTMTGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTMTGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTRTGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTRTGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTWTGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGTWTGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGWATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGWATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGWATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGYATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGYATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRGYATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRKTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRKTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRKTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRRTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRRTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRSTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYRSTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYVGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYVGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGCYVGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGMYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGMYRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGMYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGSYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGSYRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGSYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGYYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGYYRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGGYYRGTATGA",
+    "R": "CAATGTGATCTCTCTARY",
+    "covered": 58,
+    "exact": 11,
+    "thermal_pass": true,
+    "baseline": true
+  },
+  {
+    "F": "TTAATTGAAGGYYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGKCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGKCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARN",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGKCYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGRCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGRCYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGSCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARB",
+    "covered": 59,
+    "exact": 11,
+    "thermal_pass": false,
+    "baseline": false
+  },
+  {
+    "F": "TTAATTGAAGSCYRGTATGA",
+    "R": "CAATGTGATCTYTCTARY",
+    "covered": 58,
+    "exact": 12,
+    "thermal_pass": false,
+    "baseline": false
+  }
+]

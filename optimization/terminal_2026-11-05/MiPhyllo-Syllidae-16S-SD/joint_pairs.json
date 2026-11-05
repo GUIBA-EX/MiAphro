@@ -1,0 +1,10 @@
+[
+  {
+    "F": "AAAGACAGAAAGWCCCTH",
+    "R": "CCCTACAGTARCTTACTTRW",
+    "covered": 110,
+    "exact": 7,
+    "thermal_pass": true,
+    "baseline": true
+  }
+]

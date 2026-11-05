@@ -1,0 +1,371 @@
+[
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKTTTYYT",
+    "covered": 16,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACN",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 4,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGKGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTRGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGVGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTHGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGDGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTGWTTYMT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGNCA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 4,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACH",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTBTTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 6,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGMGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGMCA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGDCA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGVCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKTTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 4,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGDCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGNCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 4,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCDACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGSGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTWGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGAHA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTDGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTKGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTRTTTYMT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGRGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGAYA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACV",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCNACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 4,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGRCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGVGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGAMA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTVGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTNGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 4,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGYGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGSCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 2,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTRTKTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTKYTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGBCGACA",
+    "R": "ATCCCTATGGTAGCTKWTTYCT",
+    "covered": 15,
+    "exact": 1,
+    "deg_F": 3,
+    "deg_R": 8,
+    "baseline": false
+  },
+  {
+    "F": "TAAATTTTGTTGGGGCGACA",
+    "R": "ATCCCTATGGTAGCTRWTTYCT",
+    "covered": 14,
+    "exact": 1,
+    "deg_F": 1,
+    "deg_R": 8,
+    "baseline": true
+  }
+]

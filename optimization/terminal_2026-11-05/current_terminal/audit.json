@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pairs": 48,
+  "oligos": 96,
+  "species_pair_evaluations": 2654,
+  "coverage_discrepancies": 0,
+  "covered_terminal_mismatches": 0,
+  "method": "Homologous anchor projection plus independent unaligned paired-site scan; reverse primer checked in primer orientation; IUPAC compatible; no GT relaxation."
+}

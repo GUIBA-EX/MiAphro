@@ -31,11 +31,20 @@ for en in [False,True]:
  for t in taxa:lines.append('- **'+t+'**: '+notes[t][lang])
  lines+=['','## Reproducibility' if en else '## 复现与证据','',
  '[Selection decisions](archive/selection_decisions.csv) · [Curation audit](audit/curation.json) · [Independent scan](audit/catalog_rescan.json) · [Provenance](provenance.csv) · [Checksums](SHA256SUMS)','',
- 'The 48 retained pairs are sequence-identical subsets of the 102 independently re-scanned original pairs. This revision changes selection and presentation, not sequences or matching outcomes. Original results and the previous integrated PDF remain in the archive. No experimental validation is added.' if en else '48对保留引物均为原102对独立复核引物的原序列子集。本次变更筛选与展示，不修改序列和匹配结果。原始结果与上一版整合PDF保留在归档中，未新增实验验证。','',
+ 'The catalogue retains 48 pairs: 44 are unchanged from the original independently scanned collection; four D pairs were replaced after joint degeneracy redistribution and independent target/background verification. Ordinary primers and all binding endpoints are unchanged. Original results and previous preprints remain archived. No experimental validation is added.' if en else '目录仍为48对：44对保持原序列，4对D经联合简并重分配及目标/背景独立复核后替换。普通引物和所有结合端点保持不变。原始结果与旧版预印本保留在归档中，未新增实验验证。','',
  '```bash','python3 -m pip install -r requirements.txt','python3 scripts/build_catalog.py','python3 scripts/build_docs.py','python3 scripts/plot_catalog.py  # requires matplotlib','python3 publications/render_integrated.py  # requires pandoc and Chrome','python3 scripts/update_checksums.py','python3 scripts/check_release.py','```','',
  '## Historical study' if en else '## 原始研究','',f'[Aphroditiformia study](studies/Aphroditiformia/{f}) · [Historical PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf)','',
  'The historical study preserves the original complete search and figures. Use the current catalogue above for the curated selection.' if en else '原研究保留完整搜索结果与图表；精简后的保留方案以本页现行目录为准。','',
  '## Citation and copyright' if en else '## 引用与著作权','',f'Xia, F. (2026). *{TITLE}*. [MiPhyllo](https://github.com/GUIBA-EX/MiPhyllo).','', '[Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)','']
+ comparison=__import__('json').loads((R/'optimization/terminal_2026-11-05/comparison.json').read_text())
+ section=['## Terminal optimization' if en else '## 3′端联合优化','',
+ 'Joint redistribution screened nine D pairs. Four replacements improve coverage without losing exact matches; five pairs, including Syllidae 16S SD, retain their sequences. All replacements retain coordinates, per-oligo degeneracy ≤8 and the original full background gates.' if en else '对9对D进行联合简并重分配。4对覆盖提高且完全匹配不降；包括Syllidae 16S SD在内的5对保留原序列。替换方案保持坐标、每条简并度≤8及原完整背景筛选条件。','',
+ '[Full comparison and methods](optimization/terminal_2026-11-05/README.en.md)' if en else '[完整比较与方法](optimization/terminal_2026-11-05/README.md)','',
+ '|D pair|Covered before → after|Exact before → after|Strict WC/GT before → after|Loose WC/GT before → after|Decision|','|---|---:|---:|---|---|---|']
+ for z in comparison:
+  b,a=z['before'],z['after'];section.append(f"|{z['name'].removeprefix('MiPhyllo-')}|{b['covered']} → {a['covered']} / {z['target_N']}|{b['exact']} → {a['exact']} / {z['target_N']}|{b['WC']}/{b['GT']} → {a['WC']}/{a['GT']}|{b['WCloose']}/{b['GTloose']} → {a['WCloose']}/{a['GTloose']}|{z['status']}|")
+ section+=['','![Before and after](figures/terminal_optimization.svg)','']
+ pos=lines.index('## Reproducibility' if en else '## 复现与证据');lines[pos:pos]=section
  (R/f).write_text('\n'.join(lines))
  for p in (R/'panels').iterdir():
   if not p.is_dir():continue

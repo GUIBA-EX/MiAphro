@@ -20,10 +20,12 @@ for x in full+alts:
  if not reasons:keep.update([x['name'],x['name'][:-1]])
  decisions.append(dict(set=x['name'][:-1],target_taxon=x['target_taxon'],gene=x['gene'],band=x['band'],profile=x['profile'],covered=x['covered'],exact=x['exact'],target_species=x['target_species'],status='archived' if reasons else 'retained',reason='; '.join(reasons) if reasons else 'D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator'))
 rows=[x for x in full if x['name'] in keep];taxa={x['target_taxon'] for x in rows}
+updates={x['name']:x for x in read(R/'optimization/terminal_2026-11-05/selected_results.csv')}
+rows=[updates.get(x['name'],x) for x in rows]
 write(R/'catalog.csv',rows,list(full[0]));fasta(R/'primers.fasta',rows)
-sp=read(A/'species.csv');write(R/'species.csv',[x for x in sp if x['name'] in keep],list(sp[0]))
+sp=[x for x in read(A/'species.csv') if x['name'] not in updates]+read(R/'optimization/terminal_2026-11-05/selected_species.csv');write(R/'species.csv',[x for x in sp if x['name'] in keep],list(sp[0]))
 ps=read(A/'panels.csv');write(R/'panels.csv',[x for x in ps if x['target_taxon'] in taxa],list(ps[0]))
-mp=read(A/'provenance.csv');write(R/'provenance.csv',[x for x in mp if x['name'] in keep],list(mp[0]))
+mp=[x for x in read(A/'provenance.csv') if x['name'] not in updates]+[dict(profile=x['profile'],source_name=x['source_name'],name=x['name'],source_results=x['source_results']) for x in updates.values()];write(R/'provenance.csv',[x for x in mp if x['name'] in keep],list(mp[0]))
 for t in {x['target_taxon'] for x in full}:
  p=R/'panels'/t;rs=[x for x in rows if x['target_taxon']==t]
  write(p/'results.csv',rs,list(full[0]));write(p/'species.csv',[x for x in sp if x['name'] in keep and x['name'].startswith('MiPhyllo-'+t+'-')],list(sp[0]));fasta(p/'primers.fasta',rs)
@@ -32,5 +34,5 @@ write(R/'archive/selection_decisions.csv',decisions,list(decisions[0]))
 removed=[x for x in full+alts if x['name'] not in keep];write(R/'archive/removed_candidates.csv',removed,list(full[0]));fasta(R/'archive/removed_primers.fasta',removed)
 # Preserve the complete independent scan; record exact identity of the retained subset.
 verified=json.loads((A/'audit/catalog_rescan.json').read_text());assert keep <= {x['name'] for x in verified['records']}
-(R/'audit/curation.json').write_text(json.dumps(dict(status='PASS',date='2026-11-05',original_pairs=len(full),original_conditional_pairs=len(alts),current_pairs=len(rows),archived_pairs=len(removed),sets=len(rows)//2,units=sorted(taxa),sequence_changes=0,rule='Retain standard ordinary/D sets with D coverage >=50% and exact >0; exclude Phyllodocida and Nereidiformia; archive all relaxed-background alternatives.',retained_names=sorted(keep),independent_verification='Unchanged subset of audit/catalog_rescan.json'),indent=2)+'\n')
+(R/'audit/curation.json').write_text(json.dumps(dict(status='PASS',date='2026-11-05',original_pairs=len(full),original_conditional_pairs=len(alts),current_pairs=len(rows),archived_pairs=len(removed),sets=len(rows)//2,units=sorted(taxa),sequence_changes=len(updates),rule='Retain standard ordinary/D sets with D coverage >=50% and exact >0; exclude Phyllodocida and Nereidiformia; archive all relaxed-background alternatives.',retained_names=sorted(keep),independent_verification='Original unchanged pairs: audit/catalog_rescan.json; 4 replacements: optimization/terminal_2026-11-05/comparison.json'),indent=2)+'\n')
 print(f'Curated: {len(rows)} pairs, {len(removed)} archived, {len(taxa)} units')

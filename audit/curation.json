@@ -14,7 +14,7 @@
     "Phyllodociformia",
     "Syllidae"
   ],
-  "sequence_changes": 0,
+  "sequence_changes": 4,
   "rule": "Retain standard ordinary/D sets with D coverage >=50% and exact >0; exclude Phyllodocida and Nereidiformia; archive all relaxed-background alternatives.",
   "retained_names": [
     "MiPhyllo-Aphroditiformia-16S-S",
@@ -66,5 +66,5 @@
     "MiPhyllo-Syllidae-16S-S",
     "MiPhyllo-Syllidae-16S-SD"
   ],
-  "independent_verification": "Unchanged subset of audit/catalog_rescan.json"
+  "independent_verification": "Original unchanged pairs: audit/catalog_rescan.json; 4 replacements: optimization/terminal_2026-11-05/comparison.json"
 }

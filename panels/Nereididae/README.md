@@ -37,12 +37,12 @@ Background reference species: 3794
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Nereididae-28S-S|150|`GACGCGTGCACTTTCCGG`|`CAGAGGGCCTGCGACTCG`|19/52|1/52|0/0|0/0|
-|MiPhyllo-Nereididae-28S-SD|150|`GACGCGTGCAMTTTCCRG`|`CAGAGGGCCTGCGACYHG`|29/52|8/52|0/0|0/0|
+|MiPhyllo-Nereididae-28S-SD|150|`GACGCGTGCACTTBCCRG`|`CAGAGGGCCTGCGACYNG`|30/52|19/52|0/0|0/0|
 
 |Pair|Reference|F start–end|R start–end|Deg F/R|
 |---|---|---:|---:|---:|
 |MiPhyllo-Nereididae-28S-S|AF212165.1|549–566|681–698|1/1|
-|MiPhyllo-Nereididae-28S-SD|AF212165.1|549–566|681–698|4/6|
+|MiPhyllo-Nereididae-28S-SD|AF212165.1|549–566|681–698|6/8|
 
 Background reference species: 2335
 

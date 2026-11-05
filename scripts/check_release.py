@@ -53,7 +53,17 @@ for x in original:
  if x['variant']=='D' and x['target_taxon'] not in {'Phyllodocida','Nereidiformia'} and 2*int(x['covered'])>=int(x['target_species']) and int(x['exact'])>0:
   expected.update((x['name'],x['name'][:-1]))
 assert {x['name'] for x in rows}==expected
-assert rows==[x for x in original if x['name'] in expected]
+updates={x['name']:x for x in read(R/'optimization/terminal_2026-11-05/selected_results.csv')}
+assert len(updates)==4
+assert rows==[updates.get(x['name'],x) for x in original if x['name'] in expected]
+comparisons=json.loads((R/'optimization/terminal_2026-11-05/comparison.json').read_text())
+assert len(comparisons)==9 and all(x['independent_status']=='PASS' for x in comparisons)
+for x in comparisons:
+ if x['status']=='replace':
+  assert x['after']['thermal_pass'] and x['after']['background_pass']
+  assert x['after']['covered']>=x['before']['covered'] and x['after']['exact']>=x['before']['exact']
+  assert any(x['after'][k]>x['before'][k] for k in ['covered','exact'])
+  assert all(str(x['after'][k])==updates[x['name']][k] for k in ['F','R','covered','exact','WC','GT','WCloose','GTloose'])
 removed=read(R/'archive/removed_candidates.csv')
 assert {x['name'] for x in removed}=={x['name'] for x in original+original_alt}-expected
 assert len(removed)==54

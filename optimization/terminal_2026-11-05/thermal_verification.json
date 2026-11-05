@@ -1,0 +1,200 @@
+[
+  {
+    "name": "MiPhyllo-Aphroditiformia-28S-MD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 64.89495194724367,
+        "F_tm_max": 67.09814220739145,
+        "R_tm_min": 62.22496727689145,
+        "R_tm_max": 65.33813425156734,
+        "structure_max": 50.31930801579858
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 65.89593016139168,
+        "F_tm_max": 68.10391436276609,
+        "R_tm_min": 63.15126246179938,
+        "R_tm_max": 66.25754037807275,
+        "structure_max": 50.31930801579858
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Glyceriformia-16S-SD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 56.13777369370473,
+        "F_tm_max": 56.13777369370473,
+        "R_tm_min": 51.513841909338,
+        "R_tm_max": 58.33005077935792,
+        "structure_max": 0.0
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 58.113255257091,
+        "F_tm_max": 58.113255257091,
+        "R_tm_min": 50.60335353868612,
+        "R_tm_max": 57.405342489275995,
+        "structure_max": 0.0
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Nereididae-16S-LD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 46.41289988017468,
+        "F_tm_max": 54.42059475303233,
+        "R_tm_min": 45.35761114255803,
+        "R_tm_max": 49.14630101911524,
+        "structure_max": 47.4398271914244
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 45.44384464664637,
+        "F_tm_max": 53.43700200043128,
+        "R_tm_min": 45.35761114255803,
+        "R_tm_max": 49.14630101911524,
+        "structure_max": 47.4398271914244
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Nereididae-28S-SD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 59.448730105134075,
+        "F_tm_max": 64.96007542778938,
+        "R_tm_min": 59.18889948277831,
+        "R_tm_max": 65.15292970558806,
+        "structure_max": 52.973604795106326
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 58.843961200947035,
+        "F_tm_max": 64.3536341984788,
+        "R_tm_min": 58.12107547992838,
+        "R_tm_max": 64.07524519193532,
+        "structure_max": 52.973604795106326
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Phyllodociformia-16S-LD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 47.30791235019689,
+        "F_tm_max": 51.30763644879056,
+        "R_tm_min": 48.5072645924231,
+        "R_tm_max": 52.540238185688224,
+        "structure_max": 33.21847586647033
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 46.42415489717365,
+        "F_tm_max": 50.41123315659945,
+        "R_tm_min": 48.5072645924231,
+        "R_tm_max": 52.540238185688224,
+        "structure_max": 33.21847586647033
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Phyllodociformia-16S-SD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 54.54540805036726,
+        "F_tm_max": 57.37757299974936,
+        "R_tm_min": 55.79389612944084,
+        "R_tm_max": 62.66234891311382,
+        "structure_max": 40.049105145463955
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 54.053744272953224,
+        "F_tm_max": 56.88768123634952,
+        "R_tm_min": 54.89750536461935,
+        "R_tm_max": 61.7506684960386,
+        "structure_max": 40.049105145463955
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Phyllodociformia-28S-MD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 61.64038921018471,
+        "F_tm_max": 61.64038921018471,
+        "R_tm_min": 60.250166328352236,
+        "R_tm_max": 65.99626465548255,
+        "structure_max": 43.087167936955325
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 63.43148148625869,
+        "F_tm_max": 63.43148148625869,
+        "R_tm_min": 59.27355456443826,
+        "R_tm_max": 65.01698393827024,
+        "structure_max": 43.087167936955325
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Phyllodociformia-28S-SD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 58.74901449430638,
+        "F_tm_max": 58.74901449430638,
+        "R_tm_min": 60.80457240714975,
+        "R_tm_max": 63.34606462434397,
+        "structure_max": 53.95355588591292
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 60.86080831214025,
+        "F_tm_max": 60.86080831214025,
+        "R_tm_min": 60.284504339865464,
+        "R_tm_max": 62.82854095677345,
+        "structure_max": 53.95355588591292
+      }
+    ]
+  },
+  {
+    "name": "MiPhyllo-Syllidae-16S-SD",
+    "status": "PASS",
+    "scenarios": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 49.23683981053574,
+        "F_tm_max": 50.888067088997616,
+        "R_tm_min": 48.478057623377595,
+        "R_tm_max": 53.80225368178378,
+        "structure_max": 48.940572519308546
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 48.600362423840465,
+        "F_tm_max": 50.26032826672787,
+        "R_tm_min": 47.509139879835175,
+        "R_tm_max": 52.826262702899555,
+        "structure_max": 48.940572519308546
+      }
+    ]
+  }
+]

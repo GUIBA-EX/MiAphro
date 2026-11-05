@@ -13,16 +13,16 @@
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Phyllodociformia-16S-S|118|`ATAGTTACCATAGGGATAACAGGC`|`ACCAACCCTTATAGACTGCTAC`|31/59|2/59|0/0|10/3|
-|MiPhyllo-Phyllodociformia-16S-SD|118|`ATAGTTACCATAGGGATAACAGGC`|`ACCAACCCTTATARRCTGCTRC`|49/59|11/59|0/8|81/11|
+|MiPhyllo-Phyllodociformia-16S-SD|118|`ATAGTTACCATADGGATAACAGGY`|`ACCAACCCTTATARRCTGCTRC`|50/59|11/59|0/12|82/15|
 |MiPhyllo-Phyllodociformia-16S-L|308|`ACCTAAATTTTAATGAAAGACA`|`TTGAACAAACCAACCCTT`|27/59|2/59|0/0|9/4|
-|MiPhyllo-Phyllodociformia-16S-LD|308|`ACCTAAATTTTAATRWARGACA`|`TTGAACAAACYWACCCTY`|40/59|3/59|0/1|76/29|
+|MiPhyllo-Phyllodociformia-16S-LD|308|`ACCTAAATTTTWATRAARGACA`|`TTGAACAAACYAACCCTY`|41/59|3/59|0/0|80/31|
 
 |Pair|Reference|F start–end|R start–end|Deg F/R|
 |---|---|---:|---:|---:|
 |MiPhyllo-Phyllodociformia-16S-S|MH567472.1|373–396|469–490|1/1|
-|MiPhyllo-Phyllodociformia-16S-SD|MH567472.1|373–396|469–490|1/8|
+|MiPhyllo-Phyllodociformia-16S-SD|MH567472.1|373–396|469–490|6/8|
 |MiPhyllo-Phyllodociformia-16S-L|MH567472.1|191–212|481–498|1/1|
-|MiPhyllo-Phyllodociformia-16S-LD|MH567472.1|191–212|481–498|8/8|
+|MiPhyllo-Phyllodociformia-16S-LD|MH567472.1|191–212|481–498|8/4|
 
 Background reference species: 3796
 

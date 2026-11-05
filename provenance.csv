@@ -8,7 +8,6 @@ standard,MiAphro-28S-MD,MiPhyllo-Aphroditiformia-28S-MD,studies/Aphroditiformia/
 standard,MiAphro-28S-L,MiPhyllo-Aphroditiformia-28S-L,studies/Aphroditiformia/SML/results.csv
 standard,MiAphro-28S-LD,MiPhyllo-Aphroditiformia-28S-LD,studies/Aphroditiformia/SML/results.csv
 standard,Glyceriformia-16S-S,MiPhyllo-Glyceriformia-16S-S,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
-standard,Glyceriformia-16S-SD,MiPhyllo-Glyceriformia-16S-SD,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
 standard,Glyceriformia-16S-M,MiPhyllo-Glyceriformia-16S-M,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
 standard,Glyceriformia-16S-MD,MiPhyllo-Glyceriformia-16S-MD,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
 standard,Glyceriformia-28S-S,MiPhyllo-Glyceriformia-28S-S,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
@@ -18,9 +17,7 @@ standard,Glyceriformia-28S-MD,MiPhyllo-Glyceriformia-28S-MD,analysis/Phyllodocid
 standard,Glyceriformia-28S-L,MiPhyllo-Glyceriformia-28S-L,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
 standard,Glyceriformia-28S-LD,MiPhyllo-Glyceriformia-28S-LD,analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv
 standard,Phyllodociformia-16S-S,MiPhyllo-Phyllodociformia-16S-S,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
-standard,Phyllodociformia-16S-SD,MiPhyllo-Phyllodociformia-16S-SD,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
 standard,Phyllodociformia-16S-L,MiPhyllo-Phyllodociformia-16S-L,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
-standard,Phyllodociformia-16S-LD,MiPhyllo-Phyllodociformia-16S-LD,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
 standard,Phyllodociformia-28S-S,MiPhyllo-Phyllodociformia-28S-S,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
 standard,Phyllodociformia-28S-SD,MiPhyllo-Phyllodociformia-28S-SD,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
 standard,Phyllodociformia-28S-M,MiPhyllo-Phyllodociformia-28S-M,analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv
@@ -34,7 +31,6 @@ standard,Nereididae-16S-MD,MiPhyllo-Nereididae-16S-MD,analysis/Phyllodocida_fami
 standard,Nereididae-16S-L,MiPhyllo-Nereididae-16S-L,analysis/Phyllodocida_families/Nereididae/Round2/results.csv
 standard,Nereididae-16S-LD,MiPhyllo-Nereididae-16S-LD,analysis/Phyllodocida_families/Nereididae/Round2/results.csv
 standard,Nereididae-28S-S,MiPhyllo-Nereididae-28S-S,analysis/Phyllodocida_families/Optimization3/results.csv
-standard,Nereididae-28S-SD,MiPhyllo-Nereididae-28S-SD,analysis/Phyllodocida_families/Optimization3/results.csv
 standard,Hesionidae-16S-S,MiPhyllo-Hesionidae-16S-S,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
 standard,Hesionidae-16S-SD,MiPhyllo-Hesionidae-16S-SD,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
 standard,Hesionidae-16S-M,MiPhyllo-Hesionidae-16S-M,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
@@ -47,3 +43,7 @@ standard,Hesionidae-28S-M,MiPhyllo-Hesionidae-28S-M,analysis/Phyllodocida_famili
 standard,Hesionidae-28S-MD,MiPhyllo-Hesionidae-28S-MD,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
 standard,Hesionidae-28S-L,MiPhyllo-Hesionidae-28S-L,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
 standard,Hesionidae-28S-LD,MiPhyllo-Hesionidae-28S-LD,analysis/Phyllodocida_families/Hesionidae/Round2/results.csv
+standard,MiPhyllo-Glyceriformia-16S-SD,MiPhyllo-Glyceriformia-16S-SD,optimization/terminal_2026-11-05/selected_results.csv
+standard,MiPhyllo-Nereididae-28S-SD,MiPhyllo-Nereididae-28S-SD,optimization/terminal_2026-11-05/selected_results.csv
+standard,MiPhyllo-Phyllodociformia-16S-LD,MiPhyllo-Phyllodociformia-16S-LD,optimization/terminal_2026-11-05/selected_results.csv
+standard,MiPhyllo-Phyllodociformia-16S-SD,MiPhyllo-Phyllodociformia-16S-SD,optimization/terminal_2026-11-05/selected_results.csv

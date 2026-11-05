@@ -48,11 +48,31 @@ Filled markers show D coverage; open markers show exact matching. Grey connector
 - **Nereididae**: 16S retains S/M/L; 28S retains S only. The 16S LD has the highest coverage but more background matches than SD.
 - **Hesionidae**: Both genes retain S/M/L. The 28S SD covers 40/45 species with eight exact matches.
 
+## Terminal optimization
+
+Joint redistribution screened nine D pairs. Four replacements improve coverage without losing exact matches; five pairs, including Syllidae 16S SD, retain their sequences. All replacements retain coordinates, per-oligo degeneracy ≤8 and the original full background gates.
+
+[Full comparison and methods](optimization/terminal_2026-11-05/README.en.md)
+
+|D pair|Covered before → after|Exact before → after|Strict WC/GT before → after|Loose WC/GT before → after|Decision|
+|---|---:|---:|---|---|---|
+|Aphroditiformia-28S-MD|58 → 58 / 68|53 → 53 / 68|1/2 → 1/2|17/2 → 17/2|retain|
+|Glyceriformia-16S-SD|14 → 15 / 20|1 → 1 / 20|14/33 → 13/33|113/104 → 107/105|replace|
+|Nereididae-16S-LD|58 → 58 / 61|11 → 11 / 61|30/58 → 30/58|166/285 → 166/285|retain|
+|Nereididae-28S-SD|29 → 30 / 52|8 → 19 / 52|0/0 → 0/0|0/0 → 0/0|replace|
+|Phyllodociformia-16S-LD|40 → 41 / 59|3 → 3 / 59|0/1 → 0/0|76/29 → 80/31|replace|
+|Phyllodociformia-16S-SD|49 → 50 / 59|11 → 11 / 59|0/8 → 0/12|81/11 → 82/15|replace|
+|Phyllodociformia-28S-MD|52 → 52 / 63|5 → 5 / 63|21/26 → 21/26|95/42 → 95/42|retain|
+|Phyllodociformia-28S-SD|51 → 51 / 63|4 → 4 / 63|7/23 → 7/23|53/53 → 53/53|retain|
+|Syllidae-16S-SD|110 → 110 / 180|7 → 7 / 180|1/2 → 1/2|15/2 → 15/2|retain|
+
+![Before and after](figures/terminal_optimization.svg)
+
 ## Reproducibility
 
 [Selection decisions](archive/selection_decisions.csv) · [Curation audit](audit/curation.json) · [Independent scan](audit/catalog_rescan.json) · [Provenance](provenance.csv) · [Checksums](SHA256SUMS)
 
-The 48 retained pairs are sequence-identical subsets of the 102 independently re-scanned original pairs. This revision changes selection and presentation, not sequences or matching outcomes. Original results and the previous integrated PDF remain in the archive. No experimental validation is added.
+The catalogue retains 48 pairs: 44 are unchanged from the original independently scanned collection; four D pairs were replaced after joint degeneracy redistribution and independent target/background verification. Ordinary primers and all binding endpoints are unchanged. Original results and previous preprints remain archived. No experimental validation is added.
 
 ```bash
 python3 -m pip install -r requirements.txt

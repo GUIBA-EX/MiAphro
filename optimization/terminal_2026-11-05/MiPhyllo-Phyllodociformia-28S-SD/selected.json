@@ -1,0 +1,15 @@
+{
+  "F": "GAAAGCCACGACCGGTTC",
+  "R": "CACTGTGAACAGTCCTCVCCWG",
+  "covered": 51,
+  "exact": 4,
+  "thermal_pass": true,
+  "baseline": true,
+  "WC": 7,
+  "GT": 23,
+  "WCloose": 53,
+  "GTloose": 53,
+  "nearWC": 5,
+  "nearGT": 7,
+  "background_pass": true
+}
