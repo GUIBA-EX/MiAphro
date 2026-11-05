@@ -1,89 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="500" viewBox="0 0 1050 500"><rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#172b27;font-size:16px}</style>
-<text x="15" y="30">Reference sampling by WoRMS family</text>
-<text x="200" y="70">16S genera</text>
-<text x="338" y="70">16S species</text>
-<text x="476" y="70">28S genera</text>
-<text x="614" y="70">28S species</text>
-<text x="752" y="70">Union genera</text>
-<text x="890" y="70">Union species</text>
-<text x="15" y="122">Acoetidae</text>
-<rect x="195" y="95" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="123">1</text>
-<rect x="333" y="95" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="123">1</text>
-<rect x="471" y="95" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="123">1</text>
-<rect x="609" y="95" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="123">1</text>
-<rect x="747" y="95" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="123">1</text>
-<rect x="885" y="95" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="123">1</text>
-<text x="15" y="175">Aphroditidae</text>
-<rect x="195" y="148" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="176">2</text>
-<rect x="333" y="148" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="176">4</text>
-<rect x="471" y="148" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="176">2</text>
-<rect x="609" y="148" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="176">3</text>
-<rect x="747" y="148" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="176">2</text>
-<rect x="885" y="148" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="176">4</text>
-<text x="15" y="228">Eulepethidae</text>
-<rect x="195" y="201" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="229">3</text>
-<rect x="333" y="201" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="229">3</text>
-<rect x="471" y="201" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="229">2</text>
-<rect x="609" y="201" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="229">2</text>
-<rect x="747" y="201" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="229">3</text>
-<rect x="885" y="201" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="229">3</text>
-<text x="15" y="281">Iphionidae</text>
-<rect x="195" y="254" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="282">0</text>
-<rect x="333" y="254" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="282">0</text>
-<rect x="471" y="254" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="282">0</text>
-<rect x="609" y="254" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="282">0</text>
-<rect x="747" y="254" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="282">0</text>
-<rect x="885" y="254" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="282">0</text>
-<text x="15" y="334">Polynoidae</text>
-<rect x="195" y="307" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="335">45</text>
-<rect x="333" y="307" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="335">69</text>
-<rect x="471" y="307" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="335">28</text>
-<rect x="609" y="307" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="335">41</text>
-<rect x="747" y="307" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="335">45</text>
-<rect x="885" y="307" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="335">71</text>
-<text x="15" y="387">Sigalionidae</text>
-<rect x="195" y="360" width="131" height="47" fill="#e3efeb"/>
-<text x="245" y="388">7</text>
-<rect x="333" y="360" width="131" height="47" fill="#edf2f8"/>
-<text x="383" y="388">17</text>
-<rect x="471" y="360" width="131" height="47" fill="#e3efeb"/>
-<text x="521" y="388">9</text>
-<rect x="609" y="360" width="131" height="47" fill="#edf2f8"/>
-<text x="659" y="388">21</text>
-<rect x="747" y="360" width="131" height="47" fill="#e3efeb"/>
-<text x="797" y="388">9</text>
-<rect x="885" y="360" width="131" height="47" fill="#edf2f8"/>
-<text x="935" y="388">21</text>
-<text x="15" y="450">Union counts unique taxa across markers. These are sampled counts, not percentages of all WoRMS taxa.</text>
-<text x="15" y="477">Genus and family assignments checked against WoRMS; species names retain source-record binomials.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="570" viewBox="0 0 1230 570"><rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#172b27;font-size:17px}.small{font-size:14px}</style>
+<rect x="210" y="16" width="22" height="13" rx="3" fill="#368e83"/>
+<text x="242" y="29">16S</text>
+<rect x="420" y="16" width="22" height="13" rx="3" fill="#497cba"/>
+<text x="452" y="29">28S</text>
+<rect x="630" y="16" width="22" height="13" rx="3" fill="#8056a0"/>
+<text x="662" y="29">Union</text>
+<text x="12" y="83">Acoetidae</text>
+<text x="12" y="104" class="small">8 accepted genera</text>
+<rect x="215" y="65" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="65" width="86.25" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="77" class="small">1/8 genera (12.5%)</text>
+<rect x="215" y="84" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="84" width="86.25" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="96" class="small">1/8 genera (12.5%)</text>
+<rect x="215" y="103" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="103" width="86.25" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="115" class="small">1/8 genera (12.5%)</text>
+<text x="12" y="153">Aphroditidae</text>
+<text x="12" y="174" class="small">7 accepted genera</text>
+<rect x="215" y="135" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="135" width="197.14285714285714" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="147" class="small">2/7 genera (28.6%)</text>
+<rect x="215" y="154" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="154" width="197.14285714285714" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="166" class="small">2/7 genera (28.6%)</text>
+<rect x="215" y="173" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="173" width="197.14285714285714" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="185" class="small">2/7 genera (28.6%)</text>
+<text x="12" y="223">Eulepethidae</text>
+<text x="12" y="244" class="small">6 accepted genera</text>
+<rect x="215" y="205" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="205" width="345.0" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="217" class="small">3/6 genera (50.0%)</text>
+<rect x="215" y="224" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="224" width="230.0" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="236" class="small">2/6 genera (33.3%)</text>
+<rect x="215" y="243" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="243" width="345.0" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="255" class="small">3/6 genera (50.0%)</text>
+<text x="12" y="293">Iphionidae</text>
+<text x="12" y="314" class="small">4 accepted genera</text>
+<rect x="215" y="275" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="275" width="0.0" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="287" class="small">0/4 genera (0.0%)</text>
+<rect x="215" y="294" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="294" width="0.0" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="306" class="small">0/4 genera (0.0%)</text>
+<rect x="215" y="313" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="313" width="0.0" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="325" class="small">0/4 genera (0.0%)</text>
+<text x="12" y="363">Polynoidae</text>
+<text x="12" y="384" class="small">166 accepted genera</text>
+<rect x="215" y="345" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="345" width="187.04819277108433" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="357" class="small">45/166 genera (27.1%)</text>
+<rect x="215" y="364" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="364" width="116.38554216867469" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="376" class="small">28/166 genera (16.9%)</text>
+<rect x="215" y="383" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="383" width="187.04819277108433" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="395" class="small">45/166 genera (27.1%)</text>
+<text x="12" y="433">Sigalionidae</text>
+<text x="12" y="454" class="small">33 accepted genera</text>
+<rect x="215" y="415" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="415" width="146.36363636363637" height="13" rx="3" fill="#368e83"/>
+<text x="925" y="427" class="small">7/33 genera (21.2%)</text>
+<rect x="215" y="434" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="434" width="188.1818181818182" height="13" rx="3" fill="#497cba"/>
+<text x="925" y="446" class="small">9/33 genera (27.3%)</text>
+<rect x="215" y="453" width="690" height="13" rx="3" fill="#edf0f2"/>
+<rect x="215" y="453" width="188.1818181818182" height="13" rx="3" fill="#8056a0"/>
+<text x="925" y="465" class="small">9/33 genera (27.3%)</text>
+<text x="210.0" y="510" class="small">0%</text>
+<text x="382.5" y="510" class="small">25%</text>
+<text x="555.0" y="510" class="small">50%</text>
+<text x="727.5" y="510" class="small">75%</text>
+<text x="900.0" y="510" class="small">100%</text>
+<text x="12" y="544" class="small">Accepted genus rank, all habitat/extinction flags; synonyms and subgenera excluded. WoRMS snapshot: 5 November 2026.</text>
 </svg>

@@ -74,9 +74,18 @@
 
 ![Reference taxonomic sampling](figures/reference_taxonomy.svg)
 
-参考库图分别统计 16S、28S 及两者合并后的去重属数和物种数。属名和科归属经 WoRMS 核验；物种保留源记录名称，未进行物种级异名归并。这里展示已采样数量，不代表占 WoRMS 全部有效属的比例。
+参考库属级覆盖率为已采样有效属数除以该科 WoRMS 有效属总数，分别计算 16S、28S 和两者并集。逐层遍历各科及其亚科，完整读取分页，按 AphiaID 去重；只纳入 accepted 状态的 Genus，不计异名和亚属，不按生境或灭绝标记过滤。查询日期为 2026-11-05。
 
-[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
+| Family | WoRMS genera | 16S | 28S | Union |
+|---|---:|---:|---:|---:|
+| Acoetidae | 8 | 1 (12.5%) | 1 (12.5%) | 1 (12.5%) |
+| Aphroditidae | 7 | 2 (28.6%) | 2 (28.6%) | 2 (28.6%) |
+| Eulepethidae | 6 | 3 (50.0%) | 2 (33.3%) | 3 (50.0%) |
+| Iphionidae | 4 | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Polynoidae | 166 | 45 (27.1%) | 28 (16.9%) | 45 (27.1%) |
+| Sigalionidae | 33 | 7 (21.2%) | 9 (27.3%) | 9 (27.3%) |
+
+[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Accepted genus census](taxonomy/worms_accepted_genera.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
 
 ## 讨论
 

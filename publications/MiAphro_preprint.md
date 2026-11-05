@@ -76,9 +76,9 @@ We checked the 12 current pairs and four first-round pairs. Among complete, inde
 
 ![Reference taxonomic sampling](../figures/reference_taxonomy.svg)
 
-**Figure 6.** Reference sampling is summarized as unique genera and species for 16S, 28S and their union. Genus names and family assignments were checked against WoRMS; species retain source-record names without species-level synonym consolidation. Counts describe sampled taxa, not proportions of all accepted WoRMS genera.
+**Figure 6.** Genus coverage is the number of sampled accepted genera divided by all accepted genera in each WoRMS family, calculated for 16S, 28S and their union. Family descendants were traversed through intermediate ranks with complete pagination and deduplicated by AphiaID. Only accepted genus-rank records were counted; synonyms and subgenera were excluded, without habitat or extinction filtering. The census was retrieved on 5 November 2026.
 
-[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](../taxonomy/references.csv) · [Genus counts and names](../taxonomy/reference_coverage.csv)
+[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](../taxonomy/references.csv) · [Accepted genus census](../taxonomy/worms_accepted_genera.csv) · [Genus counts and names](../taxonomy/reference_coverage.csv)
 
 ## Discussion
 

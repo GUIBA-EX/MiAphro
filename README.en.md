@@ -74,9 +74,18 @@ The heatmap uses WoRMS-verified family assignments. Each cell shows coverage per
 
 ![Reference taxonomic sampling](figures/reference_taxonomy.svg)
 
-Reference sampling is summarized as unique genera and species for 16S, 28S and their union. Genus names and family assignments were checked against WoRMS; species retain source-record names without species-level synonym consolidation. Counts describe sampled taxa, not proportions of all accepted WoRMS genera.
+Genus coverage is the number of sampled accepted genera divided by all accepted genera in each WoRMS family, calculated for 16S, 28S and their union. Family descendants were traversed through intermediate ranks with complete pagination and deduplicated by AphiaID. Only accepted genus-rank records were counted; synonyms and subgenera were excluded, without habitat or extinction filtering. The census was retrieved on 5 November 2026.
 
-[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
+| Family | WoRMS genera | 16S | 28S | Union |
+|---|---:|---:|---:|---:|
+| Acoetidae | 8 | 1 (12.5%) | 1 (12.5%) | 1 (12.5%) |
+| Aphroditidae | 7 | 2 (28.6%) | 2 (28.6%) | 2 (28.6%) |
+| Eulepethidae | 6 | 3 (50.0%) | 2 (33.3%) | 3 (50.0%) |
+| Iphionidae | 4 | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Polynoidae | 166 | 45 (27.1%) | 28 (16.9%) | 45 (27.1%) |
+| Sigalionidae | 33 | 7 (21.2%) | 9 (27.3%) | 9 (27.3%) |
+
+[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Accepted genus census](taxonomy/worms_accepted_genera.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
 
 ## Discussion
 
