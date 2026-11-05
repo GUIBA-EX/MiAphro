@@ -1,0 +1,7 @@
+suborder,gene,target_species,background_species,families
+Glyceriformia,16S,20,3835,Glyceridae; Goniadidae; Paralacydoniidae
+Glyceriformia,28S,12,2375,Glyceridae; Goniadidae; Paralacydoniidae
+Nereidiformia,16S,315,3540,Chrysopetalidae; Hesionidae; Nereididae; Pilargidae; Syllidae
+Nereidiformia,28S,133,2254,Chrysopetalidae; Hesionidae; Nereididae; Pilargidae; Syllidae
+Phyllodociformia,16S,59,3796,Phyllodocidae
+Phyllodociformia,28S,63,2324,Phyllodocidae

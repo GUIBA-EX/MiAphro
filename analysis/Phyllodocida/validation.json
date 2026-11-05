@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "pairs": 12,
+  "missing_bands": [],
+  "independent_raw_scan": "Python and C++ per-record agreement checked in finish_sml.py",
+  "checksums": {
+    "README.md": "432994f204aceb0623922c218671823521d05f6e5a2e8f50624cd69778881d09",
+    "SML/results.csv": "809907ad6f7784cee669c0ff75c738d97dabec03ea4c96a2fef03595de245f76",
+    "SML/primers.fasta": "c55617caa857f00e8dfb7b17d5d01b02231dd59bb9389d9109986e6ff8074b22",
+    "background_groups.csv": "dee1d37302240407fb847f110abd423eae96f7a665bf20418a67d554d617e16d",
+    "16S/target.fa": "3a5378cfa1a55e13d9b8def1c2e68aa842c5230d47aefbaebc8f567a25372bf3",
+    "16S/background.fa": "a7bd42aafb3df615a0a0a68f9e42687caa2fe4ddd9eb43baecafa557daddbdf0",
+    "28S/target.fa": "a05da1048104dc962f3d917c65aaf4001c7714aaf73c9c56bf884c9092d621ce",
+    "28S/background.fa": "e2d81e5fd8b4412c4bf3ed32145893f8d7f8610ac81584a900106292a2d65f8f"
+  }
+}

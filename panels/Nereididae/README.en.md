@@ -1,0 +1,60 @@
+# MiAphro · Nereididae
+
+[Catalogue](../../README.en.md) | [FASTA](primers.fasta) | [CSV](results.csv) | [Species](species.csv)
+
+16S has relatively high panel coverage; S is the principal 28S candidate, while M/L remain limited.
+
+## 16S
+
+Target / background reference species: **61 / 3794**
+
+Families: Nereididae (61)
+
+[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background FASTA](references/16S/background.fa) · [Background metadata](references/16S/background.csv)
+
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
+|---|---:|---|---|---:|---:|---:|---:|
+|MiAphro-Nereididae-16S-S|194|`AATTTGGTTGGGACAACC`|`CTGTCAATGTGGTCTCTCTAGT`|30/61|7/61|0/0|16/6|
+|MiAphro-Nereididae-16S-SD|194|`AATTTGGTTGGGACRAYY`|`CTGTCAATGTGRTCTCTCTARY`|57/61|7/61|0/12|51/25|
+|MiAphro-Nereididae-16S-M|212|`AAGGACAAGAAGACCCTA`|`AATAGTTACACTAAGCCAAC`|52/61|8/61|5/9|48/12|
+|MiAphro-Nereididae-16S-MD|212|`AAGGACAAGAAGACCCTA`|`AATAGTTACAYWRAGCCAAC`|52/61|8/61|8/14|66/19|
+|MiAphro-Nereididae-16S-L|412|`TTAATTGAAGGCTAGTATGA`|`CAATGTGATCTCTCTAGT`|38/61|6/61|0/40|66/106|
+|MiAphro-Nereididae-16S-LD|412|`TTAATTGAAGGYYRGTATGA`|`CAATGTGATCTCTCTARY`|58/61|11/61|30/58|166/285|
+
+|Pair|Reference|F start–end|R start–end|Deg F/R|
+|---|---|---:|---:|---:|
+|MiAphro-Nereididae-16S-S|EU221670.1|261–278|433–454|1/1|
+|MiAphro-Nereididae-16S-SD|EU221670.1|261–278|433–454|8/8|
+|MiAphro-Nereididae-16S-M|JX078950.1|215–232|407–426|1/1|
+|MiAphro-Nereididae-16S-MD|JX078950.1|215–232|407–426|1/8|
+|MiAphro-Nereididae-16S-L|EU221670.1|39–58|433–450|1/1|
+|MiAphro-Nereididae-16S-LD|EU221670.1|39–58|433–450|8/4|
+## 28S
+
+Target / background reference species: **52 / 2335**
+
+Families: Nereididae (52)
+
+[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background FASTA](references/28S/background.fa) · [Background metadata](references/28S/background.csv)
+
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
+|---|---:|---|---|---:|---:|---:|---:|
+|MiAphro-Nereididae-28S-S|150|`GACGCGTGCACTTTCCGG`|`CAGAGGGCCTGCGACTCG`|19/52|1/52|0/0|0/0|
+|MiAphro-Nereididae-28S-SD|150|`GACGCGTGCAMTTTCCRG`|`CAGAGGGCCTGCGACYHG`|29/52|8/52|0/0|0/0|
+|MiAphro-Nereididae-28S-M|202|`CTGTAGCGTTAGGGACGTCGATCGAG`|`CGGACTCGTGCCAGTATTTAGCCTTAGA`|1/52|1/52|0/0|0/0|
+|MiAphro-Nereididae-28S-MD|202|`CTGTAGCGTTAGGGACGTCGRTCGAV`|`CGGACTCGTGCCAGTRTTTAGCSTTRGA`|11/52|1/52|0/0|0/0|
+|MiAphro-Nereididae-28S-L|385|`GGTGAGCACGGAAGTCTCG`|`CCGATTCCAGGGAGCTCGT`|2/52|2/52|0/4|28/32|
+|MiAphro-Nereididae-28S-LD|385|`GGTGGGCACRGAAGYCTYG`|`CCGATTCCAGGGWRCTCGY`|4/52|0/52|14/28|57/51|
+
+|Pair|Reference|F start–end|R start–end|Deg F/R|
+|---|---|---:|---:|---:|
+|MiAphro-Nereididae-28S-S|AF212165.1|549–566|681–698|1/1|
+|MiAphro-Nereididae-28S-SD|AF212165.1|549–566|681–698|4/6|
+|MiAphro-Nereididae-28S-M|AY210464.1|125–150|299–326|1/1|
+|MiAphro-Nereididae-28S-MD|AY210464.1|125–150|299–326|6/8|
+|MiAphro-Nereididae-28S-L|AY210464.1|1654–1672|2020–2038|1/1|
+|MiAphro-Nereididae-28S-LD|AY210464.1|1654–1672|2020–2038|8/8|
+
+[Methods and background profiles](../../docs/METHODS.en.md)
+
+[Conditional alternatives](../../conditional/README.en.md)

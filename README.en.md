@@ -1,117 +1,85 @@
-# MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding
+# MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding
 
 **Fei Xia**
 
 [中文](README.md) | English
 
-## Start here
+## Overview
 
-[Current 12-pair FASTA](SML/primers.fasta) · [Current results](SML/results.csv) · [Four first-round baseline pairs](baseline/results.csv)
+MiAphro integrates eight nested target units within Phyllodocida: the order itself, four suborders, and three families. It contains 94 current primer pairs (188 oligos) and 8 distinct conditional alternatives (16 oligos). Each unit retains its own reference panel, background panel and selection criteria; this is a collection of computational designs, not one universal assay for all polychaetes.
 
-[Preprint PDF](publications/MiAphro_preprint.pdf) · [Manuscript](publications/MiAphro_preprint.md)
+[Current FASTA](primers.fasta) · [Catalogue](catalog.csv) · [Reference panels](panels.csv) · [Conditional alternatives](conditional/README.en.md) · [Methods](docs/METHODS.en.md)
 
-## Abstract
+## Target units
 
-We evaluated in silico 12 ordinary or degenerate primer pairs in three windows per marker for marine scale worms (Aphroditiformia). At 148 bp, 28S-SD covered 59/68 species with 47 paired exact matches. At 250 bp, 28S-MD covered 58/68 species with 53 exact matches. The short 16S degenerate pair recovered Eulepethidae missed by 28S but exactly matched only one species across the 16S panel.
+|Target|Rank|16S references|28S references|Results|
+|---|---|---:|---:|---|
+|Aphroditiformia|suborder|94|68|[Aphroditiformia](panels/Aphroditiformia/README.en.md)|
+|Phyllodocida|order|515|302|[Phyllodocida](panels/Phyllodocida/README.en.md)|
+|Glyceriformia|suborder|20|12|[Glyceriformia](panels/Glyceriformia/README.en.md)|
+|Nereidiformia|suborder|315|133|[Nereidiformia](panels/Nereidiformia/README.en.md)|
+|Phyllodociformia|suborder|59|63|[Phyllodociformia](panels/Phyllodociformia/README.en.md)|
+|Syllidae|family|180|28|[Syllidae](panels/Syllidae/README.en.md)|
+|Nereididae|family|61|52|[Nereididae](panels/Nereididae/README.en.md)|
+|Hesionidae|family|53|45|[Hesionidae](panels/Hesionidae/README.en.md)|
 
-## Introduction
+```mermaid
+graph TD
+  P[Phyllodocida] --> A[Aphroditiformia]
+  P --> G[Glyceriformia]
+  P --> N[Nereidiformia]
+  P --> F[Phyllodociformia]
+  N --> S[Syllidae]
+  N --> R[Nereididae]
+  N --> H[Hesionidae]
+```
 
-Multigene phylogenetic studies provide specimen sequences across scale-worm families [1]. Nearshore Antarctic seawater surveys have also detected Polynoidae using environmental DNA [2]. We compared how primer length and degeneracy affect family coverage, exact template matching and predicted amplification in other polychaetes.
+The diagram shows included design units, not a complete taxonomic classification. Nested panels contain overlapping species and must not be summed.
 
-## Materials and methods
+## Names and profiles
 
-For each marker, we selected one annotated GenBank rRNA sequence per named target species, prioritizing unambiguous sequence length. After orienting and aligning sequences with MAFFT, we searched reference spans of 135–200 bp (S), 201–280 bp (M) and 281–400 bp (L). Each ordinary and D pair shares all four reference endpoints. Degenerate positions occur in the 3′ half with at most eight variants per oligo. In both concentration scenarios, minimum predicted Tm was ≥45°C, the difference between forward and reverse Tm midpoints was ≤5°C, and predicted structure Tm was <55°C.
-
-We searched both strands for 100–500 bp products with ≥50 internal bases. Coverage allows at most two mismatches per end with compatible terminal triplets. Exact matches require zero mismatches at both ends. Denominators include all panel species, including partial references that may not span both sites. Background families were Nereididae, Phyllodocidae, Glyceridae, Nephtyidae, Hesionidae and Syllidae. Strict background counts are given for Watson–Crick (WC) and G–T-permissive pairing, each capped at ten records. Relaxed scans omit the terminal constraint and allow three mismatches per end for WC and two for GT, each capped at 50 records. Eligible windows were ranked by summed coverage and exact counts across the ordinary and D pairs.
+`MiAphro-{taxon}-{gene}-{length}[2][D]_{F|R}`. S/M/L denote short, medium and long designs. D marks degeneracy in at least one oligo of the pair; each oligo has degeneracy ≤8. The suffix 2 identifies a distinct conditional alternative, not a two-pair mixture. Examples: `MiAphro-Syllidae-16S-S_F`, `MiAphro-Syllidae-16S-SD_R`, and `MiAphro-Syllidae-16S-S2D_R`. Ordinary/D counterparts share all four endpoints within a profile. Different profiles or taxa may use different windows and references.
 
 ## Results
 
-### 16S
+![Within-panel D coverage](figures/catalog_coverage.svg)
 
-Target panel: 94 species. Background panel: 381 species.
+The figure shows D coverage within each frozen reference panel. Panel sizes and background composition differ; these are not common-panel comparisons.
 
-![16S binding sites](figures/16S_positions.svg)
+- **Aphroditiformia**: The original scale-worm study, base-matching figures, WoRMS genus coverage and preprint are retained.
+- **Phyllodocida**: Order-wide coverage remains low; these candidates document the broad-target search.
+- **Glyceriformia**: Lacydoniidae is absent from the reference panel; 16S coverage substantially exceeds exact matching.
+- **Nereidiformia**: Suborder-wide coverage remains low; three constituent families have separate designs.
+- **Phyllodociformia**: The current references represent Phyllodocidae only.
+- **Syllidae**: Prioritize examination of 16S. The 28S S/M candidates have very low coverage; no L pair passed.
+- **Nereididae**: 16S has relatively high panel coverage; S is the principal 28S candidate, while M/L remain limited.
+- **Hesionidae**: 28S S covers 40/45 reference species; all length comparisons are retained.
 
-| Pair | bp | F (5′→3′) | R (5′→3′) | Covered | Exact | Strict WC/GT | Alignment |
-|---|---:|---|---|---:|---:|---:|---|
-| S | 138 | `ATAAACTACCTTAGGGATAACA` | `GAGATTTAACAGTTGAACAAAC` | 58/94 | 1/94 | 0/0 | [S](figures/template_matching/MiAphro-16S-S.svg) |
-| SD | 138 | `ATAAACTACCTYRGGGATAACA` | `GAGATTTAACAGTTGAACRAAC` | 62/94 | 1/94 | 0/0 | [SD](figures/template_matching/MiAphro-16S-SD.svg) |
-| M | 210 | `AAGACAAGAAGACCCTATAG` | `ACCATCCTATCAATAAGAGCTC` | 28/94 | 24/94 | 0/0 | [M](figures/template_matching/MiAphro-16S-M.svg) |
-| MD | 210 | `AAGACAAGAAGACCCYRTWG` | `ACCATCCTATCAATWWGARCTC` | 44/94 | 24/94 | 2/9 | [MD](figures/template_matching/MiAphro-16S-MD.svg) |
-| L | 329 | `GTAGCATAATCATTTGCCTT` | `ACCATCCTATCAATAAGAGC` | 28/94 | 24/94 | 0/0 | [L](figures/template_matching/MiAphro-16S-L.svg) |
-| LD | 329 | `GTAGCATAATMAYTTGCCTY` | `ACCATCCTATCAATWWGARC` | 41/94 | 24/94 | 0/7 | [LD](figures/template_matching/MiAphro-16S-LD.svg) |
+The latest Nereididae 28S SD covers 29/52 species with 8 exact matches. A conditional Syllidae 16S S2D covers 126/180 with 48 exact matches: strict background WC/GT hits are 33/42 of 3,675, but loose-model hits are 1,007/601. Conditional candidates remain separate from the current FASTA.
 
-Blue indicates compatible bases, orange mismatches and grey gaps or unknown bases. Boxes enclose terminal triplets. The excerpt shows one species per family; the table links show every target species.
+## Reproducibility and evidence
 
-![16S SD](figures/template_matching/MiAphro-16S-SD_preview.svg)
+[Species-level results](species.csv) · [Naming provenance](provenance.csv) · [Independent re-scan](audit/catalog_rescan.json) · [Checksums](SHA256SUMS)
 
-### 28S
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/build_catalog.py
+python3 scripts/build_docs.py
+python3 scripts/check_release.py
+# Optional full independent re-scan / 可选：完整独立重扫
+python3 scripts/recheck_catalog.py
+```
 
-Target panel: 68 species. Background panel: 214 species.
+Frozen references and alignments are under `panels/`; compact source analyses are under `analysis/`. Large intermediate hit matrices and caches are regenerated rather than duplicated. Selected results were re-scanned with independent C++ and Python implementations; this integration adds no wet-lab validation.
 
-![28S binding sites](figures/28S_positions.svg)
+## Aphroditiformia study and preprint
 
-| Pair | bp | F (5′→3′) | R (5′→3′) | Covered | Exact | Strict WC/GT | Alignment |
-|---|---:|---|---|---:|---:|---:|---|
-| S | 148 | `CTCAGAGGCAAACTGATGGGAC` | `GCTCTCCTCGTGGAAAGGGC` | 54/68 | 29/68 | 0/0 | [S](figures/template_matching/MiAphro-28S-S.svg) |
-| SD | 148 | `CTCAGAGGCAAACYGATGGGAC` | `GCTCTCCTCGYRGAAAGKGC` | 59/68 | 47/68 | 2/2 | [SD](figures/template_matching/MiAphro-28S-SD.svg) |
-| M | 250 | `AATCCCCTGTCGCTGCGGCA` | `TCCCTCACGGTACTTGTCCGCT` | 56/68 | 50/68 | 0/0 | [M](figures/template_matching/MiAphro-28S-M.svg) |
-| MD | 250 | `AATCCCCTGTCGYTGCGGCA` | `TCCCTCACGGTACTTGTCCKCT` | 58/68 | 53/68 | 1/2 | [MD](figures/template_matching/MiAphro-28S-MD.svg) |
-| L | 368 | `CTCAGAGGCAAACTGATGGGAC` | `CGGAACACACTGTAAACAGTCC` | 58/68 | 22/68 | 0/0 | [L](figures/template_matching/MiAphro-28S-L.svg) |
-| LD | 368 | `CTCAGAGGCAAACYGATGGGAC` | `CGGAACACACTGTRAACAGTCC` | 59/68 | 33/68 | 0/1 | [LD](figures/template_matching/MiAphro-28S-LD.svg) |
+[Study and bibliography](studies/Aphroditiformia/README.en.md) · [Preprint PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf) · [Manuscript](studies/Aphroditiformia/publications/MiAphro_preprint.md)
 
-Blue indicates compatible bases, orange mismatches and grey gaps or unknown bases. Boxes enclose terminal triplets. The excerpt shows one species per family; the table links show every target species.
+The retained preprint reports Aphroditiformia only. The additional order-, suborder- and family-level designs are documented in this catalogue and their individual pages.
 
-![28S MD](figures/template_matching/MiAphro-28S-MD_preview.svg)
+## Citation and copyright
 
-### Family-level coverage
+Xia, F. (2026). *MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
 
-![Family coverage](figures/family_coverage.svg)
-
-The heatmap uses WoRMS-verified family assignments. Each cell shows coverage percentage and covered/total reference species; grey NA indicates no references. Genera recorded under Pholoidae and Pisionidae are assigned to Sigalionidae. Original GenBank labels remain in the source tables.
-
-### Reference taxonomic sampling
-
-![Reference taxonomic sampling](figures/reference_taxonomy.svg)
-
-Genus coverage is the number of sampled accepted genera divided by all accepted genera in each WoRMS family, calculated for 16S, 28S and their union. Family descendants were traversed through intermediate ranks with complete pagination and deduplicated by AphiaID. Only accepted genus-rank records were counted; synonyms and subgenera were excluded, without habitat or extinction filtering. The census was retrieved on 5 November 2026.
-
-| Family | WoRMS genera | 16S | 28S | Union |
-|---|---:|---:|---:|---:|
-| Acoetidae | 8 | 1 (12.5%) | 1 (12.5%) | 1 (12.5%) |
-| Aphroditidae | 7 | 2 (28.6%) | 2 (28.6%) | 2 (28.6%) |
-| Eulepethidae | 6 | 3 (50.0%) | 2 (33.3%) | 3 (50.0%) |
-| Iphionidae | 4 | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Polynoidae | 166 | 45 (27.1%) | 28 (16.9%) | 45 (27.1%) |
-| Sigalionidae | 33 | 7 (21.2%) | 9 (27.3%) | 9 (27.3%) |
-
-[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Accepted genus census](taxonomy/worms_accepted_genera.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
-
-## Discussion
-
-28S-SD offers a short product and broad predicted coverage. 28S-MD provides the most exact matches. The long 28S-LD pair matches as many species as SD but yields only 33 exact matches. No selected pair detected Aphroditidae on these panels. All 28S pairs missed Eulepethidae, whereas 16S-SD covered all three representatives. The short 16S pair's broad mismatch-tolerant coverage coincides with low exact matching.
-
-All four Aphroditidae 16S records span all three windows. All three 28S records in that family span S and M, but only two span L. Both Eulepethidae 28S records span all windows. Thus one Aphroditidae record lacks the full 28S L interval; fragment length alone cannot explain the other misses in these families.
-
-## Data and reproducibility
-
-We checked the 12 current pairs and four first-round pairs. Among complete, indel-free templates for each end, we flagged sites where the most common base was absent from the oligo and more frequent than any included base. We tested single and combined replacements. No current 28S pair had such a site. For 16S-SD, reverse C10T would raise coverage from 62 to 69 but lose five previously covered species and add 79 background record–model hits. Other tested 16S substitutions also gained background hits. We retained the published sequences.
-
-[FASTA](SML/primers.fasta) · [SML results](SML/results.csv) · [Family coverage](SML/families.csv) · [Species records](SML/species.csv) · [First-round baseline](baseline/results.csv) · [Pair audit](audit/pair_review.csv) · [Position counts](audit/position_support.csv) · [Consensus trials](audit/consensus_trials.csv)
-
-With Biopython and primer3-py installed, run `python3 scripts/finish_sml.py` to verify the frozen per-record scans and `python3 scripts/review.py` to regenerate base matching and substitution tests.
-
-Run `python3 scripts/check_release.py` to check the documentation, reference panels, FASTA exports and matching figures together.
-
-## Citation
-
-Xia, F. (2026). *MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
-
-## References
-
-1. Norlinder et al. (2012). Phylogeny of scale-worms (Aphroditiformia, Annelida), assessed from 18SrRNA, 28SrRNA, 16SrRNA, mitochondrial cytochrome c oxidase subunit I (COI), and morphology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22789762/).
-2. Environmental DNA metabarcoding for monitoring metazoan biodiversity in Antarctic nearshore ecosystems (2021). *PeerJ* 9, e12458. [DOI](https://doi.org/10.7717/peerj.12458).
-
-## Rebuild the exhaustive scanner
-
-From the repository root, run `c++ -std=c++17 -O2 scripts/raw_scan.cpp -o scripts/scan` before repeating window discovery with MAFFT, Biopython and primer3-py. The per-record verification scripts use the archived scan tables directly.
+[Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)

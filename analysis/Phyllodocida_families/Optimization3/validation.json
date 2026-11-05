@@ -1,0 +1,434 @@
+[
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 4,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 4,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 4,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 6,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 4,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 2,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Nereididae-28S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Nereididae-28S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Nereididae-28S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 2,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Nereididae-28S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 6,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 6,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 4,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-S",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-SD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 6,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 8,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-M",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-MD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 4,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "balanced",
+    "name": "Syllidae-16S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 6,
+    "deg_R": 4,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "coverage",
+    "name": "Syllidae-16S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 6,
+    "deg_R": 4,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "exact",
+    "name": "Syllidae-16S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 2,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-L",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 1,
+    "deg_R": 1,
+    "thermal": "PASS"
+  },
+  {
+    "objective": "strict_profile",
+    "name": "Syllidae-16S-LD",
+    "independent": "PASS",
+    "shared_coordinates": true,
+    "deg_F": 8,
+    "deg_R": 6,
+    "thermal": "PASS"
+  }
+]

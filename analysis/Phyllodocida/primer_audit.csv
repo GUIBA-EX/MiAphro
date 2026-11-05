@@ -1,0 +1,13 @@
+name,F_degeneracy,R_degeneracy,thermal_pass,F_start,F_end,R_start,R_end
+Phyllodocida-16S-S,1,1,True,559,580,717,736
+Phyllodocida-16S-SD,8,8,True,559,580,717,736
+Phyllodocida-16S-M,1,1,True,637,658,871,892
+Phyllodocida-16S-MD,8,2,True,637,658,871,892
+Phyllodocida-16S-L,1,1,True,513,534,871,892
+Phyllodocida-16S-LD,8,2,True,513,534,871,892
+Phyllodocida-28S-S,1,1,True,667,686,781,802
+Phyllodocida-28S-SD,8,8,True,667,686,781,802
+Phyllodocida-28S-M,1,1,True,425,444,667,686
+Phyllodocida-28S-MD,8,8,True,425,444,667,686
+Phyllodocida-28S-L,1,1,True,549,570,847,868
+Phyllodocida-28S-LD,8,8,True,549,570,847,868

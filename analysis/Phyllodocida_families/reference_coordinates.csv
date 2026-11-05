@@ -1,0 +1,10 @@
+family,gene,reference,source_pool,orientation,ungapped_length
+Syllidae,16S,JF903719.1,Round2,original,576
+Syllidae,28S,AF212165.1,Round2,original,4001
+Nereididae,16S,JX078950.1,Controls,original,583
+Nereididae,16S,EU221670.1,Round2,original,569
+Nereididae,28S,AF212165.1,Controls,original,4001
+Nereididae,28S,AY210464.1,Round2,original,3504
+Hesionidae,16S,DQ442579.1,Round2,original,547
+Hesionidae,28S,DQ790046.1,Round2,original,3384
+Hesionidae,28S,AF212165.1,Controls,original,4001

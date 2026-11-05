@@ -1,0 +1,86 @@
+[
+  {
+    "family": "Syllidae",
+    "gene": "16S",
+    "role": "target",
+    "species": 180,
+    "sha256": "f0e5c887a7922b074639a5755977bee5cd737286fee8ee589d77b246594c1ca8"
+  },
+  {
+    "family": "Syllidae",
+    "gene": "16S",
+    "role": "background",
+    "species": 3675,
+    "sha256": "a61d135a3eb6a1991ab8fe1be1a910af4c425fedb3bc903595660c330b42faea"
+  },
+  {
+    "family": "Syllidae",
+    "gene": "28S",
+    "role": "target",
+    "species": 28,
+    "sha256": "58554192ee662a9075408e8f59db198630a42581def5f60d7d825b83e60caff8"
+  },
+  {
+    "family": "Syllidae",
+    "gene": "28S",
+    "role": "background",
+    "species": 2359,
+    "sha256": "694057eab13cf689454dc5debf762f75e10a7c8e0cc8698536e4495bf6e3e25f"
+  },
+  {
+    "family": "Nereididae",
+    "gene": "16S",
+    "role": "target",
+    "species": 61,
+    "sha256": "46828a158102d796bfad51d526819c06e31791f24c7d863a259ef6968c0a998d"
+  },
+  {
+    "family": "Nereididae",
+    "gene": "16S",
+    "role": "background",
+    "species": 3794,
+    "sha256": "e8a15a54bb4247de1f425292c0449fc3899563bebc6a1f201ad9149fdca12c79"
+  },
+  {
+    "family": "Nereididae",
+    "gene": "28S",
+    "role": "target",
+    "species": 52,
+    "sha256": "52f5f1897ac82435944a72ea50f96df9de739067d33c4adef1fc404683e5e148"
+  },
+  {
+    "family": "Nereididae",
+    "gene": "28S",
+    "role": "background",
+    "species": 2335,
+    "sha256": "1def3c4430d35af24100a0fa2a2d449ce0cd6fe92cd06873cd0474369c1cafda"
+  },
+  {
+    "family": "Hesionidae",
+    "gene": "16S",
+    "role": "target",
+    "species": 53,
+    "sha256": "226c3c366973723282927cdb1da6ffe04716c9f5683840f2f27766d8f8a80441"
+  },
+  {
+    "family": "Hesionidae",
+    "gene": "16S",
+    "role": "background",
+    "species": 3802,
+    "sha256": "31ff681a87837fd59670c1e7adfc98d62cab34263c7b41e35a489c41236191bc"
+  },
+  {
+    "family": "Hesionidae",
+    "gene": "28S",
+    "role": "target",
+    "species": 45,
+    "sha256": "96589aa04cd71624c50c53a82a67f6b84c18d8a3c3cdb3fe3c5feb2d24095c9c"
+  },
+  {
+    "family": "Hesionidae",
+    "gene": "28S",
+    "role": "background",
+    "species": 2342,
+    "sha256": "4f3b67b7c2422022de9af360736c2ba21ad80612af75b0b944dfddf7b006dfaa"
+  }
+]

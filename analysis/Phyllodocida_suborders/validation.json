@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "pairs": 36,
+  "independent_scan": "per-record C++/Python checks in each finish_expanded.py",
+  "constraints": "same endpoints; max degeneracy 8 per oligo; 3prime half only"
+}

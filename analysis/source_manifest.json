@@ -1,0 +1,2715 @@
+[
+  {
+    "path": "analysis/Phyllodocida/primer_audit.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "d91cde5793a6c798a9938669408dfbcd06ea590d4206a4af8b26b9153a981fc6",
+    "source_sha256": "f86b90f685a8e4d2de79d8873d90d30b41fc3f01e57b6b5484985ca1bcf99da5",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/reference_summary.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "d9df46271ac52001ddb1de6cdcf1100072cdf0cce743c3937a758ba8b1b9b4de",
+    "source_sha256": "7c82fb374fc53f2011ad4ff09b2a4831d97036e1e1e65f992fc308df1629a23b",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/validation.json",
+    "source_project": "Phyllodocida",
+    "sha256": "974531d41d3fa0b2180ea039c4643b9411f4dd84ca29964d2fe3f77e99142e32"
+  },
+  {
+    "path": "analysis/Phyllodocida/background_groups.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "8e95ae5a172ee7d740af60bb728c0ecfea2f073f19ece1811ee4046487214092",
+    "source_sha256": "dee1d37302240407fb847f110abd423eae96f7a665bf20418a67d554d617e16d",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/background_query.txt",
+    "source_project": "Phyllodocida",
+    "sha256": "552ec4522743ead08a830299abefe481349edee3309243a63422cfa6d3ec0736"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/target_query.txt",
+    "source_project": "Phyllodocida",
+    "sha256": "a20099d06e14e0bd47716d7bc507071ceaddc38ac30850b88a5842981af8a277"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/target.json",
+    "source_project": "Phyllodocida",
+    "sha256": "6e1f6f3016ab53fc53c7df1853ecd6bc0303b8f9388369ec4291b231e2d8f0f5"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/background.json",
+    "source_project": "Phyllodocida",
+    "sha256": "d62d3955468bb1580c74a09526c141d47bba4e29d46a71a84179d8a9fa53ae72"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/marine_background.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "ddfc6e84ae7d69bd522216c9136db7e71cee9fcf4eb187f3e8431648e9d40551",
+    "source_sha256": "5f91ff4b0e2d1b4779427956f7f629975704797f9d229e4759b9385334c76ff4",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/background_search_10000.json",
+    "source_project": "Phyllodocida",
+    "sha256": "7ec2f1c535f7687794d773cfe8df227a0d90bd9196372255beb0002954ceab56"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/target.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "3a5378cfa1a55e13d9b8def1c2e68aa842c5230d47aefbaebc8f567a25372bf3"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/aligned.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "132097570c26e9c2fa96ce6606cad46956819c492d82bb076f037ed1141b815d"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/background.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "ddfc6e84ae7d69bd522216c9136db7e71cee9fcf4eb187f3e8431648e9d40551",
+    "source_sha256": "5f91ff4b0e2d1b4779427956f7f629975704797f9d229e4759b9385334c76ff4",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/target.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "0ac26bf724b0e83619214dc093bec1dfd799baa6f797756c3ae0258a8171d917",
+    "source_sha256": "dd04fe6c07b1b91063e227c0ca2998a14ecb503adc18371c2ce78599cd2c3359",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/background.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "a7bd42aafb3df615a0a0a68f9e42687caa2fe4ddd9eb43baecafa557daddbdf0"
+  },
+  {
+    "path": "analysis/Phyllodocida/16S/marine_background.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "a7bd42aafb3df615a0a0a68f9e42687caa2fe4ddd9eb43baecafa557daddbdf0"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/background_query.txt",
+    "source_project": "Phyllodocida",
+    "sha256": "e6acd294c4b05f46e3cedb662cf2fdf1a1f79c8100f1e942e0a8033331ce7093"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/target_query.txt",
+    "source_project": "Phyllodocida",
+    "sha256": "7a65da9562cf436684d7f9ee03b30f2ba3b74f851c30cbbcb15e9e2001cd16d6"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/target.json",
+    "source_project": "Phyllodocida",
+    "sha256": "785ee22184b55593f77f70dce256a4864ebaf764d4aef103e2bfaebe39c94a0d"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/background.json",
+    "source_project": "Phyllodocida",
+    "sha256": "1b4aa739b5cae7aa93a988f5edf511eade947a7141e389325876abdf59ef0259"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/marine_background.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "dfa18a5acd055d09838e930c7c4913251b3558038841d36e91480495cd1780f5",
+    "source_sha256": "19d000b029263a476a92b2ebe6a37322a6136e6a924fdb40435f67da78b3476d",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/target.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "a05da1048104dc962f3d917c65aaf4001c7714aaf73c9c56bf884c9092d621ce"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/aligned.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "690e0382ab3377e133cc2e95c0688b53bfbae439d94d7d053b8d8df3700e76ce"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/background.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "dfa18a5acd055d09838e930c7c4913251b3558038841d36e91480495cd1780f5",
+    "source_sha256": "19d000b029263a476a92b2ebe6a37322a6136e6a924fdb40435f67da78b3476d",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/target.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "260c9caf363c7876afd126b1a35d41bc9da98af6989b00efdcc96bcd56644fcd",
+    "source_sha256": "febc2e919a7d65874e3127707f50a84a8d652fd2c78e2b31cb6a02aa154150e6",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/background.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "e2d81e5fd8b4412c4bf3ed32145893f8d7f8610ac81584a900106292a2d65f8f"
+  },
+  {
+    "path": "analysis/Phyllodocida/28S/marine_background.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "e2d81e5fd8b4412c4bf3ed32145893f8d7f8610ac81584a900106292a2d65f8f"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/marine_background.py",
+    "source_project": "Phyllodocida",
+    "sha256": "dd7932932624f7630b57db97d5952cfed184a48e49dc501bc84b3845d9c45b47"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/finish_sml.py",
+    "source_project": "Phyllodocida",
+    "sha256": "a89134e7fe3850b1af6e13d02b681772c2975549276687959ccf571d681933f2"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/tradeoffs.py",
+    "source_project": "Phyllodocida",
+    "sha256": "96de0bf94e848335356f7b8a3964207d952ae8f42eadebf9cbb5aac78854f25d"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/design_expanded.py",
+    "source_project": "Phyllodocida",
+    "sha256": "2624827be8ac42fdef611db34883a727a555750d1621478c89742b9aa27f1a47"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/run_search.py",
+    "source_project": "Phyllodocida",
+    "sha256": "b760a8ab78478c1ea971556b8bcc83caae21a5b62cb3c1a957fdafd1b0ad8e59"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/final_audit.py",
+    "source_project": "Phyllodocida",
+    "sha256": "72accb66335445ea3fe64905b7570e9d4deb89ed0592409bc472c13ba1738a63"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/design.py",
+    "source_project": "Phyllodocida",
+    "sha256": "afca9fc97b2fe78aa916b7712e3bf144c36039fb281ff6b4beb597973337e16c"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/independent.py",
+    "source_project": "Phyllodocida",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/report_expanded.py",
+    "source_project": "Phyllodocida",
+    "sha256": "7b4eb12e42d7ed457dffe80044e1a5a9ae171ff9c215e095fa2e811290f12c14"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/chemistry.py",
+    "source_project": "Phyllodocida",
+    "sha256": "18c3cb5a86edb0643ab512c9189d2a6e885ed31f79c78ea7b0a1f93e60d32b70"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/finish_expanded.py",
+    "source_project": "Phyllodocida",
+    "sha256": "5dc55aee3764becb49335cd6fdf3b1328cd0271ae63babe0b03b9de62643739e"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/run_expanded.py",
+    "source_project": "Phyllodocida",
+    "sha256": "a8a5acff39edd59bcda7f9ee560a8aa5ae0cacaaeab530dbe9e2b47e14546095"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/supplement.py",
+    "source_project": "Phyllodocida",
+    "sha256": "3631628bd8cb3e788df1679ed501adf86964c9a3f5fc370cf490a99b17b14e35"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/report.py",
+    "source_project": "Phyllodocida",
+    "sha256": "0cb3365e25e5bb261abe89b4193ba9f7094057c17eb84d417e5ba57cfbb6dd5d"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/prepare.py",
+    "source_project": "Phyllodocida",
+    "sha256": "ac91baf9ab17fae9631d6cb2258ef070000b9ca8dd9149ecebdd5f54c003e0cf"
+  },
+  {
+    "path": "analysis/Phyllodocida/scripts/rescan_marine.py",
+    "source_project": "Phyllodocida",
+    "sha256": "9d44ec9b32ffb26f317304c29aee4df8b407b5f809fab2110bcff0834a345cb8"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/species.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "ebfe0c7f1d99329e6cf8b2aaf6ff4f510f7a9d16a264562edfb0110bac6cce43"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/tradeoffs.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "e49cbac4a5fd817e49fb64b628ccd487b8101f4ff4cb5b0944170cd2166828b4",
+    "source_sha256": "e818eeb5aa54825507bce04d4a31149a889bece1a0c7008811e546373b4aa1aa",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/primers.fasta",
+    "source_project": "Phyllodocida",
+    "sha256": "c55617caa857f00e8dfb7b17d5d01b02231dd59bb9389d9109986e6ff8074b22"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/search.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "7b5d402f4b0d3190c16e8b037f7ea1c2d6570280c15356eee0138c031d5f1cce"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/families.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "f0ea1eea20ff02b27f682afd2f9fc3eea7f70ea121e1a31560e55f823464d897"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/results.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "809907ad6f7784cee669c0ff75c738d97dabec03ea4c96a2fef03595de245f76"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/alternative_objectives.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "82c95456f85a62ba1146f8f0aa0389e1e9d5a5f1dfb5462157601c96efbc4739"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_120.json",
+    "source_project": "Phyllodocida",
+    "sha256": "5c4138bfd3c8c53574453fb60f35c8da98084b39062e706dbbb5668ca50375c8"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1680.json",
+    "source_project": "Phyllodocida",
+    "sha256": "088f63d47d34b8321cc4048cd41b078a94a0cdd2c8be6cf26db3a887f24fccca"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_360.json",
+    "source_project": "Phyllodocida",
+    "sha256": "ff5fc3aef0f62eb5c01e921c905936bd98570c1af50cdd09057fe921816ff6b5"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1360.json",
+    "source_project": "Phyllodocida",
+    "sha256": "3bd90217dab378d57a7b82346addf68023e7c2c36b06a6cf73be6a5ea8665ea6"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/excluded.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "0e703b1f179e79e6142a7bb49476711eed46a58c71042ec187248ee8d9eccfbe",
+    "source_sha256": "25085ee6a2f363743e060acf69a339feb69b8b96c40628c12899816bf04f1898",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_680.json",
+    "source_project": "Phyllodocida",
+    "sha256": "4d73012fc0e51c93d44ada347f0bfe502148e061315815242f52cd233572987b"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1120.json",
+    "source_project": "Phyllodocida",
+    "sha256": "f7d951672e868f2e419ef84b682c00b96390c200b3ba59569ba4598af9a0dfb9"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1160.json",
+    "source_project": "Phyllodocida",
+    "sha256": "4a18b05633d48ea189f7a37097b7830337b9d52bf7321a1643fd3202fe6c188b"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_880.json",
+    "source_project": "Phyllodocida",
+    "sha256": "58af945433e538f2ee82e4eef265cc255410bc17201a70b4907b1a5529bc0476"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_480.json",
+    "source_project": "Phyllodocida",
+    "sha256": "e1809d8c3f775b7fbf504b203317baaddc14572bcd86af40d2343e7c6ef4c2f0"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1320.json",
+    "source_project": "Phyllodocida",
+    "sha256": "6c153566278a5e52e608a547cab6e98b9e4260b4f272b6671b95ddc5fa658dd6"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1880.json",
+    "source_project": "Phyllodocida",
+    "sha256": "5dfcdd6e1ea047013deb8d7fe7dc732b9a1b5f6b31dfad0d3a0eaa8e142b49c1"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_639daef19f9f.json",
+    "source_project": "Phyllodocida",
+    "sha256": "fd10e0f08b2026c2056f862aaacf9da0c545a676ebf9b4391a4c58f502c5c03b"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_320.json",
+    "source_project": "Phyllodocida",
+    "sha256": "d25addbb7814501a500ff687606d02b18b5baebec933a60f98cc248b0aaee4d0"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1480.json",
+    "source_project": "Phyllodocida",
+    "sha256": "fe1282ae75a0ba4b1684903924e02033f7f84218e060816eab92f69a8b198e7c"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_160.json",
+    "source_project": "Phyllodocida",
+    "sha256": "fc9cf006830b177a62ac782081602b66bc9864c26227ba9b83e65a0320504d51"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1720.json",
+    "source_project": "Phyllodocida",
+    "sha256": "b393b2a3cccb7cd46bb80d9ca1b102cd0b303b3f04827b7b0891385e9602c8ef"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1960.json",
+    "source_project": "Phyllodocida",
+    "sha256": "9db6c15f09af2cad473ba2cd31f48c6189b965897d69ca2d1b4e515355e1bd15"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1560.json",
+    "source_project": "Phyllodocida",
+    "sha256": "9cbea103c414392b0915a3b1c5fdc1cd14671d340326a50532a0cd2392a7c328"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_960.json",
+    "source_project": "Phyllodocida",
+    "sha256": "35dd029da6fc17ce51b0babebb0b65f3f56e233997cea117f9884690754d022a"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_560.json",
+    "source_project": "Phyllodocida",
+    "sha256": "311e9151bc5cb9551116cc47d64cfade24b40103bb176e7ee4848521390dde0f"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1080.json",
+    "source_project": "Phyllodocida",
+    "sha256": "1158986a78360965eb427a4915287d551ffa9b3d981b30bebdd07be7aa0d1ccc"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_720.json",
+    "source_project": "Phyllodocida",
+    "sha256": "f72cd4f9b60d48c4241d0bc0cba29f83d6981f57f357b44f997d705aba812c22"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_80.json",
+    "source_project": "Phyllodocida",
+    "sha256": "ee5a1849c6bd93f3a91ecd17ec10ad57579878ecebe28cf59b9553d2b7ade121"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_d7fa2cdacc13.json",
+    "source_project": "Phyllodocida",
+    "sha256": "360ad965b06545a4339b6fbe6a7e8cd08fd78ebf56d5a74bb0fb968178ad7b3a"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_760.json",
+    "source_project": "Phyllodocida",
+    "sha256": "33ee6b96c9ec702ace26a8200bc2510a6ca591bc64ec3397442a8ea8c30c14e9"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_920.json",
+    "source_project": "Phyllodocida",
+    "sha256": "f5bd9c4c77d67d332cf922b017adc862c2613b9cca420bac71b9ea5ab72393aa"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_edec862f437b.json",
+    "source_project": "Phyllodocida",
+    "sha256": "043510664d89a79f9e47d0d28cd9ee3b73a3246a3481b7bc2c893194cc080fa0"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1280.json",
+    "source_project": "Phyllodocida",
+    "sha256": "c62ec82279bf0cbc5df823e7b102d9d6b74b5f20403e87dc90f16b78a7d6b575"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_520.json",
+    "source_project": "Phyllodocida",
+    "sha256": "4dc30a2ebbd8db39db6fa0547113a98753c6e54e6df6a64f2fe55112c2adcb51"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1920.json",
+    "source_project": "Phyllodocida",
+    "sha256": "bd995d7bb9540c80b99b2d0aba5fc6d1b3085fc7100990b02b422a9564f34922"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1520.json",
+    "source_project": "Phyllodocida",
+    "sha256": "7c1c59af2f74178de188b562838fef077324ee7dcaa59675ef89bd5b7af146b5"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_280.json",
+    "source_project": "Phyllodocida",
+    "sha256": "0b3d9b76d804334e3dc74146cc25833186ded951a5d5cfd34f03d55ab1c2ff2f"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1760.json",
+    "source_project": "Phyllodocida",
+    "sha256": "e777b9ded6448f5e7509f350359bf31ec2fc85092f3caaf1c5f73bd257052814"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_aaf9c50199d9.json",
+    "source_project": "Phyllodocida",
+    "sha256": "f000845753a8b3b5337aed4a4aba826d4295117cdead9a752a02db44e18a28fc"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_240.json",
+    "source_project": "Phyllodocida",
+    "sha256": "d03b51bfbb312abbf3f787c620151561c2b4df8c058bc2b312e88b6612eb3053"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1240.json",
+    "source_project": "Phyllodocida",
+    "sha256": "b3a39525ee3cfc70c16dbd6c3fcb7d88e895b0000b699afad34dbb0d40f7cf15"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1000.json",
+    "source_project": "Phyllodocida",
+    "sha256": "04f5b354aa6cc62d9f4571069c24e2cf6aabb02a29c64e979cdfe34ef5248e74"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_40.json",
+    "source_project": "Phyllodocida",
+    "sha256": "093e79263f361ad5538bc7e980ccc373851b7b7695f18ec7f09c3fcc166b53c8"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1040.json",
+    "source_project": "Phyllodocida",
+    "sha256": "adc02e144601a7396362d377bd013c94643a99f72c0b20d04646285940e1fa4d"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1200.json",
+    "source_project": "Phyllodocida",
+    "sha256": "ebefa7ff71b8cf222d23e213d38791e473e933b2219b05a93dfb179266c3721b"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_200.json",
+    "source_project": "Phyllodocida",
+    "sha256": "90012319cb3790d2d1c575596ea6015b97ae04bd8e0fa8b6c6de43fe07da4be7"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_5472cae70eba.json",
+    "source_project": "Phyllodocida",
+    "sha256": "4911316a974c9a986f6855cd0699a1964cadf933081ab48dfc0fecc027ccab3a"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1600.json",
+    "source_project": "Phyllodocida",
+    "sha256": "79ad34d06cb189dd6148e9207d935cdb8619384b848e01592c4d1bdb0437d90f"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_2000.json",
+    "source_project": "Phyllodocida",
+    "sha256": "e222757ab58efab9d926d67e51fd54ffc742b9e3b51ad7a180d07ec9a96327ba"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1440.json",
+    "source_project": "Phyllodocida",
+    "sha256": "c7a8e21b9d788f14af508995330c48072413a14ab1a564cc80b707891d0071fb"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1840.json",
+    "source_project": "Phyllodocida",
+    "sha256": "34e9eaf60c2839e434014a5b53f74756a590b8266f71881692a50e4f0f1e7d6e"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_440.json",
+    "source_project": "Phyllodocida",
+    "sha256": "3ca3340b62c6dff8a075c02dc976cabe1dfffe5910adba7bc3dc557a02c5d4b5"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_840.json",
+    "source_project": "Phyllodocida",
+    "sha256": "f089559d16969b796724ebbc541aecbebafb290840db9c96afb390c7c501a9ce"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_600.json",
+    "source_project": "Phyllodocida",
+    "sha256": "605d960f3fed314ea2721346713826edcf85ce972452e5bba2b0b75c5bcac916"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_0.json",
+    "source_project": "Phyllodocida",
+    "sha256": "8b83b5010892e4dd825a24e4742a022cd8217e44f88cb470ccaef710a15a595c"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_640.json",
+    "source_project": "Phyllodocida",
+    "sha256": "d92aba2c6d836ad4239a412f2c0b01426f65882ebf17a4b93a151f48f31029cf"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_400.json",
+    "source_project": "Phyllodocida",
+    "sha256": "7f5a4704293629038abdbefb31ce08334f02e9a09ec05cde60240e33b31cdeeb"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_800.json",
+    "source_project": "Phyllodocida",
+    "sha256": "835eb3c1883ff01b7964848b906594c5ada11f6f88ee527a57516caf282d8f41"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1400.json",
+    "source_project": "Phyllodocida",
+    "sha256": "decfe4425e113c2ca98093ffffcd59e380dd37568ea2d08229e430c61269e123"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_2040.json",
+    "source_project": "Phyllodocida",
+    "sha256": "32dadbeb19cabbd09ecf6d826b6d28a1c5d9c887ab972e42e6c418bdfa2aeab1"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1800.json",
+    "source_project": "Phyllodocida",
+    "sha256": "dd5166e2138d1eaebac52829fa2b061e151c32fe76ed514594cbfc4b1217cdaa"
+  },
+  {
+    "path": "analysis/Phyllodocida/marine_taxonomy/batch_1640.json",
+    "source_project": "Phyllodocida",
+    "sha256": "09281b4a0408b46fe54febd7177f5c1bae41d8c83c77b336a24d20965ed79c67"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/S/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "2998662cc3093db790c9c974d1c442b6d3f4640cb9dd004e845393e862830141",
+    "source_sha256": "4294c820b5cc71c581bca8bb763ae84bfff05ea985f6c397d7ba85d3acfbc673",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "60940dc54981a0300fa37c06abda89394717d99fb2f8b01151f6fdb46b54ddbf"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/M/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "6899039000da7820eb72769209178e4c8a2f1d5c31a05aaa24a8c86cf84560f1",
+    "source_sha256": "c7131876ad12d65f3d78d29d890cc70ab19dfd25eb18e460c710a384dd71a4d1",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "2f27b6b6e8d17764f7917010a2b67446897ef788d918f0e2ec1b536a1b3560bb"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/L/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "fbd6624b04a7bf6996b9ed7ab225b8e6780c433d5df5bd10e603c96be5a3f6d1",
+    "source_sha256": "f751dbc0b076f3fdebf50a16e9862444471f7e8f2c15eb861798951c9e14c034",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "bc3d1b59aa32f98e4f3c864c91508783c12d671c9ddbb9e25c3de3a60a707b13"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/28S/S/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "157803c873e6c2d89115f2c5cca992db15fca16bbd4d00814459e54d3403aaea",
+    "source_sha256": "8499b91a1ee37cb605d1f5dd537f1fcfbdeb72a0eaa3e31d1ce5daf49fcb832b",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "d0a0632eed183e7a923f3638107830df639de757bea8dc541cffd4a841bb3664"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "d8835209f3d97f2b6a85624dc0c081f3eb0f64c7f992837ee15a32269399976a"
+  },
+  {
+    "path": "analysis/Phyllodocida/Expanded/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "05ca2ded5abb0600f7e7abeac2e270667b4fdea4e42483ec240e3d8e3e5e3dc9"
+  },
+  {
+    "path": "analysis/Phyllodocida/supplement/16S/background_query.txt",
+    "source_project": "Phyllodocida",
+    "sha256": "d0ea49ecc076bc759707197309fe09eac20e6d35e598b2fcda7c01faabf32279"
+  },
+  {
+    "path": "analysis/Phyllodocida/supplement/16S/background.json",
+    "source_project": "Phyllodocida",
+    "sha256": "d2e5f37f0f5eaa1aabb677c4945d5e64e437f79a08feb67980fe9367bf55bf59"
+  },
+  {
+    "path": "analysis/Phyllodocida/supplement/16S/background.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "df0c36d4add3177f5efe25787d3532a212133284d5090151c224f358d576f828",
+    "source_sha256": "0d02311249987a61277c62c65d4a1ec3b5e2fff9a0045dbfc5a730ec92c04042",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/supplement/16S/background.fa",
+    "source_project": "Phyllodocida",
+    "sha256": "859cde7e7117beef000c633eb2c844896d0155df82726731695340f90e5d10d1"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/S/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "20e67bdefe43e8109a466a8f6057aa520b97336dea08e2084a92028bd05cf319",
+    "source_sha256": "9a3ee3d05f6eb7d59e14c288673048b11025308fbd77fa0e36cd421438bd3c28",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/S/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "2fc0efffe28b82954e152b4899d6b3b226cc5fa44a39c4443b7f28623e82b74c",
+    "source_sha256": "d76e0832a2a7393a7c1ca8ceb53d1327be9cc0d5713d8fe0ec6ea3db0ce74eae",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "a5fde8600229f7f02d60317db77378ae75d875e15c7b5e5bd9b07fd3473da6e6"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/S/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0fa3935d933caf1627cd682bd898f0a71a22aa6dee6bf814b57236866aa0bb21"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/M/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "227dc1e3880e10a32910e6a46784455e8afa7a65f21c782f32243a6f62f5ed73",
+    "source_sha256": "30cfae360fc31e4fb1173f0e33af5a6f987743d88a7289e542f443f82837f5d0",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/M/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "c3984e092dea0e7f7c063793f79ee52aeb393c208534672588e3b3719595a6b7",
+    "source_sha256": "d183490b97b70d5753ed097bc3b1f297c37323543db076dd5786ec0ed900c33a",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "359218c7f4393a8485db1677483d243048c3d0985f408fea70a7502d889f0ec4"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/M/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0fa3935d933caf1627cd682bd898f0a71a22aa6dee6bf814b57236866aa0bb21"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/L/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "36a7bd7f3ada9d8feee2e54f0ac3dc40880e8eaedd88167b95464ec4c72cc282",
+    "source_sha256": "2eaee365317c78981cbaf61e5eaefa34e77ad6c8e73e4239328b23e95c2f9104",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/L/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "0537373719d36d0803fdce21713dcc8381c5d2711b453d7cfffd74e6d3d02f59",
+    "source_sha256": "92847c1c6aab63e1fe7272b0dae9780374f5de4c629a0e11652cd5b8142600ef",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "c007f8a37887d940bca67f474cf05ee71e533fca62c6b8df96a0cc1d77759ac1"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/L/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0fa3935d933caf1627cd682bd898f0a71a22aa6dee6bf814b57236866aa0bb21"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/S/marine/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "a5fde8600229f7f02d60317db77378ae75d875e15c7b5e5bd9b07fd3473da6e6"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/M/marine/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "359218c7f4393a8485db1677483d243048c3d0985f408fea70a7502d889f0ec4"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/16S/L/marine/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "c007f8a37887d940bca67f474cf05ee71e533fca62c6b8df96a0cc1d77759ac1"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/S/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "7375a99dd87192fc333a9a19446d99b4ff97a2b65cff3e5eda70a36fb477fefa",
+    "source_sha256": "601b97e394613129412ad6066d48584334885dfb8ccae7d26caefb47b36da56d",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/S/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "14b6b29615b59f25f4d7cd78140354b4a576836c8d3bb79df3793b3e348a1590",
+    "source_sha256": "8c8d1cf6241429264bc9e838db4bc82a1848143b0b7b58abe3316ac49cd75ffc",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "2d2998666f88f9ba0ada017409d3444e8613068f6c19faa9f0697c2f671a53d9"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/S/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0ade2619985e42689c1add15628e2c08849a3a6f63fed09dfef749a3b08baf64"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/M/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "4ed6764bf8e48805d85304f335669c5118626aff604b6610a057005dfb6c64d6",
+    "source_sha256": "29ae38dfac3c5a9e14ed925e1f65f843f3db12bec88b4845e3fe2a77ac1ab220",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/M/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "8dc02f555e6395753cc83b032b9069c4306ac9a8099e88ea9da4713cf1ece50a",
+    "source_sha256": "8ff5ff4f661c64178c2c6fa8a9f590b9891f1084f1d71c262e90ade01d9ca795",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "5e89882b3e07c393f5c2d7e33ee29c54d6ab0a0327b6b67dba0ce583255d85f8"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/M/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0ade2619985e42689c1add15628e2c08849a3a6f63fed09dfef749a3b08baf64"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/L/screen.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "c62c81446e5bcca6db899d0a85e792c5ab81fb7a8e92a63ae94803d6dfb77832",
+    "source_sha256": "5e375390f37b64fec4d4c4bc9097bed649b6a0e5922661c72d249794399d11c2",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/L/marine_by_group.csv",
+    "source_project": "Phyllodocida",
+    "sha256": "c3a28290397ad302415f0c65ce86b74f1cbc59b670641856f6a142d5bbe01adc",
+    "source_sha256": "31ad647b98685bd81da59cd1f71d665c50ac78317a5d84fcd5e7b14c93cfdbc1",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida",
+    "sha256": "ae3fec2571cc964c23a37b1d30364ce227f9cf3f47e1d3cd2cdbe10c54ef981d"
+  },
+  {
+    "path": "analysis/Phyllodocida/SML/28S/L/marine_background.sha256",
+    "source_project": "Phyllodocida",
+    "sha256": "0ade2619985e42689c1add15628e2c08849a3a6f63fed09dfef749a3b08baf64"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/run.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ed98f4c591a375e1fad0d2f0f7045997aed529ebccfc8f09e7ba3d65bc6781d6"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/reference_summary.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "5d68193d7798c91a18e7c04e362912e99c13639fc5218059906960844c6aaa95"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/primers.fasta",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "fc3da1b48da352a9d2f9f2dfaf3eb9d0a5512dedbb8d0058e9bea78754942870"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/validation.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "056f557f0eca122a38a77c28722b9496ff87344ea36117b42dc477b6ef901cb4"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/reference_span_support.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e8c64d958901a40b416d63cfdddd1748c6fdd897b1459fc4b6ba86538cc1af88"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/results.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "384e53eca4de8f0638304d37f67e22e859cf1c636701b56c1ca097c6344a4cdc"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/report.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b5d029b48db78881a472b50728ef661c1d83cdfdf4cb072a32fbf6b0e207cf9b"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/background_groups.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "1c44c0e5e86a2950ae473eaff679894517a010ef6ca332faaca0cbb8cfe80a3c"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_22496.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "dddf63a856f52359638ba77005592a33f4a5e12161a184140d080c80440902f1"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Phyllodociformia_record.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f35725dde411f1d63412e2c2bc4559143ea8dc7d65ac7866b821e5bf9aca93c2"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_15009.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d21453d6107109805db129c669498eb2ab1173643e0658100840999e0e76df63"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_324421.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "813b48c4b0e36a3e2dd5e5e44576da3b567f96d3ce0ba20dc3e794fd199f9b67"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_933.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "10ed9f70a74fe4ab276ffeb6dae6e0cbe910eaa37f1b5e71cccdb0e0e76e147c"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_948.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "1ff231786fff0eb8622cb2c3a15da14201e7897fe5abfb1a8499ae9c328ddebf"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Glyceriformia_children.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f89ee5ebad0fbc7bcc1b1467dbb9f8445617e9418651a638bb3d0a2f33259e76"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Nereidiformia_children.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "3823f9a953527b3ff0575ffc331feb2331d9226f302ce7553b71798c3a6e2747"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_949.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "27a8c3fc9b101a60fc7b046be50d078915174a758a21ee6bafd4f06da5156ac4"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_932.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "7f90ae953bc8410aded2be6e4cae01ad4b5269650a0e33a564895dabb661bbed"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Phyllodociformia_children.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "61949085beac0732acde2ce43401cf082bd111838b4da549e071a269c10a6461"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Glyceriformia_record.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "42bb3d2959cec035bd63518e28d13717881d6f062d48a1946478a4f2882a4e46"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/Nereidiformia_record.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "61d57b664c470cdd1a094480df85eb3b2e31a4fe00836175095fc3f38b7968b1"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/taxonomy/valid_324346.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "902502168ffd7a4f9839484f4d2d024ff90c0dcacca729033203716e3e04770a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/report_round2.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "76fb63d3fd51bc4a1c298d0030bc6a3028a506e73a63ffac5ea4fea66b0a33ed"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/run_round2.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "0f33cbf36355e114a921a8232960fa1bf6fc837f7eb2b5228e5cb78090ff09bb"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/16S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f54608fb4d26b92aaab2d46a2212acc78632a9e492e29d5e4f0fb6b9fa944e82"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/16S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "7faaf73d20c0cb6c5cbb6bc0842ffb89f46791d792199870650035a77b3ddd43"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/16S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "239bc2448a90fc4f13e1210946794a14b5a7dcbd78474d77369250b8c7a5169a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/16S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e17d5575dc2d119f15df0ac739a4d7d3098e653b63d4cfcb3a4a1f78167b4d1d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/16S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "9872f0c23cd833722b35b1a7dda997dc666d382a99aaad9e98d599660979f10e"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/species.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "cbea4ed81445ff7e36f827d8ae3ae42f39ed875884796bb6c6a5afbaa97a9e5f"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/primers.fasta",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f859e8159f9431346b0754949d2b01a3dea517e1b2c08527d395247eef9d830c"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/search.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a5361c16f4ac826bc75d0bce39d721ae2e242ae337e00033e417f1f95427b522"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/families.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "1a75362150e541678352081748c9d795bf4a51caade02fa5730c94fb96e6233a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/results.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "606b434baa402636f3408deeae261d4abbd5147d45f638ece16b3732b11e9075"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/alternative_objectives.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e9bb294d3bbc5629573eb4270f3211fd7484c5a7ee4a11480eeaf71a650e6fe7"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/28S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "bef6bdbf6b572aea1f620825719c7cbf2ae32fcecc668b9b9f5d6b0c04428a67"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/28S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d9184f02b09630fd9cc320211c2c3ab032073af841a5cd10d4343abc7165891a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/28S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b07311ce7474c2972b1a9bc5dc52d296d9f9b927618e96fb70c797915192faab"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/28S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e2370ea30b536dd5320676c8e8a5cc00d6109c36dab1571d873359d5efdfef16"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/28S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "426cfe4c12ce6a7c97bee8f128179d891ebcf7f9b8eb5853f6ca52f292354072"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/scripts/design_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "0d77566661218d065bac32b5c3875f718615a741cb2e02d80b8f59b762199edc"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/scripts/independent.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/scripts/chemistry.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "18c3cb5a86edb0643ab512c9189d2a6e885ed31f79c78ea7b0a1f93e60d32b70"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/scripts/finish_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "59dcd4e00da89898190298c2bdb713b994cf8ca6f1c41f0856088ddfb5f6ee88"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f808184483c5ce8e97b549a896adbf5a339760ec090f38a807d5e563fd419416",
+    "source_sha256": "0594194609cd9713bdcba04060995be1fc6c53590fba91847063435a7b809b87",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "03cd24c3dc8d7d8f0708878788dfbdf6174cedc769b78cb62ae9065e3948800d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f5d260fa8500b38761752e506815b4a9e17533722e5ffbd0be09ac0c6a3eb92c",
+    "source_sha256": "03ec287b488d74312db3900be254ae5134e5d21bb347cf3f7f1287227ea4b33b",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b22042ea961778e8b3242107ce72b219aa457638faf9c4908e5c056b9f230180"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "df669ebb61f14e6b714e736f19b02bafd5d8dc94ba67db66efed4ed8db6c6e8d",
+    "source_sha256": "4a6134edff40be8d4cd5ab1167b6b5a4931e32f60770901f7d87c86a889b3159",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "8cd622361631cd42fc0ebf9dee3e24e98d9332decdca32c852a1f97ba953f7a4"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "fffc3bb0837bdd4b2934c01ade52ab66434883d3ccb48c5f7dfe2258fcf3f143",
+    "source_sha256": "64ca65167db12fdb2b87272bef6f9740d124c042ec7d075afdb94d61134b43ab",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "38889f1ae568fdb2b9d71aca1ca4f487b8430488bfc08fe5d235df2129fa2476"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "8efaca7149f874fc5911bf91f77dabbc591b024297b9a95cb76c9e0768e045f7",
+    "source_sha256": "52074dfcb4faf34444458e39cb6263ccb2b3ff11229aff6f66ebb300c02074be",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "3bf12a914c05533a25198d527cb08c6dd6c4ce07571e594dbb76669c03be373b"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a757b36ec569b84d8f0131c3c0045aadc3db0b88e4da676edc89a45b79c6d111",
+    "source_sha256": "7aeea8ce7b0f1e330a0360a83999e934f5d170c4cb2d443f211915842330bf35",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Phyllodociformia/Expanded/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "cff26afc4e9b6e1d4220fd8471d8057f2f1acf243c8bdeb9cf8cec12abfa3a28"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/16S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b8d7c28ecf543ea123788f1d6ffe159937f5fbe687916ac9933ae7d6c710f1bb"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/16S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "88d88327e61d1afcb7c5cd623201487a8470315a06326e7ec2e95c9849bbc783"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/16S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f0d4202bd84457b9bc0335e5cde35a4a3f9542c29ed9f7cfc6d6ad7478c80bf1"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/16S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ad422ffbf348edb1dc33b3d5636e8b28b9cbe0dd10cb5631b96487745338c785"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/16S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "17e0e0b134b5a56121c11ea02670f0f40d76c62bf56026e053ec068bf1c47880"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/species.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "78371d7ca15ce8466b8a546e4eadac91ce5addd26bb8d9497a75c18b87dfdf66"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/primers.fasta",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ebc4cac9fdc4516b15aded7445b59af48d98295088bf220cd7c78731046b12d6"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/search.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "2288efe00f658a7208a70a06fc20fd781f821ef7cfa2543f4771438266c6d2a8"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/families.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "4d8c24bf8fbe33bbf5456420a0df183c6b5f13af9d0039e44a428dd4b1e1bd74"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/results.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "7c20ac551bdf8e78b5cc36dafae2c033be13b37f0eaffeae3739d531aa431795"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/alternative_objectives.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "9abe8fd4b4039c0a2e7de1f47b5c71d6ebdcf87a98e5a6c5645fa9e9e3259390"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/28S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "cd22074d7f5db6623363998d2af6d341188628bee45837c6f57389f59753b2db"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/28S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "830388c5c8e0394f959c67e4e874b4afc46169a1bf209e6c23bd3bb5f6d8ab00"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/28S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b7c5497470b2f9bd628c72a390491aff2b54b627388ad8c7acde183fd62ab32e"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/28S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "465fc5e375f63b1d852c4470e38eb94e838d47d0142864aaaf26669464d0cb50"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/28S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "65e93a542823687fc538eee2b347cf952f3af6d46e6f84305ae81de4c181f531"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/scripts/design_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "0d77566661218d065bac32b5c3875f718615a741cb2e02d80b8f59b762199edc"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/scripts/independent.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/scripts/chemistry.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "18c3cb5a86edb0643ab512c9189d2a6e885ed31f79c78ea7b0a1f93e60d32b70"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/scripts/finish_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ee0bb1aceff66037fb6a54f47d236153dcdd3e6dfa6b25b9c01076fd8a831291"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "dd977caaf317761cea38c06294fecb4308432d01468cd4e086a84487e7593cdc",
+    "source_sha256": "871fa3e4144bd50307e51715818abb4203d4dc73c1d67fd0e1f8fa5333880591",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ea85921f6d7572d3f45c554da06ecd81383232d9a7c21c957d1d24fcd2b9aba5"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "668aa79b7b98f400c9f6bb0906de103dfbfef687a1a02cedbef4cb4c2cf82429",
+    "source_sha256": "397a3f541399c12234f1ccebee055f3352f6fa8a7616dcfe2ec5aa5313745179",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d82f2a1e41802e4a7c98b3d0c791b40259f71cb7c634023eb724d78e23a6d157"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6d7ab8dd1b0eb9d44ffa20095735785aa72be0688889b53fd7a5885ce940bd05",
+    "source_sha256": "e6b0ce53f387df93c2357d859e6ca8927f8fff23290ab4830980e560aac8433e",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d29eab036cf05bfb64f967c946bce54e5089d13823f2d3725154fef3eae7493e"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "0e3fb1cf0da651bf5a08f4fa476aa39d23acdc937da25d4ddd5b043903cd591c",
+    "source_sha256": "63f0ab4db0f5f7c0c0ea823ecdf910cf64e5eb88df7fc1ff3b6946f46ae319f3",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "aee10d2949ff5970973e0a4978132d7a6fa94a8f776ee13b3489f410ff3caac7"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "9c47b5a92ae28e537bba928cda1f1c34557614e6ec49f529b00ece159c104b88",
+    "source_sha256": "47f0fdc2697a6cc38107913d0e8d76d951d23822c60e43d7976066c77e8ccd04",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d5a15c34f255a74c6b20622a4f2be45d4083830b2e1a349d488951607c276785"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "def171e847e7a36c80264332f5204615743d585aaaf56c42f300d504de83c3f3",
+    "source_sha256": "3142dcbbb92a21138dd9d5f8a52d0ad0ec9bd5a0d443f984fc4f3e7ccde428c0",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Glyceriformia/Expanded/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "48c172d5640669f82f1dc45258bc471c221a63e3f2629e6d55aac8863cf17582"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/16S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a6d08462c829efb8368b3e8c661e0a7e71e876423786823ea81db750d3364ac5"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/16S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d7aa82c3b79b5c5f286a3a6baaa327c1d02c39f1d4d84e808c5dcfe78d3c8544"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/16S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "b95affb5b694cecd80339770fb89bb2acf3a87ad0a8fe69e99f42c536f405df6"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/16S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "fe44b8efad241db5805106a9cc9cf33b45420d4338358652c5c1fc4f9a7a9e92"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/16S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "47cbc492b1515724ec23ee6312bd771190350b3eaaf0290dab105691d5e0797a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/species.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "88fdd72db0b7b71c7c413b6969aca6317aa664519bdde965fea07dba1a143cfe"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/primers.fasta",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "277555b636948c355526b77c7acb7b9633c7968568d337262fa852a17110709b"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/search.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6e5aa2682dcb018aeabed166c6196faa86421cb6cd6b466596b43b864845482f"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/families.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6a7b37a791a818392b009372f9009c1f2c351d249c802c1e8afaaf91262011a5"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/results.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "74d73682e1a75ab03f358156d03a157e6c424c70954eb82a2310c5fd3f1ac266"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/alternative_objectives.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "2d9028b0bafa3ab492cc406be3a40615c2c7cf4c5e4390f7a2e1cdc0dd27b36f"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/species.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a408e2134dfa8c9e722a413603d1d77de7ed82dfa98f8de231c0b7de6098c8e8"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/primers.fasta",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "229245038716937934d90b6a633758cafcce13369d84a6df6a150f62afffc851"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/search.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a657721773574aea5d312c9c4e1050bc04d66d88d2a32ea0a3d0d1e1cec1636d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/families.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "775bf9140753d1b5aa0b4cc0f73db72333910fb6d5640d28d6d077213969ef75"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/validation.json",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "46bba9fb876dd3f6c4244cac28b56f567103cfdddbb16e095606d7114fa163a2"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/results.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ee11e9e3c270e63ebb19628c22483ab0287ec4a099ab913c3b5d2323dc1a4072"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/background_groups.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e044f12e062c92860ed276723ec41ebd93a24fe9d7b41fd09c87dc76c1d37e61",
+    "source_sha256": "07227651c47438f4d3bea8eb672a76abc6caba7e954115b9cf66be6007c304ac",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/alternative_objectives.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "dbdc7e762e01172f489644a5948d0b86aa419b26808e36ee36ff2781c59c9642"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/28S/target.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "94eed37c1ab7ff3d0e97ae98d6ff531cdfae8a5c05809e1017e848eac8912321"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/28S/aligned.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "98c16c482c2e1b6174810494b02225f0095fc3c951b73e32b4ab674436d68d2a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/28S/background.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "86ab1ff843600a29240e1bd0892e4d3c260599567cddfa64a3a3f26cf7589fc6"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/28S/target.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "4cb87e5c643df7819b5fa9144f103f0ee290e0bed05ba01b93dd5f1e01a4eb38"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/28S/background.fa",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "4970f249a5069bd3992c5e091469d19a87fd38a9515f8c8e67b03b6514f19ec0"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/finish_round2.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "9981124cbb22b59e91018cceb442aacc6b4e360369c15ee17edcd0e0de837a49"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/design_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "0d77566661218d065bac32b5c3875f718615a741cb2e02d80b8f59b762199edc"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/independent.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/design_round2.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "4272ebd73c93a441e5077541a536bdabad129750171731b76aa1e6f7e37fd480"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/chemistry_round2.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f4578fac84c5070f3c159e3d8acb23c5573d9c25d8aa97bc82d894807f3855ff"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/chemistry.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "18c3cb5a86edb0643ab512c9189d2a6e885ed31f79c78ea7b0a1f93e60d32b70"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/finish_expanded.py",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "3bef47dcec40c8cf84a9b844c1c99e8033239a071ca6911c32b8140c4e8a9e86"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "596e7d51de323c3f9736d666377902ef3d5137e8fd30d457ee729f0b9a8adbbc",
+    "source_sha256": "dc8adbd167b1afa7a980f3a5e434536dbac764bcb0090f9181664a09cc4c7ea4",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "1f137f1722b4a65e303675fff83edddf80a4a567ec38779584482f48fa2251c8"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "811631ec0c1e12fd1584d56253d727be8c34a48c436c82adf863dd0e1ddbc5fd",
+    "source_sha256": "8b22dd49499cf4fca5e4ccb0590b67b02b884cffb4935975606bb2d694d36bfb",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a6fef5e1e3f23c6142565f3960c73d4f803968800f781f848ee1d9c6029f44ac"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "4a889bbf71655b304ae070becf1b5077f614ca8d97fe9963eb29f0f8b8dda66c",
+    "source_sha256": "b91f0b155e22bedd057834a74a8f9cfd701791a26a7daa9fba69b98643174c5a",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "eae5f87adf227b2ffbf868c83870b9bb42d494311f87d2c3f1d786b9cee617ee"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "ae0911c98def4b36515e092ee7ee29663953ff8bac9bbf5624e68cec731ca80b",
+    "source_sha256": "919f135998607e3412ed95ad938667e6643c46da13e0ab2a8c0fc103b7f05d12",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f1efb27686f5f4e8a4011a98be4dbfbd89e7a2bf9f51175d76cd419b9aed1fdf"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "bc417d70a814270ca2d3328d05575e204d607c6c1bbe85f8c7c429b3986d86e2",
+    "source_sha256": "83bcde0d6b8026e46052040d42cba6bc2aa9499eba61b2c7e26497820346387f",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "32dc309bd95c03b92aa979b4b67d50bc15325df19e22c98be6d5a1a155443a6b"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "dfdc4824f23ff0ef881b7ffef3d8afe8b50258e59a90c0afc06382a355fb9cf8",
+    "source_sha256": "e2847808327c8e98bf226d76aa72e1a527325fac64ed8d49d0fa507759b65901",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Expanded/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f49ee5ef73cf7d575c52c0ee4179dae418936bcaf63978e48455169f79d24638"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "7e92b8442f45e6215dbbff00a2b836df85d8f1c5c845a2328efa33816a8cd506",
+    "source_sha256": "7badc818b25caff17ba2a16ba3d1e1b725d71ed299ea9ad4162d27ec1244dabf",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "15d2e83719175d68ee93f3876cf04a7cec925b1b2e1cc1816aa302152248806b"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "a824d52f9b8ba46e1766898b1223732b9f41241f39925fad6a70fc7fdd5438cb",
+    "source_sha256": "eebf69ecc2042f734f1c3ef7073fa37869aa681981eaf29d6b717808d7dd6629",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "fc9980052dbff0e95adefd44bd9c1e32a3f16b380be1ea9674953de17c8125aa"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "2ae8fadeba47eca82025c472e0f60aacd6a41f76e511b4a7cbf210539d78f7ab",
+    "source_sha256": "e40027b934714841cdc3a27bd171e97588566f676962de3e3673cfe0151ea4ab",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "84d16ab9f89559cf232a32df318bbbd6f04ec5d14166718c8acbf8b66e42892a"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/S/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "8b04da299565b15fca9db2537ebd0faaf0d2b619e5042b669974e11f7e75a0f4",
+    "source_sha256": "22c6ad6b02ad411f8a03dfcd25007dcfa2a1bd6e38dcd3014bbf33e38ce27440",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "9b9cdc7adc4a4a3a51e0ea21ea32c4ec124eda15d51239508965fdfef64a24d9"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/M/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "75d19a2c2e77231a40537c12b549527f09337d7ae137e30a1d4a16fb3d2c42b6",
+    "source_sha256": "49f118022889c9c83e570c8afe4c3d2d0c3760179fc3ee8be4bba8d361c961f2",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "e676849ced1428ecfc41290eebbb5874e119120a63ae624cd04eb827336ffbc5"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/L/screen.csv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "f33495b9f55df882e7c3729f1f6a748f9c597a93e0f6f3df060d89721a2883af",
+    "source_sha256": "71dfb6935f3e864a6fadeff48e2d0fc7e9bfd3149e23dfe8acbd6c414cd82eb7",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_suborders/Nereidiformia/Round2/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_suborders",
+    "sha256": "25e9ce76b2f479323b0b37775ab6a6d36d341d54f5607cd74afb139acd5ee3d4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/controls.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c171d502e6aab988eb47f8a5a203ef33034053e122eb7258e3b0ff105180eb8e"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/run.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d4bc819832eee3963e6472b17a1cd6fa4fa0060f2425cc5ef7927a21787dae04"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/finish_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "84541dc236596d3b592dc570140b122b173818a2a420219b0bdc3cc3108fe2b8"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/diagnostics.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "86fe64be37eebe5f2f0ee575279d95e3240bc4efd628ffc44d6b60084a714a3b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/panel_audit.json",
+    "source_project": "Phyllodocida_families",
+    "sha256": "5b7edeab016d89d74410e4ed003bccb7dc6dc6cee737509ffd94e7cfda3a8603"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/reference_summary.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c5eacbb73d6614f1f0e6d7d3704bfb554ae5673549c6c23e6da01bd1b2e3297b",
+    "source_sha256": "cd4f9ac75e6ad58685d10a3d24c5ddab2bdd1bbd110a3841ba1a7ea738c37399",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/screening_diagnostics.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f27e9e5684b47b3baf7db6a2b256b9cb656d17b2718c18872de4e81eb6b06a06",
+    "source_sha256": "aaabc6544883bcaab2a27902052c23efa6ab6f90081b588190ca9fdaddaf1fdd",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/genera.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f02fd81c2aefcae7728d299e2cc9af5497c6361826ce96f9bed4f2b5befdcacd"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6f7f3ece8bcabc4b1bb83ebb88e06646b1b16b1741a72578bdb23c99d918bbca"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/preview_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3b87e209f4e988790c99d2fb8400f444c38da9d8e63ba99a0e57296d87842b7b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/validation.json",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3922ce8f3a3c4cbdf2b2a39374a7cc2bd8dd60ccf174e032c49ed96866dc2731"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/refine_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "84a6f4657cd0fd3d317f4689da50bc7a54fbc5ea8f5a7acfaad3b54b96a1c9e5"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/run_hesionidae.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8c61b3884ed2c93d44e8e7e744832cc0dde98b44e7027e3cbb941e01d432643a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/report_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f498424aa7d623bd337f66f2477b89b19f7b3f9ffd7903d2a3f5938e434af141"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/run_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "09caca1dadb4372ae6082fd08c44a5872e8a02ab108fbc5ae61a6fd336102d55"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/results.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8654e96bc1bf12a50a7824941b121d4a2bc935c79e64024d692a170439e8fb32"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/report.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0ef53d28aeec5328bee749a22bb003cad2fb249b8d28b2e47ccbc5c0b5cf3159"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/prepare.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "5c4adb614b89a782fe3e1950fd1cc6d51f207bcf1d01772e143d5684152df77a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/reference_coordinates.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6950c0de3f131d8fc605f8a70e3bdbcf0275fa2f451f159cc69d9ca8a61e25e4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/background_groups.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3975096aa9695b03f40b9e32d0476c7ed10b7f743a2a7ce82145ce30c11e4d30"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/species.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "656a0c8530cbb0b6f45b80eaaa53a4ee33cc547f862837cd445f5da8747878ee"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/coverage_primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f7a50e30a16953acacd04e04f1274dc338a8f42c6262baab9cec71884f209a14"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/search_summary.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2f35bbcf7b63cd79bd1f9096c4b77700cf903c8dd2f62b650413da008a5ae72d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/search_configuration.json",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f1c97b97dabd0c33faeee113e1ec23a76482f80b7404cc075379f2daae5c7787"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/exact_primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c7bd992ee149ab79cae759d9b7e8b7e424d178a33bc09524fb058b8d0692431a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/genera.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e51e069bf5cf431ca2c3e124574efe36c3d7f5c37d8797a4f61ffb4cc13cf97e",
+    "source_sha256": "a06555bd3608b34835675f8c8c574c255cb333c7f640e4365591da720190bd1f",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "5d79da5dec810205521d6d46d183046081d5ad0acfe576664b3e0f32e5859249"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/validation.json",
+    "source_project": "Phyllodocida_families",
+    "sha256": "38c5d5aae53341ac873e8a70abf3bbc6cff1d9205406ab128318deedb6ed0445"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/results.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2acabae673529ab0e88055803cea036a4bde25ae99040f45ab9d8b2be36fd148"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/background_groups.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c640c3bcbe0f807357e4238ab9f32635613070fc9d59a26c5c7623e657281ae6",
+    "source_sha256": "81e694b91c14e64e6235218f8140515193e3f436d1f7641fdce07619a1e6e455",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/strict_profile_primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "9c5f68357ae2752f4120f2f8a1bf62bccf9bbc8b7a287319fba3c74f7b4092a7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/summary.json",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1f4aedbb4cc9d1fd435ed19afd28a47ab2c87d4c9e3c11f558e44f259309bda7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/mismatch_positions.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "81578b4220fe973c07101ede738b5bd6e56c8f6880e474d9262e4bd4091bdaf2",
+    "source_sha256": "fa806e4771b5ab597d618cdadf87cfa2afcde3b6fa5f86d5e31d46582b260609",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/audit.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c6fb11fed99fd4e95c6b0b536c894fe44ca15dd05dfe4ba736b9ea2abc8c2086"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/hits_1007.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "579f6fde6b6e9f3882d06014051e8d41884ea6e0605ccfed0ed0c47a1648b85c",
+    "source_sha256": "ea3302b84dcaff410504c385c96a7492a9bb4b379230c69bda999ae23b61a067",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/all_WC_products.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "21543dee83a3d8e3f11b75aece8db5870a8f28d9eadf511dd3d09c1bec3a5b78",
+    "source_sha256": "95c6bd5f14a0afc5ea0aff8b3bea7d2e871907279d5f97f8e66fbb408f7b62b9",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/taxonomy.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6c5cc8075350a85e717f81d6fa956c91020a678bddbe79d309fdd23649b501a3",
+    "source_sha256": "25e4688c9e3c852d4da41a848ed7bba17c6439ab9fcef2e73383608ccf0d3d24",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Optimization3/Syllidae_SD_audit/threshold_sensitivity.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "71135c67a7b891270e27981318a79e5c44c813b353d00f2ab94d566837c45a82",
+    "source_sha256": "c38ae60a368be2ed4616c798ca907feee82c11457fe73a147a2894d1aee90f89",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/16S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "46828a158102d796bfad51d526819c06e31791f24c7d863a259ef6968c0a998d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/16S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7c1cd30dbf1344effd86463e2d3263802e87deebc0c0f6e84ee558353a014354"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/16S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "fa8393a0b4ff53ef883e9ee920341e728d07b0e81467963f1ee2ddf342518889",
+    "source_sha256": "722a1bc300511b3b9df1aba5de8bfaa24ca3e5214dc557034a99e189fe8d60ec",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/16S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "bf279efbe424a956c7cb1b357495893db883536b71819de36943f5b047fbb537",
+    "source_sha256": "a7b992e1debeaf5b0b46f198e6f07244877f37248e43408a623578ffa73a6275",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/16S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e8a15a54bb4247de1f425292c0449fc3899563bebc6a1f201ad9149fdca12c79"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/species.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0a06a7536a049b183491bd964c41679b4008b834154c44992d3aef163121f668"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e0b7926283359a9710eae867d281e2e8b244cc2f7501269ba99525375b17c97c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/search.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0392927454fbfe2f0909bba5398c970e0c392fe505631d4d97c4023a44b841e9"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/families.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0c59ebff553a0afd0d4c610cfd61b544dcee5d6c73453cea7688fb9155888924"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/results.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c50616753c875f6b7f3d45080b9f7650b480968515d5cd84c333aa2d594e2209"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/alternative_objectives.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "094e473cab9e76b78bc48c68beb8d547fe27958b85f112d1ecac35de255cebfe"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/28S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "52f5f1897ac82435944a72ea50f96df9de739067d33c4adef1fc404683e5e148"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/28S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "91928eed9f2c773b838c1a79e9e6d5215cbbefd3738f43b82b14e031b336e694"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/28S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f9af00b4e2d1c1b3b01932fbc79134bc064c35f00ab84dd90a40853f7bebf054",
+    "source_sha256": "8a7f9a1e8678d0a1311bba4f3a61056d3b5ae2fdee70c96344530d51c62d8acf",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/28S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b0ffab9e7a27a2a5d9e5ac8b953da5992289d8d0f4366f02ee9650f0b54c9bb4",
+    "source_sha256": "77e315e71d02063210f83826d59d1595c432f788a12f41af0b0065069b7f3779",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/28S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1def3c4430d35af24100a0fa2a2d449ce0cd6fe92cd06873cd0474369c1cafda"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/finish_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7004eb9d1da71280f88d2eaf5ad1b40aef25883971f263e284e72f98d87b92e4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/independent.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/design_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4272ebd73c93a441e5077541a536bdabad129750171731b76aa1e6f7e37fd480"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/chemistry_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f4578fac84c5070f3c159e3d8acb23c5573d9c25d8aa97bc82d894807f3855ff"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/design_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f0b2a9addad7d544b5c2676e863674511fa453c38d8a90e13b82911643eb344d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f5168ee836dea39104672d614ec5cc01010d8db6bdc7c885584dbd22954a22fa",
+    "source_sha256": "d29061816697b93c073c16bad4e8b282bbe06f95494b0307754fffdd67898d10",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b3871d8aeb5b11bd419cf0b801f2de2750d413def3c6b9b5396a082285a55b0b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "880aca0221bae441a4ff6ede19877406cd7b8fa21e97235ad24f6fa699b233f1",
+    "source_sha256": "765adfddda5a1c0472f71dd54701b79e8bfaef87647140d69c376f16316078ab",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a7df37ffc15f675076ac69e3310d8a2d00accdc26fac423d8de19cb381fe8e7a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3d0e0cc20ed26c0fd141fdf9bee5cfc097070e4cac527020377b8ab257764c2a",
+    "source_sha256": "7164e36b95774f6204ca9c27c1866d8c8ab0b64363f87748d8e37604f1229570",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Expanded3/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a23652c45a4212bf88867b17355650d86e206217793f4b4f909d4b2327e66911"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4f893058bf88ac01eb5055d53f10be74728c6bff28aaca93ef1a6dbb1737eec4",
+    "source_sha256": "213081a4eac4764105e2e33f6ffc4e29df99da5b7ea75cad23fcac714f129bf7",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8a4e3798fc18535eade7541d0378a4b7386ae5450324a8d3c10e29176a97d635"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1ab7a219b13b654a2683c337466b3d1e67d06ba73677e726f143048fcedb663b",
+    "source_sha256": "86e73e2d34c1907c3e9038422f469964f7e582abc44e329b1ced38be7c88a33b",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0dcb2f8d6b5fb7d0681a8ee58b2ab750edbdb5fe955d24754f3639931b4217e1"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1a9d7201f16e92af854c44fb2e472c2b086b0acf1e2120fb5cec683435e144e0",
+    "source_sha256": "53aed381e177bcdd283d7667db506c4551057095946169007d32fcf5a62fb39c",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "31ee14e25c35881f7ca8e3a03978e8fd3a11b4f4f886f04d2aad52e7ba9857d3"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "bcfe4a02a8470c8bea0535562f8fb7bc35188d2ac099017096db0ccdabf63d0b",
+    "source_sha256": "73841f5ab765ccdd3e5d51169dc558baf35717ba0cf0dab6395c18591167741c",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d5e865a30a991ab173e24793d11777904779012e4360bb6cb185e59993d24806"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2ab3de565dac311172df5cf5294dbf18bda27a90305831bd8f5dca2c2e8f083f",
+    "source_sha256": "7428a24a9359ca84e97e6dc2b003d9c1854a47d1ad3f92b25bf5e8187df70bff",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "cc4ce89e581fb290b48f7ee9cbeb61b637607fa044e4a310c24e6e7f8066de08"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6e39553a2f3a14359441a0a9b1ce34269c2696275fdd8de7cf8f29171f3ceea4",
+    "source_sha256": "4dfe96baa782a1e498904b9249084c8b1729bb6960d0b6a09804797352fc8b40",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Round2/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "9837d1202f399a58388136951bc0fac40e2bab5cea3bb2eff89002e1b72099e8"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d7aa82c3b79b5c5f286a3a6baaa327c1d02c39f1d4d84e808c5dcfe78d3c8544"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "98c16c482c2e1b6174810494b02225f0095fc3c951b73e32b4ab674436d68d2a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6bb7885fe18c2ab600994ab8b658183662a1fb5be6189df3fee7867a8752a454"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2ecc76b440b17fdbe59480bf127c930337875aff4dae3a417bc7bbc90b692d36"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f8916202087b5e392b7e11c79c6f4c39d259564def0191591d186cc5cbca2084"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4e8058e1b8d7f577de2c841c0869f488eb7b177d94596e96cacfdea1163c7dc2"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "fb2ce7ebc7e527f29fdaa37274d0807ab8ba8c43c4c375e395de5c491eb128a1"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b000aa419b5a87d7cb0c4125f84fb9f00ece33e1319612f4e18aff9ac128bf6f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "46b7b7fa2886ac162cb3062e7fde6c18f813859d84d8a0e952c5e2ec89edb157"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3188f0c38f48898e9157283652e79f3471cd4fbe0ee61764c54f36350cf8564b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "da8fa16c688beba44bf296ce2cfef1819b177350bdb0b014662b8caca752d8c3"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6c0071f0661f25df77ec8510538de78ff8f25e2767a3d06d4d2e06c61f7947a4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b1cff2ab71dbf1ce051c44c40ad0e064b6195b2ec8b46833785e946c635f22a4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Controls/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e0f9154a35b7a594f341557ef22413c8e95da9f7c97ee34028cd758f102c0ab7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "40bce98e798ceb9473c7ad2d2308d15d6ece99553239402bc424fce419aad96d",
+    "source_sha256": "4427fec3d98b792e191df6ff8884078f42e92bfe4e7573b4f2aaf102f5746e06",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0d5af87f67042d889bb2207282f51caa6d38cbaf12b673e55c1f28f728b3e102"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6789ca1728a499274eb53ba7a89d12c672ea24ef26d9f795f88ca9f2b550b8b1",
+    "source_sha256": "715169dc354da66a287b3b29848d34c5096c9db1aa79b78f5fc438924bb4010e",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7cf402a9822fbd08b105b135ba61814c22183715029e29fe491ca05e13a888d0"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b2b6ed83d2e9bedc848952758f59f7d301ad1f5628c66c89bf44a7471f153977",
+    "source_sha256": "13eb69d51968c9b3e432c5da6dfd82e40fbb68b86b4c6836ac82c215bb494cf5",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Nereididae/Refine3/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "59b849107bfefd51070ca47f0d986048e9d14e98be0c9e869e3170c7035c8197"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/16S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f0e5c887a7922b074639a5755977bee5cd737286fee8ee589d77b246594c1ca8"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/16S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "df884821ba361b9d648d92acede061c086cb84499c86210a4f4e873b498520f2"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/16S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "04cde0ed9507d3cb51f58850fcb48d6bc517842cefe02579ffd3efafcaf4e101",
+    "source_sha256": "5b2b4c85161fcf1a80b470dc66b1e2aaae6863d5aa5d9edc20bad032e04f5e1e",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/16S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2dbf6a25aad46f255ed55f6664652411cbf700ed9a9b080bcac64cda0590f98b",
+    "source_sha256": "2a7f58faa75c6b8e1bb0ca3150f0080db3051cfc253d80c3cca57482f366f159",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/16S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a61d135a3eb6a1991ab8fe1be1a910af4c425fedb3bc903595660c330b42faea"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/species.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e333562a0142d210521c2d11bc287cc89dc965c66a2527e00888c983e60eb287"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c4142e88a582dec1ef608db9701309ecf708256de3ec787161912465b0361092"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/search.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4ea37336f81b81e9e7421f5ccbae8ebc8fa53fac291b1163899ee48ba8522308"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/families.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "14d330aaee0207fe67752eeb32c23cd0ce5953276918255d5f37e05c9e0919ee"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/results.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "92f3c1729bbfe8921c7d6d56470c86f1e1854175acf816b6af33093fb349596b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/alternative_objectives.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "fe6ef2c9fcf7382340d8276e13ad18b241e7bcd57be5177c59f21766a688fd4c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/28S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "58554192ee662a9075408e8f59db198630a42581def5f60d7d825b83e60caff8"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/28S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "48504aa4904552762b454d8d8180d3436da15e5c4fff7b7bb2a61a244c5d5add"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/28S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a6a7030596b9c3790f914c29d21804e25107b6f02ebed33f4eed0c9ea0137906",
+    "source_sha256": "2721dbabbd8e28cce69f73218453805c70943b29581795964b13264c31924c9a",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/28S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7c725759b534f37d4c7d34b947d261117459f483fbf61bde1e72f80b7f1c1bad",
+    "source_sha256": "e6c5c319d17b83df143ec28113e667fd26ea5e6b0a6bdb0a3798d1744e0fd6b3",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/28S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "694057eab13cf689454dc5debf762f75e10a7c8e0cc8698536e4495bf6e3e25f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/finish_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "57f7361621c18f844f7cc6ea801847a62b89a330d631ed7bbb57473aa11a7228"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/independent.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/design_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4272ebd73c93a441e5077541a536bdabad129750171731b76aa1e6f7e37fd480"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/chemistry_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f4578fac84c5070f3c159e3d8acb23c5573d9c25d8aa97bc82d894807f3855ff"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/design_expanded3.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f0b2a9addad7d544b5c2676e863674511fa453c38d8a90e13b82911643eb344d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a4311cbcfd0fc8eb450f205048f0871178c21a47ec3f556aa7aca2314d4dd52e",
+    "source_sha256": "2db409fcb44a915c33387e6506ecc3ed232a33bc56140b7172b1f8670a3d940e",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "41665da7cf3a640315a0378a4d20e4018d77f758a19b0bda9b0cd81d7bd1f2df"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "56eca814c5505524a672743501aa129ea3a54efdc9a5aebb29adb69cf1a9469e",
+    "source_sha256": "257aef92d8ad52e5f69052ece67001bba7d4e83dff433c7b5d6464029c361898",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0df01ad2ef8ab0c57c0890f418777751a15ad80e844110a1237da96bcb435029"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c8d0080d265606e38712dceff775d7c16fe47c1755824e7193b2d3b39ad40784",
+    "source_sha256": "ec4adc30a27fd1151659d8d2340e1f16a8cee246049052a7f84a3372d2646f9e",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Expanded3/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "704dbf9f715b11135444288c1a200658282e7333e476837fb36fd3d7e0301906"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e642a8883b27b908b5884a105dbc81d5f071431b162a796992ef80d3a1dba2b7",
+    "source_sha256": "dd03c9b291947381a3aa0230b3b62ac1cdd4b708270a6c4930719d5dbbc24bdf",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "30c819b3791c6700cf1681125b1a371f3638f4a093c65a932f870a6a5be5283e"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1e5ab8b5def1d136f3d644ec17b2474d8ac50376177859b2296e6196c3c4cddf",
+    "source_sha256": "4182bdf1f04b2bd8965cc4b8ec348a278f703e5bf4bb595a6bf461c7a6cf2503",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7d3a3418d9d151c75af6393b9e94810971f47f1dce4294aa9e2233c998744300"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "75ba695602d24ffd3839801ba6b6794bcc9a672182de6be8eb13425664f3b337",
+    "source_sha256": "7767a93e16c22c217d4b138fee64f56cb4ba6d5a8273342d920779b4ed2ba72a",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8e887b545be5c6a2ad78d4f55659294e760a8510451af3d8fcedf6f2363349ae"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4343cbbbe1978d62f4660b3d13d82f4606d2b11d00fc82bf3f2f0ad265452ce0",
+    "source_sha256": "de289e3de87229a263c4a8a13e4151d2878b5013182718866111a58a1a27e2c1",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "84701452135208fc28e767085070032150da2179c084abfdb9957650676c28d3"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "42c4a32e3b8c3a9b231efc4ea9c5e17df04b2799c46f10483450f2068f66c0d7",
+    "source_sha256": "88824d76ad077ca43d3aced420d6a3bc0db8b1ce97dfcdd6373476b3483c70b0",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "125433fd0b52d68b8f399253e682c45e8a18001769f86ba85a0bc891c56c7b2c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4dc616b412a3ffd4c08b73d28b0d863ebd1eea3c5071866e0752f7bf1920f67d",
+    "source_sha256": "817b6c3e61b4cd6415fdee1b9eaa6a7140c04a00a80dc05281208e6cacc826ac",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Round2/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b48ea0a07d0afc82283e49f71b2de24d7db8be7510b24c92b0110969267f89cb"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d7aa82c3b79b5c5f286a3a6baaa327c1d02c39f1d4d84e808c5dcfe78d3c8544"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "98c16c482c2e1b6174810494b02225f0095fc3c951b73e32b4ab674436d68d2a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "99798031b3e68c2e3ee1c32733e191e0d832ebef48676850f140d329b5edb5e7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2ecc76b440b17fdbe59480bf127c930337875aff4dae3a417bc7bbc90b692d36"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d795cb28e24d0fdcce0ce2874c41f210372fb65fad4042efbc2c9ab3fb32793d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4e8058e1b8d7f577de2c841c0869f488eb7b177d94596e96cacfdea1163c7dc2"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "466483a73dea1bc19fc32fafbd11228624520a92f305c4df4ed53f88d1d22204"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b000aa419b5a87d7cb0c4125f84fb9f00ece33e1319612f4e18aff9ac128bf6f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "66cf5035097c81dbbd75b2973330c6d806b3f0819751cc104f4a83edd4567e8c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3188f0c38f48898e9157283652e79f3471cd4fbe0ee61764c54f36350cf8564b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "96966373b99ed742fa310ff12bc805127c3b6d59d5555f06633765a15e0ea58d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6c0071f0661f25df77ec8510538de78ff8f25e2767a3d06d4d2e06c61f7947a4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4c04843026952603a9799434bf68f9e6a60149e9befccde93c55ad98abf270de"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Controls/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e0f9154a35b7a594f341557ef22413c8e95da9f7c97ee34028cd758f102c0ab7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "ca48b15187b031a42f2512257a07b9eaed121eee28e397bfe4c9675b819791e6",
+    "source_sha256": "0f40c23882dbb48b71f51fe9fbda3a85eae7fd3f596d9e3d918cde64ca6d9e29",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3d657213bb135f140f50c13458d2a8233cf66c1469fb59dcd6de37828ca954b9"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "54237ce9261dab21864b71aedff91ea701b5aa8c6ee44852abee239cf862630b",
+    "source_sha256": "65981fafb89eb648f934c768427a623f2f45393409d27a366242dcd20df8ecf0",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "deddeeec25b5f6cc2bbccd660e7351ed787d163ba60292127449bda5c90a2045"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4e8b1264f0858579f56e75e2dbf41860c162c791f2fecc59c21307d3e9311bf9",
+    "source_sha256": "5e0f4b64c50abffd2e3590c00646a71629176b4a4f02b68f62619c102cf5b556",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Syllidae/Refine3/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d66b82670041d4a11e9018bcbb6d3b61a4e6e82ed2e4409fc9dedefc00cf2a9c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/16S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "226c3c366973723282927cdb1da6ffe04716c9f5683840f2f27766d8f8a80441"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/16S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4145d6c5344ebc2157fee495da9b8849789240f5756c29028d350bae470d5778"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/16S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "fc876d6835108ecbf110dc6d1ff2855417dd108ed45069866c434d8f03352ced",
+    "source_sha256": "bffacc3b7e9feda6d28beaee2efb185ee7e732ee5bd106ca69d39b8d8595135d",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/16S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4f829ee3aa91ec8d4ab95b7b50d514547f8027f9904ea47114572d65c10ff994",
+    "source_sha256": "93e054db9f913e0a384f69089c428112f40e7609fbc099a98ab662d5cfa0f282",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/16S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "31ff681a87837fd59670c1e7adfc98d62cab34263c7b41e35a489c41236191bc"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/species.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "28f7644fb7dc29ff255b91d19b88ff5283f464cf204b56673013064f5e4fd5bb"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/primers.fasta",
+    "source_project": "Phyllodocida_families",
+    "sha256": "595eb7f20b3e8b2b06af0b2fc1ee3f34bb43a369c039e5964a856ef33198338b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/search.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b3b71b2b1a1d0a62b07067c8deef756d587d9fd91621891dc84ba3f329f0a9a6"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/families.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "7f7e517d0fe913ccb5c18262d08daf15c1238eef096bb2dc853ebb9792929529"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/results.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b4c997e0c54ea916d4ac6480bf6d5e804b35d468902ddf11d83f17c4d4d84db4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/alternative_objectives.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "865474224f70febf284779b1386bbba2d4dc6b892f5bbccb8d61515d6a5f8a05"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/28S/target.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "96589aa04cd71624c50c53a82a67f6b84c18d8a3c3cdb3fe3c5feb2d24095c9c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/28S/aligned.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3e9f09c81ac9a2ced73049baa770d4024b64240da1ab55f128e85eeef0b060cd"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/28S/background.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "1036671422cde1f9b7646a8f6a181e3f2412666859ce533b2064283e4ca2e8e3",
+    "source_sha256": "270635118062b1ed42919ff1962e8f6e1b8753c3dbbbfa202bc63f6f9f6cd239",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/28S/target.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a65bfb8d4dd6cc8c57173a49dc35b7ee611b8033c2ea67379523ecb5db07d558",
+    "source_sha256": "dc2350cb926524d4fdca9838b1f4f5336eabd4914080bf6d6667e96e4059ddab",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/28S/background.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4f3b67b7c2422022de9af360736c2ba21ad80612af75b0b944dfddf7b006dfaa"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/scripts/finish_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d0e0e8ad005e71f58bf5ad662c1f5a78c65e4002d5ac67fdffbc1f02db9d8dbf"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/scripts/independent.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6441d27d54e05128bdb3fc7cb04fde5a2aae1f77201ca101658e1ec828d4d238"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/scripts/design_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4272ebd73c93a441e5077541a536bdabad129750171731b76aa1e6f7e37fd480"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/scripts/chemistry_round2.py",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f4578fac84c5070f3c159e3d8acb23c5573d9c25d8aa97bc82d894807f3855ff"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/scripts/raw_scan.cpp",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d43fb278247df6465c7d898d482205f2f9e4894162cf332f557752d621637c6d"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "0ac4d78ba69b5a9b3296e462fcb465ce2a41cf806522a09cea10e782241725d9",
+    "source_sha256": "f653faf140eb08953c40f490b3d9af5e6ebd8280b32c2f368ec544240012735f",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4730ad0d664ee67afd833a953e88b247293c4fdebff84825f6ca47e8a89c4a34"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8c1c44c500e7787602c900c90e5bc312b0a923faad3589675f7280f6eb7d454d",
+    "source_sha256": "89d6e963a051d660cb5cc9e391c0cd1dc11e2fffd921ebd90d24f216e1cd7137",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "8e0971d025ce0d8099685582c5cec47e11efc6836b49836b524d6dec48a55f6b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "02bd5c950a84fb22b6f88d8920984cc4d89a910181564c1032503a1f165bfa7c",
+    "source_sha256": "241e46b20a58725de59361bcbe8703fc9c437811254d97a13c89c99ac09ccbc3",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d6ef0d5a4bebc007241a34571487b142752f1e0c77b34368a070821019119706"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "056219041ee550b1c39fda4f7a0332213ec5e0f5ed5b7244b1c1f2df617e0bb7",
+    "source_sha256": "c1466a9bb8e75e3ba23291a7fe6ade883b34927cabaec45ddae513dc9195b27b",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "517588b8f4c1b9d2e89bc729812f82de349601bf2cb6f9ad2fd4fe136ac216c7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a0873f2c4d62d91efc6212213f3dea72416372649ebe47168bc70e1d08b61aac",
+    "source_sha256": "c631d210a43bb84c11ce3c83524743506a1cca5886d5efaac1f75a22029d15ec",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "dba7a552af008126454d8ad9717715f440a559c2565a82c9814f04d47a6d82e7"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "a7cf167ad92edad6339a2c25560d687a794cb60ab014a729bc5545e2b59fa03b",
+    "source_sha256": "6645d73ccc753ca54fd7f2fdfe14167d064fc4b23e0fb1cd5389fa78dfb6aa23",
+    "normalization": "CRLF to LF"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Round2/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "c3cc1aada971838707fca292b9a9cdf2c7d7400d601ddf6365a343b1eb9a2b5f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "d7aa82c3b79b5c5f286a3a6baaa327c1d02c39f1d4d84e808c5dcfe78d3c8544"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/coordinate_reference_alignment.fa",
+    "source_project": "Phyllodocida_families",
+    "sha256": "98c16c482c2e1b6174810494b02225f0095fc3c951b73e32b4ab674436d68d2a"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "beacc330be9c690de7c03fbe5ccadd078cd69e21a237155d871ecf0310342cef"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2ecc76b440b17fdbe59480bf127c930337875aff4dae3a417bc7bbc90b692d36"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "fcc5aa062e816f3d066b9c0825ce3cc1a222691ef7907aab7abf07b693637e6f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "4e8058e1b8d7f577de2c841c0869f488eb7b177d94596e96cacfdea1163c7dc2"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "2fcf326699e5a682f064d253e3863cdaf42ceffaa88b711bee33779308feb75c"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/16S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "b000aa419b5a87d7cb0c4125f84fb9f00ece33e1319612f4e18aff9ac128bf6f"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/S/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e2355118eea5173c4e40031707d5d4d10ce3b90a2b67619a19829ed8ddafa8b9"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/S/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3188f0c38f48898e9157283652e79f3471cd4fbe0ee61764c54f36350cf8564b"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/M/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "f0eae2cff9abd0d56946d63677437a1c51ff26595ec2d13e482e10e0122f9366"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/M/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "6c0071f0661f25df77ec8510538de78ff8f25e2767a3d06d4d2e06c61f7947a4"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/L/screen.csv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "3fd56d8e0e2fa96c896e4a7d2b78d4e83ec1c68c43c2d5d582cb56c9abf8c4a3"
+  },
+  {
+    "path": "analysis/Phyllodocida_families/Hesionidae/Controls/28S/L/independent_primers.tsv",
+    "source_project": "Phyllodocida_families",
+    "sha256": "e0f9154a35b7a594f341557ef22413c8e95da9f7c97ee34028cd758f102c0ab7"
+  }
+]

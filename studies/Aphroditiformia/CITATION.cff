@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this project's primers, data or analysis code, please cite this repository."
+type: software
+title: "MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding"
+authors:
+  - family-names: "Xia"
+    given-names: "Fei"
+date-released: "2026-11-04"
+url: "https://github.com/GUIBA-EX/MiAphro"
+repository-code: "https://github.com/GUIBA-EX/MiAphro"

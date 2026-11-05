@@ -1,0 +1,71 @@
+{
+  "primer_lengths": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "start_step": 1,
+  "degeneracy_per_oligo_max": 8,
+  "degeneracy_region": "3prime_half",
+  "target_background_hashes_verified": true,
+  "search": [
+    {
+      "family": "Syllidae",
+      "gene": "16S",
+      "band": "S",
+      "coordinate_windows": 3238572,
+      "full_combination_windows": 11366,
+      "scanned_windows": 3000
+    },
+    {
+      "family": "Syllidae",
+      "gene": "16S",
+      "band": "M",
+      "coordinate_windows": 2296329,
+      "full_combination_windows": 10995,
+      "scanned_windows": 3000
+    },
+    {
+      "family": "Syllidae",
+      "gene": "16S",
+      "band": "L",
+      "coordinate_windows": 1742312,
+      "full_combination_windows": 11037,
+      "scanned_windows": 3000
+    },
+    {
+      "family": "Nereididae",
+      "gene": "28S",
+      "band": "S",
+      "coordinate_windows": 8830770,
+      "full_combination_windows": 12432,
+      "scanned_windows": 3000
+    },
+    {
+      "family": "Nereididae",
+      "gene": "28S",
+      "band": "M",
+      "coordinate_windows": 6966006,
+      "full_combination_windows": 13342,
+      "scanned_windows": 2749
+    },
+    {
+      "family": "Nereididae",
+      "gene": "28S",
+      "band": "L",
+      "coordinate_windows": 7929706,
+      "full_combination_windows": 12975,
+      "scanned_windows": 3000
+    }
+  ]
+}

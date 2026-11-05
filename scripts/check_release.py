@@ -1,43 +1,46 @@
-"""Cross-check both READMEs, frozen panels, figures and exported primer tables."""
-import csv
-import re
-from collections import Counter
+"""Structural release gate for the integrated MiAphro catalogue."""
 from pathlib import Path
-from xml.etree import ElementTree as ET
+import csv,json,re,math,hashlib,sys
+from collections import Counter
 from Bio import SeqIO
-
-root=Path(__file__).resolve().parents[1]
-def rows(path):return list(csv.DictReader((root/path).open()))
-def fasta(path):return {r.id:str(r.seq) for r in SeqIO.parse(root/path,'fasta')}
-docs=[(root/p).read_text() for p in ('README.md','README.en.md')]
-for file in root.rglob('*.md'):
-    for url in re.findall(r'\]\(([^)]+)\)',file.read_text()):
-        if not url.startswith(('https://','http://','#')):assert (file.parent/url).is_file(),(file,url)
-current=rows('SML/results.csv');baseline=rows('baseline/results.csv')
-assert len(current)==12 and len(baseline)==4
-for sub,rs in [('baseline',baseline),('SML',current)]:
-    assert fasta(f'{sub}/primers.fasta')=={r['name']+'_'+side:r[side] for r in rs for side in 'FR'}
-for g in ('16S','28S'):
-    for role in ('target','background'):
-        meta=rows(f'{g}/{role}.csv');lib=fasta(f'{g}/{role}.fa')
-        assert len(lib)==len(meta)==len({r['species'] for r in meta})
-        assert set(lib)=={r['accession'] for r in meta}
-    assert not set(fasta(f'{g}/target.fa')) & set(fasta(f'{g}/background.fa'))
-species=rows('SML/species.csv');families=rows('SML/families.csv')
-for r in current:
-    name=r['name'];g,band=name.split('-')[1:]
-    path=f'figures/template_matching/{name}.svg'; labels=list(ET.parse(root/path).getroot().itertext())
-    assert r['F'] in labels and r['R'] in labels
-    for doc in docs:
-        line=next(l for l in doc.splitlines() if l.startswith('|') and path in l)
-        assert [v.strip() for v in line.split('|')[1:8]]==[band,r['span'],'`'+r['F']+'`','`'+r['R']+'`',r['covered']+'/'+r['target_species'],r['exact']+'/'+r['target_species'],r['WC']+'/'+r['GT']]
-    ss=[x for x in species if x['name']==name];assert len(ss)==int(r['target_species'])==len({x['accession'] for x in ss})
-    for x in ss:
-        idx=labels.index(x['species']+' · '+x['accession'])
-        assert labels[idx+1]==('Exact' if x['exact']=='1' else 'Hit' if x['covered']=='1' else 'Miss')
-    ff=[x for x in families if x['name']==name]
-    for k in ('covered','exact'):
-        assert sum(int(x[k]) for x in ss)==sum(int(x[k]) for x in ff)==int(r[k])
-    pos=list(ET.parse(root/f'figures/{g}_positions.svg').getroot().itertext())
-    for side in 'FR':assert f"{side} {r[side+'_start']}–{r[side+'_end']}" in pos
-print('PASS: Markdown links, both result tables, all current/baseline FASTA sequences, panel membership, binding coordinates, species-level figure outcomes and family totals.')
+from Bio.Data.IUPACData import ambiguous_dna_values as I
+R=Path(__file__).resolve().parents[1]
+read=lambda p:list(csv.DictReader(p.open()))
+rows=read(R/'catalog.csv');alt=read(R/'conditional/results.csv');assert len(rows)==94 and len(alt)==8
+assert len({x['name'] for x in rows+alt})==102
+verified=json.loads((R/'audit/catalog_rescan.json').read_text());assert verified['status']=='PASS' and verified['pairs']==102
+assert {(x['name'],x['profile']) for x in rows+alt}=={(x['name'],x['profile']) for x in verified['records']}
+for rs,folder in [(rows,R),(alt,R/'conditional')]:
+ seq={x.id:str(x.seq) for x in SeqIO.parse(folder/'primers.fasta','fasta')};assert seq=={x['name']+'_'+side:x[side] for x in rs for side in 'FR'}
+ details=read(folder/'species.csv');lookup={x['name']:x for x in rs}
+ for x in rs:
+  expected=f"MiAphro-{x['target_taxon']}-{x['gene']}-{x['band']}"+('2' if x['profile']=='conditional' else '')+('D' if x['variant']=='D' else '')
+  assert x['name']==expected
+  for side in 'FR':
+   assert len(x[side])==int(x[side+'_end'])-int(x[side+'_start'])+1
+   assert math.prod(len(I[b]) for b in x[side])==int(x['deg_'+side])<=8
+   assert set(x[side][:len(x[side])//2])<=set('ACGT')
+   if x['variant']=='ordinary':assert set(x[side])<=set('ACGT')
+  if x['variant']=='D':
+   a=lookup[x['name'][:-1]];assert all(a[k]==x[k] for k in ['reference','F_start','F_end','R_start','R_end'])
+  ss=[s for s in details if s['name']==x['name']];assert len(ss)==int(x['target_species'])==len({s['species'] for s in ss})
+  for k in ['covered','exact']:assert sum(int(s[k]) for s in ss)==int(x[k])
+  docroot=R/'conditional' if x['profile']=='conditional' else R/'panels'/x['target_taxon']
+  for lang in ['README.md','README.en.md']:
+   line=next(t for t in (docroot/lang).read_text().splitlines() if t.startswith('|'+x['name']+'|') and '`' in t)
+   assert all('`'+x[k]+'`' in line for k in ['F','R']) and f"{x['covered']}/{x['target_species']}" in line and f"{x['exact']}/{x['target_species']}" in line
+for x in read(R/'panels.csv'):
+ p=R/'panels'/x['target_taxon']/'references'/x['gene'];species={}
+ for role in ['target','background']:
+  metadata=read(p/(role+'.csv'));seq=list(SeqIO.parse(p/(role+'.fa'),'fasta'));assert len(seq)==len(metadata)==len({z['species'] for z in metadata})==int(x[role+'_species']);assert {z.id for z in seq}=={z['accession'] for z in metadata};species[role]={z['species'] for z in metadata}
+ assert not species['target']&species['background']
+for p in R.rglob('*.md'):
+ if '.git' in p.parts or '.recheck' in p.parts:continue
+ for link in re.findall(r'\]\(([^)]+)\)',p.read_text()):
+  if not link.startswith(('https://','http://','#')):assert (p.parent/link.split('#')[0]).is_file(),(p,link)
+for x in json.loads((R/'analysis/source_manifest.json').read_text()):assert hashlib.sha256((R/x['path']).read_bytes()).hexdigest()==x['sha256'],x['path']
+assert (R/'figures/catalog_coverage.svg').exists()
+if (R/'SHA256SUMS').exists():
+ for line in (R/'SHA256SUMS').read_text().splitlines():
+  digest,path=line.split('  ',1);assert hashlib.sha256((R/path).read_bytes()).hexdigest()==digest,path
+print('PASS: 94 current + 8 conditional pairs; unique names; FASTA; same endpoints; degeneracy; panels; bilingual tables; links; source hashes; independent rescans.')

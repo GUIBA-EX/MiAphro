@@ -1,0 +1,325 @@
+name,group,total,WC,GT
+Syllidae-16S-S,Annelida,955,0,1
+Syllidae-16S-S,Arthropoda,384,0,0
+Syllidae-16S-S,Bryozoa,14,0,0
+Syllidae-16S-S,Chordata,64,0,0
+Syllidae-16S-S,Cnidaria,774,0,0
+Syllidae-16S-S,Echinodermata,999,0,0
+Syllidae-16S-S,Mollusca,147,0,0
+Syllidae-16S-S,Platyhelminthes,2,0,0
+Syllidae-16S-S,Porifera,1,0,0
+Syllidae-16S-S,other Phyllodocida,335,0,1
+Syllidae-16S-SD,Annelida,955,0,1
+Syllidae-16S-SD,Arthropoda,384,0,0
+Syllidae-16S-SD,Bryozoa,14,0,0
+Syllidae-16S-SD,Chordata,64,0,0
+Syllidae-16S-SD,Cnidaria,774,0,0
+Syllidae-16S-SD,Echinodermata,999,0,0
+Syllidae-16S-SD,Mollusca,147,0,0
+Syllidae-16S-SD,Platyhelminthes,2,0,0
+Syllidae-16S-SD,Porifera,1,0,0
+Syllidae-16S-SD,other Phyllodocida,335,1,1
+Syllidae-16S-M,Annelida,955,2,3
+Syllidae-16S-M,Arthropoda,384,0,0
+Syllidae-16S-M,Bryozoa,14,0,0
+Syllidae-16S-M,Chordata,64,0,0
+Syllidae-16S-M,Cnidaria,774,0,1
+Syllidae-16S-M,Echinodermata,999,0,0
+Syllidae-16S-M,Mollusca,147,0,0
+Syllidae-16S-M,Platyhelminthes,2,0,0
+Syllidae-16S-M,Porifera,1,0,0
+Syllidae-16S-M,other Phyllodocida,335,0,0
+Syllidae-16S-MD,Annelida,955,3,13
+Syllidae-16S-MD,Arthropoda,384,2,6
+Syllidae-16S-MD,Bryozoa,14,0,0
+Syllidae-16S-MD,Chordata,64,0,0
+Syllidae-16S-MD,Cnidaria,774,0,1
+Syllidae-16S-MD,Echinodermata,999,0,0
+Syllidae-16S-MD,Mollusca,147,0,0
+Syllidae-16S-MD,Platyhelminthes,2,0,0
+Syllidae-16S-MD,Porifera,1,0,0
+Syllidae-16S-MD,other Phyllodocida,335,1,3
+Syllidae-16S-L,Annelida,955,0,0
+Syllidae-16S-L,Arthropoda,384,0,0
+Syllidae-16S-L,Bryozoa,14,0,0
+Syllidae-16S-L,Chordata,64,0,0
+Syllidae-16S-L,Cnidaria,774,0,0
+Syllidae-16S-L,Echinodermata,999,0,0
+Syllidae-16S-L,Mollusca,147,0,0
+Syllidae-16S-L,Platyhelminthes,2,0,0
+Syllidae-16S-L,Porifera,1,0,0
+Syllidae-16S-L,other Phyllodocida,335,0,0
+Syllidae-16S-LD,Annelida,955,0,2
+Syllidae-16S-LD,Arthropoda,384,2,6
+Syllidae-16S-LD,Bryozoa,14,0,0
+Syllidae-16S-LD,Chordata,64,0,0
+Syllidae-16S-LD,Cnidaria,774,0,1
+Syllidae-16S-LD,Echinodermata,999,0,0
+Syllidae-16S-LD,Mollusca,147,0,0
+Syllidae-16S-LD,Platyhelminthes,2,0,0
+Syllidae-16S-LD,Porifera,1,0,0
+Syllidae-16S-LD,other Phyllodocida,335,0,2
+Syllidae-28S-S,Annelida,760,0,0
+Syllidae-28S-S,Arthropoda,41,0,0
+Syllidae-28S-S,Bryozoa,89,0,0
+Syllidae-28S-S,Chordata,58,0,0
+Syllidae-28S-S,Cnidaria,658,0,0
+Syllidae-28S-S,Echinodermata,314,0,0
+Syllidae-28S-S,Mollusca,89,0,0
+Syllidae-28S-S,Porifera,76,0,0
+Syllidae-28S-S,other Phyllodocida,274,0,0
+Syllidae-28S-SD,Annelida,760,0,0
+Syllidae-28S-SD,Arthropoda,41,0,0
+Syllidae-28S-SD,Bryozoa,89,0,0
+Syllidae-28S-SD,Chordata,58,0,0
+Syllidae-28S-SD,Cnidaria,658,0,0
+Syllidae-28S-SD,Echinodermata,314,0,0
+Syllidae-28S-SD,Mollusca,89,0,0
+Syllidae-28S-SD,Porifera,76,0,0
+Syllidae-28S-SD,other Phyllodocida,274,0,0
+Syllidae-28S-M,Annelida,760,0,0
+Syllidae-28S-M,Arthropoda,41,0,0
+Syllidae-28S-M,Bryozoa,89,0,0
+Syllidae-28S-M,Chordata,58,0,0
+Syllidae-28S-M,Cnidaria,658,0,0
+Syllidae-28S-M,Echinodermata,314,0,0
+Syllidae-28S-M,Mollusca,89,0,0
+Syllidae-28S-M,Porifera,76,0,0
+Syllidae-28S-M,other Phyllodocida,274,0,0
+Syllidae-28S-MD,Annelida,760,0,0
+Syllidae-28S-MD,Arthropoda,41,0,0
+Syllidae-28S-MD,Bryozoa,89,0,0
+Syllidae-28S-MD,Chordata,58,0,0
+Syllidae-28S-MD,Cnidaria,658,0,0
+Syllidae-28S-MD,Echinodermata,314,0,0
+Syllidae-28S-MD,Mollusca,89,0,0
+Syllidae-28S-MD,Porifera,76,0,0
+Syllidae-28S-MD,other Phyllodocida,274,0,0
+Nereididae-16S-S,Annelida,955,0,0
+Nereididae-16S-S,Arthropoda,384,0,0
+Nereididae-16S-S,Bryozoa,14,0,0
+Nereididae-16S-S,Chordata,64,0,0
+Nereididae-16S-S,Cnidaria,774,0,0
+Nereididae-16S-S,Echinodermata,999,0,0
+Nereididae-16S-S,Mollusca,147,0,0
+Nereididae-16S-S,Platyhelminthes,2,0,0
+Nereididae-16S-S,Porifera,1,0,0
+Nereididae-16S-S,other Phyllodocida,454,0,0
+Nereididae-16S-SD,Annelida,955,0,11
+Nereididae-16S-SD,Arthropoda,384,0,0
+Nereididae-16S-SD,Bryozoa,14,0,0
+Nereididae-16S-SD,Chordata,64,0,0
+Nereididae-16S-SD,Cnidaria,774,0,0
+Nereididae-16S-SD,Echinodermata,999,0,1
+Nereididae-16S-SD,Mollusca,147,0,0
+Nereididae-16S-SD,Platyhelminthes,2,0,0
+Nereididae-16S-SD,Porifera,1,0,0
+Nereididae-16S-SD,other Phyllodocida,454,0,0
+Nereididae-16S-M,Annelida,955,1,3
+Nereididae-16S-M,Arthropoda,384,0,0
+Nereididae-16S-M,Bryozoa,14,0,0
+Nereididae-16S-M,Chordata,64,0,0
+Nereididae-16S-M,Cnidaria,774,0,0
+Nereididae-16S-M,Echinodermata,999,0,0
+Nereididae-16S-M,Mollusca,147,0,0
+Nereididae-16S-M,Platyhelminthes,2,0,0
+Nereididae-16S-M,Porifera,1,0,0
+Nereididae-16S-M,other Phyllodocida,454,4,6
+Nereididae-16S-MD,Annelida,955,2,5
+Nereididae-16S-MD,Arthropoda,384,0,0
+Nereididae-16S-MD,Bryozoa,14,0,0
+Nereididae-16S-MD,Chordata,64,0,0
+Nereididae-16S-MD,Cnidaria,774,0,0
+Nereididae-16S-MD,Echinodermata,999,0,0
+Nereididae-16S-MD,Mollusca,147,0,1
+Nereididae-16S-MD,Platyhelminthes,2,0,0
+Nereididae-16S-MD,Porifera,1,0,0
+Nereididae-16S-MD,other Phyllodocida,454,6,8
+Nereididae-16S-L,Annelida,955,0,3
+Nereididae-16S-L,Arthropoda,384,0,0
+Nereididae-16S-L,Bryozoa,14,0,0
+Nereididae-16S-L,Chordata,64,0,0
+Nereididae-16S-L,Cnidaria,774,0,36
+Nereididae-16S-L,Echinodermata,999,0,0
+Nereididae-16S-L,Mollusca,147,0,0
+Nereididae-16S-L,Platyhelminthes,2,0,0
+Nereididae-16S-L,Porifera,1,0,0
+Nereididae-16S-L,other Phyllodocida,454,0,1
+Nereididae-16S-LD,Annelida,955,0,8
+Nereididae-16S-LD,Arthropoda,384,0,0
+Nereididae-16S-LD,Bryozoa,14,0,0
+Nereididae-16S-LD,Chordata,64,0,0
+Nereididae-16S-LD,Cnidaria,774,30,48
+Nereididae-16S-LD,Echinodermata,999,0,1
+Nereididae-16S-LD,Mollusca,147,0,0
+Nereididae-16S-LD,Platyhelminthes,2,0,0
+Nereididae-16S-LD,Porifera,1,0,0
+Nereididae-16S-LD,other Phyllodocida,454,0,1
+Nereididae-28S-S,Annelida,760,0,0
+Nereididae-28S-S,Arthropoda,41,0,0
+Nereididae-28S-S,Bryozoa,89,0,0
+Nereididae-28S-S,Chordata,58,0,0
+Nereididae-28S-S,Cnidaria,658,0,0
+Nereididae-28S-S,Echinodermata,314,0,0
+Nereididae-28S-S,Mollusca,89,0,0
+Nereididae-28S-S,Porifera,76,0,0
+Nereididae-28S-S,other Phyllodocida,250,0,0
+Nereididae-28S-SD,Annelida,760,0,0
+Nereididae-28S-SD,Arthropoda,41,0,0
+Nereididae-28S-SD,Bryozoa,89,0,0
+Nereididae-28S-SD,Chordata,58,0,0
+Nereididae-28S-SD,Cnidaria,658,0,0
+Nereididae-28S-SD,Echinodermata,314,0,1
+Nereididae-28S-SD,Mollusca,89,0,0
+Nereididae-28S-SD,Porifera,76,0,0
+Nereididae-28S-SD,other Phyllodocida,250,0,0
+Nereididae-28S-M,Annelida,760,0,0
+Nereididae-28S-M,Arthropoda,41,0,0
+Nereididae-28S-M,Bryozoa,89,0,0
+Nereididae-28S-M,Chordata,58,0,0
+Nereididae-28S-M,Cnidaria,658,0,0
+Nereididae-28S-M,Echinodermata,314,0,0
+Nereididae-28S-M,Mollusca,89,0,0
+Nereididae-28S-M,Porifera,76,0,0
+Nereididae-28S-M,other Phyllodocida,250,0,0
+Nereididae-28S-MD,Annelida,760,0,0
+Nereididae-28S-MD,Arthropoda,41,0,0
+Nereididae-28S-MD,Bryozoa,89,0,0
+Nereididae-28S-MD,Chordata,58,0,0
+Nereididae-28S-MD,Cnidaria,658,0,0
+Nereididae-28S-MD,Echinodermata,314,0,0
+Nereididae-28S-MD,Mollusca,89,0,0
+Nereididae-28S-MD,Porifera,76,0,0
+Nereididae-28S-MD,other Phyllodocida,250,0,0
+Nereididae-28S-L,Annelida,760,0,0
+Nereididae-28S-L,Arthropoda,41,0,0
+Nereididae-28S-L,Bryozoa,89,0,0
+Nereididae-28S-L,Chordata,58,0,0
+Nereididae-28S-L,Cnidaria,658,0,0
+Nereididae-28S-L,Echinodermata,314,0,0
+Nereididae-28S-L,Mollusca,89,0,0
+Nereididae-28S-L,Porifera,76,0,0
+Nereididae-28S-L,other Phyllodocida,250,0,0
+Nereididae-28S-LD,Annelida,760,0,0
+Nereididae-28S-LD,Arthropoda,41,0,0
+Nereididae-28S-LD,Bryozoa,89,0,0
+Nereididae-28S-LD,Chordata,58,0,0
+Nereididae-28S-LD,Cnidaria,658,0,0
+Nereididae-28S-LD,Echinodermata,314,0,0
+Nereididae-28S-LD,Mollusca,89,0,0
+Nereididae-28S-LD,Porifera,76,0,0
+Nereididae-28S-LD,other Phyllodocida,250,0,0
+Hesionidae-16S-S,Annelida,955,0,3
+Hesionidae-16S-S,Arthropoda,384,0,0
+Hesionidae-16S-S,Bryozoa,14,0,0
+Hesionidae-16S-S,Chordata,64,0,0
+Hesionidae-16S-S,Cnidaria,774,0,0
+Hesionidae-16S-S,Echinodermata,999,0,2
+Hesionidae-16S-S,Mollusca,147,0,0
+Hesionidae-16S-S,Platyhelminthes,2,0,0
+Hesionidae-16S-S,Porifera,1,0,0
+Hesionidae-16S-S,other Phyllodocida,462,1,2
+Hesionidae-16S-SD,Annelida,955,0,11
+Hesionidae-16S-SD,Arthropoda,384,0,0
+Hesionidae-16S-SD,Bryozoa,14,0,0
+Hesionidae-16S-SD,Chordata,64,0,9
+Hesionidae-16S-SD,Cnidaria,774,0,0
+Hesionidae-16S-SD,Echinodermata,999,0,2
+Hesionidae-16S-SD,Mollusca,147,0,19
+Hesionidae-16S-SD,Platyhelminthes,2,0,0
+Hesionidae-16S-SD,Porifera,1,0,0
+Hesionidae-16S-SD,other Phyllodocida,462,1,2
+Hesionidae-16S-M,Annelida,955,1,6
+Hesionidae-16S-M,Arthropoda,384,0,0
+Hesionidae-16S-M,Bryozoa,14,0,0
+Hesionidae-16S-M,Chordata,64,0,7
+Hesionidae-16S-M,Cnidaria,774,0,0
+Hesionidae-16S-M,Echinodermata,999,0,0
+Hesionidae-16S-M,Mollusca,147,21,22
+Hesionidae-16S-M,Platyhelminthes,2,0,0
+Hesionidae-16S-M,Porifera,1,0,0
+Hesionidae-16S-M,other Phyllodocida,462,0,8
+Hesionidae-16S-MD,Annelida,955,1,6
+Hesionidae-16S-MD,Arthropoda,384,0,0
+Hesionidae-16S-MD,Bryozoa,14,0,0
+Hesionidae-16S-MD,Chordata,64,0,7
+Hesionidae-16S-MD,Cnidaria,774,0,0
+Hesionidae-16S-MD,Echinodermata,999,0,0
+Hesionidae-16S-MD,Mollusca,147,21,23
+Hesionidae-16S-MD,Platyhelminthes,2,0,0
+Hesionidae-16S-MD,Porifera,1,0,0
+Hesionidae-16S-MD,other Phyllodocida,462,0,8
+Hesionidae-16S-L,Annelida,955,1,3
+Hesionidae-16S-L,Arthropoda,384,0,0
+Hesionidae-16S-L,Bryozoa,14,0,0
+Hesionidae-16S-L,Chordata,64,0,0
+Hesionidae-16S-L,Cnidaria,774,0,2
+Hesionidae-16S-L,Echinodermata,999,0,0
+Hesionidae-16S-L,Mollusca,147,0,0
+Hesionidae-16S-L,Platyhelminthes,2,0,0
+Hesionidae-16S-L,Porifera,1,0,0
+Hesionidae-16S-L,other Phyllodocida,462,1,3
+Hesionidae-16S-LD,Annelida,955,0,34
+Hesionidae-16S-LD,Arthropoda,384,0,0
+Hesionidae-16S-LD,Bryozoa,14,0,0
+Hesionidae-16S-LD,Chordata,64,0,0
+Hesionidae-16S-LD,Cnidaria,774,0,1
+Hesionidae-16S-LD,Echinodermata,999,0,1
+Hesionidae-16S-LD,Mollusca,147,1,20
+Hesionidae-16S-LD,Platyhelminthes,2,0,0
+Hesionidae-16S-LD,Porifera,1,0,0
+Hesionidae-16S-LD,other Phyllodocida,462,1,4
+Hesionidae-28S-S,Annelida,760,5,11
+Hesionidae-28S-S,Arthropoda,41,0,0
+Hesionidae-28S-S,Bryozoa,89,0,0
+Hesionidae-28S-S,Chordata,58,0,0
+Hesionidae-28S-S,Cnidaria,658,0,0
+Hesionidae-28S-S,Echinodermata,314,0,0
+Hesionidae-28S-S,Mollusca,89,0,0
+Hesionidae-28S-S,Porifera,76,0,0
+Hesionidae-28S-S,other Phyllodocida,257,0,3
+Hesionidae-28S-SD,Annelida,760,9,40
+Hesionidae-28S-SD,Arthropoda,41,0,0
+Hesionidae-28S-SD,Bryozoa,89,0,0
+Hesionidae-28S-SD,Chordata,58,0,0
+Hesionidae-28S-SD,Cnidaria,658,0,0
+Hesionidae-28S-SD,Echinodermata,314,0,0
+Hesionidae-28S-SD,Mollusca,89,0,0
+Hesionidae-28S-SD,Porifera,76,0,0
+Hesionidae-28S-SD,other Phyllodocida,257,1,4
+Hesionidae-28S-M,Annelida,760,0,2
+Hesionidae-28S-M,Arthropoda,41,0,0
+Hesionidae-28S-M,Bryozoa,89,0,0
+Hesionidae-28S-M,Chordata,58,0,0
+Hesionidae-28S-M,Cnidaria,658,0,0
+Hesionidae-28S-M,Echinodermata,314,0,0
+Hesionidae-28S-M,Mollusca,89,0,0
+Hesionidae-28S-M,Porifera,76,0,0
+Hesionidae-28S-M,other Phyllodocida,257,1,2
+Hesionidae-28S-MD,Annelida,760,1,5
+Hesionidae-28S-MD,Arthropoda,41,0,0
+Hesionidae-28S-MD,Bryozoa,89,0,0
+Hesionidae-28S-MD,Chordata,58,0,0
+Hesionidae-28S-MD,Cnidaria,658,0,0
+Hesionidae-28S-MD,Echinodermata,314,0,0
+Hesionidae-28S-MD,Mollusca,89,0,0
+Hesionidae-28S-MD,Porifera,76,0,0
+Hesionidae-28S-MD,other Phyllodocida,257,1,3
+Hesionidae-28S-L,Annelida,760,18,24
+Hesionidae-28S-L,Arthropoda,41,0,0
+Hesionidae-28S-L,Bryozoa,89,0,0
+Hesionidae-28S-L,Chordata,58,0,0
+Hesionidae-28S-L,Cnidaria,658,0,0
+Hesionidae-28S-L,Echinodermata,314,0,0
+Hesionidae-28S-L,Mollusca,89,0,0
+Hesionidae-28S-L,Porifera,76,0,0
+Hesionidae-28S-L,other Phyllodocida,257,4,5
+Hesionidae-28S-LD,Annelida,760,18,24
+Hesionidae-28S-LD,Arthropoda,41,0,0
+Hesionidae-28S-LD,Bryozoa,89,0,0
+Hesionidae-28S-LD,Chordata,58,0,0
+Hesionidae-28S-LD,Cnidaria,658,0,0
+Hesionidae-28S-LD,Echinodermata,314,0,0
+Hesionidae-28S-LD,Mollusca,89,0,0
+Hesionidae-28S-LD,Porifera,76,0,0
+Hesionidae-28S-LD,other Phyllodocida,257,4,5

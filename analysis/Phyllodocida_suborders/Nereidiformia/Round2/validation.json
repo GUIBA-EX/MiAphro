@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "pairs": 12,
+  "models": "independent C++/Python agreement",
+  "degeneracy": "<=8 per oligo"
+}
