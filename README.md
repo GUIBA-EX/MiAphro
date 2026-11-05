@@ -64,6 +64,12 @@
 
 ![28S MD](figures/template_matching/MiAphro-28S-MD_preview.svg)
 
+### 各科覆盖
+
+![Family-level species coverage](figures/family_coverage.svg)
+
+各柱表示科内物种覆盖率，标注为覆盖种数/该科参考种数（百分比）。16S 与 28S 分别计算；普通与 D 引物并列展示。分母包含该科全部参考物种，包括可能未跨越完整窗口的片段。
+
 ## 讨论
 
 28S-SD 适合优先考虑短片段和覆盖范围，28S-MD 则得到最多的双端完全匹配。28S-LD 与短版覆盖数相同，但完全匹配降至 33 种。在当前面板中，Aphroditidae 在两个基因的全部入选方案中均未命中。28S 全部漏掉 Eulepethidae，16S-SD 则覆盖其中 3/3 种。16S 短版的高容错覆盖和低完全匹配须同时解读。

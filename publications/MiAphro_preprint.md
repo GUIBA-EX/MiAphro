@@ -66,6 +66,12 @@ We checked the 12 current pairs and four first-round pairs. Among complete, inde
 
 **Figure 4.** 28S-MD binding sites, with one representative per family. Blue indicates compatibility, orange mismatch and grey a gap or unknown base. The terminal three bases are boxed. The hit column summarizes the complete-sequence paired scan.
 
+### Family-level coverage
+
+![Family-level species coverage](../figures/family_coverage.svg)
+
+**Figure 5.** Species coverage within each source family for ordinary and D pairs. Labels show covered/total species and percentages. Each marker uses its own curated panel; all family references, including partial sequences, contribute to the denominator. Family labels follow the source records.
+
 ## Discussion
 
 28S-SD offers a short product and broad predicted coverage. 28S-MD provides the most exact matches. The long 28S-LD pair matches as many species as SD but yields only 33 exact matches. No selected pair detected Aphroditidae on these panels. All 28S pairs missed Eulepethidae, whereas 16S-SD covered all three representatives. The short 16S pair's broad mismatch-tolerant coverage coincides with low exact matching.

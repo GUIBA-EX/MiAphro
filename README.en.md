@@ -64,6 +64,12 @@ Blue indicates compatible bases, orange mismatches and grey gaps or unknown base
 
 ![28S MD](figures/template_matching/MiAphro-28S-MD_preview.svg)
 
+### Family-level coverage
+
+![Family-level species coverage](figures/family_coverage.svg)
+
+Bars show species coverage within each family; labels give covered/total species and percentages. Panels use marker-specific references and include partial sequences. Ordinary and D pairs are shown separately.
+
 ## Discussion
 
 28S-SD offers a short product and broad predicted coverage. 28S-MD provides the most exact matches. The long 28S-LD pair matches as many species as SD but yields only 33 exact matches. No selected pair detected Aphroditidae on these panels. All 28S pairs missed Eulepethidae, whereas 16S-SD covered all three representatives. The short 16S pair's broad mismatch-tolerant coverage coincides with low exact matching.
