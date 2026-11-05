@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129490,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129490",
+    "scientificname": "Gorgoniapolynoe",
+    "authority": "Pettibone, 1991",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129490,
+    "valid_name": "Gorgoniapolynoe",
+    "valid_authority": "Pettibone, 1991",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129490,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Gorgoniapolynoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Gorgoniapolynoe Pettibone, 1991. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129490 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129490",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2022-05-22T03:33:33.197Z"
+  }
+]

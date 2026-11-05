@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 325007,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=325007",
+    "scientificname": "Bathypolaria",
+    "authority": "Levenstein, 1981",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 325007,
+    "valid_name": "Bathypolaria",
+    "valid_authority": "Levenstein, 1981",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": null,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Bathypolaria",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Bathypolaria Levenstein, 1981. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=325007 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:325007",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2015-07-17T09:47:47.273Z"
+  }
+]

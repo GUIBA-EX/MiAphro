@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129136,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129136",
+    "scientificname": "Panthalis",
+    "authority": "Kinberg, 1856",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129136,
+    "valid_name": "Panthalis",
+    "valid_authority": "Kinberg, 1856",
+    "parentNameUsageID": 19199,
+    "originalNameUsageID": 129136,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Acoetidae",
+    "genus": "Panthalis",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Panthalis Kinberg, 1856. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129136 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129136",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2023-02-25T17:33:30.153Z"
+  }
+]

@@ -68,9 +68,17 @@ We checked the 12 current pairs and four first-round pairs. Among complete, inde
 
 ### Family-level coverage
 
-![Family-level species coverage](../figures/family_coverage.svg)
+![Family coverage](../figures/family_coverage.svg)
 
-**Figure 5.** Species coverage within each source family for ordinary and D pairs. Labels show covered/total species and percentages. Each marker uses its own curated panel; all family references, including partial sequences, contribute to the denominator. Family labels follow the source records.
+**Figure 5.** The heatmap uses WoRMS-verified family assignments. Each cell shows coverage percentage and covered/total reference species; grey NA indicates no references. Genera recorded under Pholoidae and Pisionidae are assigned to Sigalionidae. Original GenBank labels remain in the source tables.
+
+### Reference taxonomic sampling
+
+![Reference taxonomic sampling](../figures/reference_taxonomy.svg)
+
+**Figure 6.** Reference sampling is summarized as unique genera and species for 16S, 28S and their union. Genus names and family assignments were checked against WoRMS; species retain source-record names without species-level synonym consolidation. Counts describe sampled taxa, not proportions of all accepted WoRMS genera.
+
+[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](../taxonomy/references.csv) · [Genus counts and names](../taxonomy/reference_coverage.csv)
 
 ## Discussion
 

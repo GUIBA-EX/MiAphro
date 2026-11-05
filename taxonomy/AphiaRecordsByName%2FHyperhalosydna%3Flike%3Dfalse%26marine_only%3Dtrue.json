@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 324951,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=324951",
+    "scientificname": "Hyperhalosydna",
+    "authority": "Augener, 1922",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 324951,
+    "valid_name": "Hyperhalosydna",
+    "valid_authority": "Augener, 1922",
+    "parentNameUsageID": 237617,
+    "originalNameUsageID": 324951,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Hyperhalosydna",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Hyperhalosydna Augener, 1922. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=324951 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:324951",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2020-11-26T01:24:39.880Z"
+  }
+]

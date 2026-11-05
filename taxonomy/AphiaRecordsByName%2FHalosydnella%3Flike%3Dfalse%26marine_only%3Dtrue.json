@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 324948,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=324948",
+    "scientificname": "Halosydnella",
+    "authority": "Hartman, 1938",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 324948,
+    "valid_name": "Halosydnella",
+    "valid_authority": "Hartman, 1938",
+    "parentNameUsageID": 152403,
+    "originalNameUsageID": 324948,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Halosydnella",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Halosydnella Hartman, 1938. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=324948 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:324948",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2025-05-21T21:48:22.810Z"
+  }
+]

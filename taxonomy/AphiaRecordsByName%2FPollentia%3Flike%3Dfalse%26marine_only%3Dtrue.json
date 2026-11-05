@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 1599339,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1599339",
+    "scientificname": "Pollentia",
+    "authority": "Capa, Pons & Jaume, 2022",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 1599339,
+    "valid_name": "Pollentia",
+    "valid_authority": "Capa, Pons & Jaume, 2022",
+    "parentNameUsageID": 237621,
+    "originalNameUsageID": 1599339,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Pollentia",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Pollentia Capa, Pons & Jaume, 2022. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1599339 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:1599339",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2025-10-27T03:50:38.743Z"
+  }
+]

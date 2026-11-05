@@ -66,9 +66,17 @@
 
 ### 各科覆盖
 
-![Family-level species coverage](figures/family_coverage.svg)
+![Family coverage](figures/family_coverage.svg)
 
-各柱表示科内物种覆盖率，标注为覆盖种数/该科参考种数（百分比）。16S 与 28S 分别计算；普通与 D 引物并列展示。分母包含该科全部参考物种，包括可能未跨越完整窗口的片段。
+热图按 WoRMS 核验后的科级归属汇总，每格显示覆盖率及覆盖种数/参考种数；灰色 NA 表示缺少参考序列。Pholoidae 和 Pisionidae 的参考属归入 Sigalionidae。原始 GenBank 分类保存在源数据中。
+
+### 参考库分类覆盖
+
+![Reference taxonomic sampling](figures/reference_taxonomy.svg)
+
+参考库图分别统计 16S、28S 及两者合并后的去重属数和物种数。属名和科归属经 WoRMS 核验；物种保留源记录名称，未进行物种级异名归并。这里展示已采样数量，不代表占 WoRMS 全部有效属的比例。
+
+[WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=927) · 2026-11-05 · [Taxonomic mapping](taxonomy/references.csv) · [Genus counts and names](taxonomy/reference_coverage.csv)
 
 ## 讨论
 

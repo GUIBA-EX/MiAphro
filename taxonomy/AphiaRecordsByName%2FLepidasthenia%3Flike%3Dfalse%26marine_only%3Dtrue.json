@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129495,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129495",
+    "scientificname": "Lepidasthenia",
+    "authority": "Malmgren, 1867",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129495,
+    "valid_name": "Lepidasthenia",
+    "valid_authority": "Malmgren, 1867",
+    "parentNameUsageID": 237617,
+    "originalNameUsageID": 129495,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Lepidasthenia",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Lepidasthenia Malmgren, 1867. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129495 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129495",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2023-04-06T13:32:37.400Z"
+  }
+]

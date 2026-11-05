@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 236657,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=236657",
+    "scientificname": "Antarctinoe",
+    "authority": "Barnich, Fiege, Micaletto & Gambi, 2006",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 236657,
+    "valid_name": "Antarctinoe",
+    "valid_authority": "Barnich, Fiege, Micaletto & Gambi, 2006",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 236657,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Antarctinoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Antarctinoe Barnich, Fiege, Micaletto & Gambi, 2006. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=236657 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:236657",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2025-08-15T23:40:57.243Z"
+  }
+]

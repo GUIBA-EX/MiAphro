@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 1311122,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1311122",
+    "scientificname": "Abyssarya",
+    "authority": "Bonif\u00e1cio & Menot, 2018",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 1311122,
+    "valid_name": "Abyssarya",
+    "valid_authority": "Bonif\u00e1cio & Menot, 2018",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": 1311122,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Abyssarya",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Abyssarya Bonif\u00e1cio & Menot, 2018. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1311122 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:1311122",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2025-01-11T22:38:04.563Z"
+  }
+]

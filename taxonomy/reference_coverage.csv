@@ -1,0 +1,19 @@
+family,panel,genera,species,genera_names
+Acoetidae,16S,1,1,Panthalis
+Acoetidae,28S,1,1,Panthalis
+Acoetidae,Union,1,1,Panthalis
+Aphroditidae,16S,2,4,Aphrodita; Laetmonice
+Aphroditidae,28S,2,3,Aphrodita; Laetmonice
+Aphroditidae,Union,2,4,Aphrodita; Laetmonice
+Eulepethidae,16S,3,3,Eulepethus; Grubeulepis; Mexieulepis
+Eulepethidae,28S,2,2,Eulepethus; Grubeulepis
+Eulepethidae,Union,3,3,Eulepethus; Grubeulepis; Mexieulepis
+Iphionidae,16S,0,0,
+Iphionidae,28S,0,0,
+Iphionidae,Union,0,0,
+Polynoidae,16S,45,69,Abyssarya; Acholoe; Antarctinoe; Austrolaenilla; Bathyedithia; Bathyeliasona; Bathyfauvelia; Bathykurila; Bathymoorea; Bathypolaria; Branchinotogluma; Branchipolynoe; Bruunilla; Bylgides; Cladopolynoe; Eulagisca; Eunoe; Gastrolepidia; Gattyana; Gesiella; Gorgoniapolynoe; Halosydna; Halosydnella; Harmothoe; Hermenia; Hesperonoe; Hodor; Hyperhalosydna; Lepidasthenia; Lepidonotopodium; Lepidonotus; Macellicephala; Malmgrenia; Melaenis; Neopolynoe; Paradyte; Paralepidonotus; Pelagomacellicephala; Polaruschakov; Pollentia; Polyeunoa; Polynoe; Themis; Thormora; Yodanoe
+Polynoidae,28S,28,41,Acholoe; Branchinotogluma; Bylgides; Cladopolynoe; Eunoe; Gastrolepidia; Gattyana; Gesiella; Gorgoniapolynoe; Halosydna; Halosydnella; Harmothoe; Hermenia; Hesperonoe; Hyperhalosydna; Lepidasthenia; Lepidonotus; Malmgrenia; Melaenis; Neopolynoe; Paradyte; Paralepidonotus; Pelagomacellicephala; Pollentia; Polyeunoa; Polynoe; Themis; Thormora
+Polynoidae,Union,45,71,Abyssarya; Acholoe; Antarctinoe; Austrolaenilla; Bathyedithia; Bathyeliasona; Bathyfauvelia; Bathykurila; Bathymoorea; Bathypolaria; Branchinotogluma; Branchipolynoe; Bruunilla; Bylgides; Cladopolynoe; Eulagisca; Eunoe; Gastrolepidia; Gattyana; Gesiella; Gorgoniapolynoe; Halosydna; Halosydnella; Harmothoe; Hermenia; Hesperonoe; Hodor; Hyperhalosydna; Lepidasthenia; Lepidonotopodium; Lepidonotus; Macellicephala; Malmgrenia; Melaenis; Neopolynoe; Paradyte; Paralepidonotus; Pelagomacellicephala; Polaruschakov; Pollentia; Polyeunoa; Polynoe; Themis; Thormora; Yodanoe
+Sigalionidae,16S,7,17,Neoleanira; Pelogenia; Pholoe; Pholoides; Pisione; Pisionidens; Sthenelais
+Sigalionidae,28S,9,21,Neoleanira; Pelogenia; Pholoe; Pholoides; Pisione; Pisionidens; Sigalion; Sthenelais; Sthenelanella
+Sigalionidae,Union,9,21,Neoleanira; Pelogenia; Pholoe; Pholoides; Pisione; Pisionidens; Sigalion; Sthenelais; Sthenelanella

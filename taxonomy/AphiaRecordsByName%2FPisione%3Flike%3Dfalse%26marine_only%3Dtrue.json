@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129469,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129469",
+    "scientificname": "Pisione",
+    "authority": "Grube, 1857",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129469,
+    "valid_name": "Pisione",
+    "valid_authority": "Grube, 1857",
+    "parentNameUsageID": 1498425,
+    "originalNameUsageID": 129469,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Sigalionidae",
+    "genus": "Pisione",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Pisione Grube, 1857. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129469 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129469",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2021-04-02T07:53:31.747Z"
+  }
+]

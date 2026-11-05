@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 206489,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206489",
+    "scientificname": "Hermenia",
+    "authority": "Grube, 1856",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 206489,
+    "valid_name": "Hermenia",
+    "valid_authority": "Grube, 1856",
+    "parentNameUsageID": 152403,
+    "originalNameUsageID": 206489,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Hermenia",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Hermenia Grube, 1856. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=206489 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:206489",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2026-01-26T02:23:30.633Z"
+  }
+]

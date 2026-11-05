@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129505,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129505",
+    "scientificname": "Polaruschakov",
+    "authority": "Pettibone, 1976",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129505,
+    "valid_name": "Polaruschakov",
+    "valid_authority": "Pettibone, 1976",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": null,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Polaruschakov",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Polaruschakov Pettibone, 1976. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129505 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129505",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2018-11-26T03:59:26.717Z"
+  }
+]

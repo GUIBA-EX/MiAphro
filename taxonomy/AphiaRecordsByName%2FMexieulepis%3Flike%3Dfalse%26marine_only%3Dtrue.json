@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 324816,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=324816",
+    "scientificname": "Mexieulepis",
+    "authority": "Rioja, 1962",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 324816,
+    "valid_name": "Mexieulepis",
+    "valid_authority": "Rioja, 1962",
+    "parentNameUsageID": 942,
+    "originalNameUsageID": 324816,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Eulepethidae",
+    "genus": "Mexieulepis",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Mexieulepis Rioja, 1962. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=324816 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:324816",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2016-06-29T23:32:43.647Z"
+  }
+]

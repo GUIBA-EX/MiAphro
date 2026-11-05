@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129506,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129506",
+    "scientificname": "Polynoe",
+    "authority": "Lamarck, 1818",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129506,
+    "valid_name": "Polynoe",
+    "valid_authority": "Lamarck, 1818",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129506,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Polynoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Polynoe Lamarck, 1818. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129506 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129506",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2026-03-18T21:27:04.513Z"
+  }
+]

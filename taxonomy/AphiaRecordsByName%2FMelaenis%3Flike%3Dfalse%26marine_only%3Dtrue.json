@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129500,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129500",
+    "scientificname": "Melaenis",
+    "authority": "Malmgren, 1865",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129500,
+    "valid_name": "Melaenis",
+    "valid_authority": "Malmgren, 1865",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129500,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Melaenis",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Melaenis Malmgren, 1865. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129500 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129500",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2023-03-30T09:30:32.140Z"
+  }
+]

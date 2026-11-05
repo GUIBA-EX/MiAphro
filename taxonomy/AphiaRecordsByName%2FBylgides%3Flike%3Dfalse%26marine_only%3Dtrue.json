@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129483,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129483",
+    "scientificname": "Bylgides",
+    "authority": "Chamberlin, 1919",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129483,
+    "valid_name": "Bylgides",
+    "valid_authority": "Chamberlin, 1919",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129483,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Bylgides",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Bylgides Chamberlin, 1919. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129483 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129483",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2023-07-05T21:14:13.060Z"
+  }
+]

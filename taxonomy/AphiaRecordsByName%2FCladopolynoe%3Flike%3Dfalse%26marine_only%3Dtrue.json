@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 1782891,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1782891",
+    "scientificname": "Cladopolynoe",
+    "authority": "Hiley & Rouse in Hiley, Koch & Rouse, 2024",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 1782891,
+    "valid_name": "Cladopolynoe",
+    "valid_authority": "Hiley & Rouse in Hiley, Koch & Rouse, 2024",
+    "parentNameUsageID": 237623,
+    "originalNameUsageID": null,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Cladopolynoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Cladopolynoe Hiley & Rouse in Hiley, Koch & Rouse, 2024. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1782891 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:1782891",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2024-12-09T09:38:39.827Z"
+  }
+]

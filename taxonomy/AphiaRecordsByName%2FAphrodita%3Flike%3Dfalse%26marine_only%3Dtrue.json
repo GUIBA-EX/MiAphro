@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129194,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129194",
+    "scientificname": "Aphrodita",
+    "authority": "Linnaeus, 1758",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129194,
+    "valid_name": "Aphrodita",
+    "valid_authority": "Linnaeus, 1758",
+    "parentNameUsageID": 938,
+    "originalNameUsageID": 129194,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Aphroditidae",
+    "genus": "Aphrodita",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Aphrodita Linnaeus, 1758. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129194 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129194",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2025-05-01T15:50:39.483Z"
+  }
+]

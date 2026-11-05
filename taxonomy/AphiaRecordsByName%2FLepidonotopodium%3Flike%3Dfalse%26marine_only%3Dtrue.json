@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 182913,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=182913",
+    "scientificname": "Lepidonotopodium",
+    "authority": "Pettibone, 1983",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 182913,
+    "valid_name": "Lepidonotopodium",
+    "valid_authority": "Pettibone, 1983",
+    "parentNameUsageID": 237623,
+    "originalNameUsageID": 182913,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Lepidonotopodium",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Lepidonotopodium Pettibone, 1983. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=182913 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:182913",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2020-05-18T05:18:16.270Z"
+  }
+]

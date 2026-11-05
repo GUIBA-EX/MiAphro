@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129503,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129503",
+    "scientificname": "Neopolynoe",
+    "authority": "Loshamn, 1981",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129503,
+    "valid_name": "Neopolynoe",
+    "valid_authority": "Loshamn, 1981",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129503,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Neopolynoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Neopolynoe Loshamn, 1981. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129503 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129503",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2019-12-17T22:06:24.250Z"
+  }
+]

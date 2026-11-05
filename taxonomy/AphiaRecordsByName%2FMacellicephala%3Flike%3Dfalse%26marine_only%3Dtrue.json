@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129498,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129498",
+    "scientificname": "Macellicephala",
+    "authority": "McIntosh, 1885",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129498,
+    "valid_name": "Macellicephala",
+    "valid_authority": "McIntosh, 1885",
+    "parentNameUsageID": 1783026,
+    "originalNameUsageID": 129498,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Macellicephala",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Macellicephala McIntosh, 1885. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129498 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129498",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2024-12-10T10:16:41.430Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 206749,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206749",
+    "scientificname": "Gastrolepidia",
+    "authority": "Schmarda, 1861",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 206749,
+    "valid_name": "Gastrolepidia",
+    "valid_authority": "Schmarda, 1861",
+    "parentNameUsageID": 767051,
+    "originalNameUsageID": 206749,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Gastrolepidia",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Gastrolepidia Schmarda, 1861. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=206749 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:206749",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2022-03-29T02:19:05.630Z"
+  }
+]

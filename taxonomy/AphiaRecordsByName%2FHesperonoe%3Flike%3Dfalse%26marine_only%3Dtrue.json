@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 248340,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=248340",
+    "scientificname": "Hesperonoe",
+    "authority": "Chamberlin, 1919",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 248340,
+    "valid_name": "Hesperonoe",
+    "valid_authority": "Chamberlin, 1919",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 248340,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Hesperonoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Hesperonoe Chamberlin, 1919. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=248340 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:248340",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2018-03-07T07:55:46.007Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 324932,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=324932",
+    "scientificname": "Bruunilla",
+    "authority": "Hartman, 1971",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 324932,
+    "valid_name": "Bruunilla",
+    "valid_authority": "Hartman, 1971",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": null,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Bruunilla",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Bruunilla Hartman, 1971. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=324932 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:324932",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2017-11-28T09:50:27.390Z"
+  }
+]

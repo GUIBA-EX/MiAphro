@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="500" viewBox="0 0 1050 500"><rect width="100%" height="100%" fill="white"/><style>text{font-family:Arial,sans-serif;fill:#172b27;font-size:16px}</style>
+<text x="15" y="30">Reference sampling by WoRMS family</text>
+<text x="200" y="70">16S genera</text>
+<text x="338" y="70">16S species</text>
+<text x="476" y="70">28S genera</text>
+<text x="614" y="70">28S species</text>
+<text x="752" y="70">Union genera</text>
+<text x="890" y="70">Union species</text>
+<text x="15" y="122">Acoetidae</text>
+<rect x="195" y="95" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="123">1</text>
+<rect x="333" y="95" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="123">1</text>
+<rect x="471" y="95" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="123">1</text>
+<rect x="609" y="95" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="123">1</text>
+<rect x="747" y="95" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="123">1</text>
+<rect x="885" y="95" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="123">1</text>
+<text x="15" y="175">Aphroditidae</text>
+<rect x="195" y="148" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="176">2</text>
+<rect x="333" y="148" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="176">4</text>
+<rect x="471" y="148" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="176">2</text>
+<rect x="609" y="148" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="176">3</text>
+<rect x="747" y="148" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="176">2</text>
+<rect x="885" y="148" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="176">4</text>
+<text x="15" y="228">Eulepethidae</text>
+<rect x="195" y="201" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="229">3</text>
+<rect x="333" y="201" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="229">3</text>
+<rect x="471" y="201" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="229">2</text>
+<rect x="609" y="201" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="229">2</text>
+<rect x="747" y="201" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="229">3</text>
+<rect x="885" y="201" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="229">3</text>
+<text x="15" y="281">Iphionidae</text>
+<rect x="195" y="254" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="282">0</text>
+<rect x="333" y="254" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="282">0</text>
+<rect x="471" y="254" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="282">0</text>
+<rect x="609" y="254" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="282">0</text>
+<rect x="747" y="254" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="282">0</text>
+<rect x="885" y="254" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="282">0</text>
+<text x="15" y="334">Polynoidae</text>
+<rect x="195" y="307" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="335">45</text>
+<rect x="333" y="307" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="335">69</text>
+<rect x="471" y="307" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="335">28</text>
+<rect x="609" y="307" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="335">41</text>
+<rect x="747" y="307" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="335">45</text>
+<rect x="885" y="307" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="335">71</text>
+<text x="15" y="387">Sigalionidae</text>
+<rect x="195" y="360" width="131" height="47" fill="#e3efeb"/>
+<text x="245" y="388">7</text>
+<rect x="333" y="360" width="131" height="47" fill="#edf2f8"/>
+<text x="383" y="388">17</text>
+<rect x="471" y="360" width="131" height="47" fill="#e3efeb"/>
+<text x="521" y="388">9</text>
+<rect x="609" y="360" width="131" height="47" fill="#edf2f8"/>
+<text x="659" y="388">21</text>
+<rect x="747" y="360" width="131" height="47" fill="#e3efeb"/>
+<text x="797" y="388">9</text>
+<rect x="885" y="360" width="131" height="47" fill="#edf2f8"/>
+<text x="935" y="388">21</text>
+<text x="15" y="450">Union counts unique taxa across markers. These are sampled counts, not percentages of all WoRMS taxa.</text>
+<text x="15" y="477">Genus and family assignments checked against WoRMS; species names retain source-record binomials.</text>
+</svg>

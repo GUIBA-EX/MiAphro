@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129595,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129595",
+    "scientificname": "Sthenelais",
+    "authority": "Kinberg, 1856",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129595,
+    "valid_name": "Sthenelais",
+    "valid_authority": "Kinberg, 1856",
+    "parentNameUsageID": 1499830,
+    "originalNameUsageID": 129595,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Sigalionidae",
+    "genus": "Sthenelais",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Sthenelais Kinberg, 1856. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129595 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129595",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2024-11-21T20:39:57.080Z"
+  }
+]

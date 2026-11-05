@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129591,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129591",
+    "scientificname": "Neoleanira",
+    "authority": "Pettibone, 1970",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129591,
+    "valid_name": "Neoleanira",
+    "valid_authority": "Pettibone, 1970",
+    "parentNameUsageID": 1499830,
+    "originalNameUsageID": 129591,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Sigalionidae",
+    "genus": "Neoleanira",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Neoleanira Pettibone, 1970. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129591 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129591",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2024-11-21T20:39:57.080Z"
+  }
+]

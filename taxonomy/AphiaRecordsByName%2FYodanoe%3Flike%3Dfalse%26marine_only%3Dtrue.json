@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 1311302,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1311302",
+    "scientificname": "Yodanoe",
+    "authority": "Bonif\u00e1cio & Menot, 2018",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 1311302,
+    "valid_name": "Yodanoe",
+    "valid_authority": "Bonif\u00e1cio & Menot, 2018",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": null,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Yodanoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Yodanoe Bonif\u00e1cio & Menot, 2018. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1311302 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:1311302",
+    "isMarine": 1,
+    "isBrackish": null,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2018-11-27T00:58:24.830Z"
+  }
+]

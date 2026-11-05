@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129474,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129474",
+    "scientificname": "Acholoe",
+    "authority": "Clapar\u00e8de, 1870",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129474,
+    "valid_name": "Acholoe",
+    "valid_authority": "Clapar\u00e8de, 1870",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129474,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Acholoe",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Acholoe Clapar\u00e8de, 1870. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129474 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129474",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2017-03-16T08:32:51.257Z"
+  }
+]

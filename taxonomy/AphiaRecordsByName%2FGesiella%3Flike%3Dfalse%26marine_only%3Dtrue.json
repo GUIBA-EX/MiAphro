@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129489,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129489",
+    "scientificname": "Gesiella",
+    "authority": "Pettibone, 1976",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129489,
+    "valid_name": "Gesiella",
+    "valid_authority": "Pettibone, 1976",
+    "parentNameUsageID": 196343,
+    "originalNameUsageID": 129489,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Gesiella",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Gesiella Pettibone, 1976. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129489 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129489",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2018-11-27T00:58:24.830Z"
+  }
+]

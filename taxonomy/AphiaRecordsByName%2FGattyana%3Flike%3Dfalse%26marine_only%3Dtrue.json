@@ -1,0 +1,32 @@
+[
+  {
+    "AphiaID": 129488,
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=129488",
+    "scientificname": "Gattyana",
+    "authority": "McIntosh, 1897",
+    "status": "accepted",
+    "unacceptreason": null,
+    "taxonRankID": 180,
+    "rank": "Genus",
+    "valid_AphiaID": 129488,
+    "valid_name": "Gattyana",
+    "valid_authority": "McIntosh, 1897",
+    "parentNameUsageID": 155091,
+    "originalNameUsageID": 129488,
+    "kingdom": "Animalia",
+    "phylum": "Annelida",
+    "class": "Polychaeta",
+    "order": "Phyllodocida",
+    "family": "Polynoidae",
+    "genus": "Gattyana",
+    "citation": "Read, G.; Fauchald, K. (Ed.) (2026). World Polychaeta Database. Gattyana McIntosh, 1897. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=129488 on 2026-11-05",
+    "lsid": "urn:lsid:marinespecies.org:taxname:129488",
+    "isMarine": 1,
+    "isBrackish": 0,
+    "isFreshwater": 0,
+    "isTerrestrial": 0,
+    "isExtinct": 0,
+    "match_type": "exact",
+    "modified": "2026-05-08T17:30:28.813Z"
+  }
+]
