@@ -1,8 +1,10 @@
-# MiAphro, a set of PCR primers for metabarcoding environmental DNA from scale worms
+# MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding
 
 **Fei Xia**
 
 [中文](README.md) | English
+
+## Start here
 
 [Current 12-pair FASTA](SML/primers.fasta) · [Current results](SML/results.csv) · [Four first-round baseline pairs](baseline/results.csv)
 
@@ -68,7 +70,7 @@ Blue indicates compatible bases, orange mismatches and grey gaps or unknown base
 
 All four Aphroditidae 16S records span all three windows. All three 28S records in that family span S and M, but only two span L. Both Eulepethidae 28S records span all windows. Thus one Aphroditidae record lacks the full 28S L interval; fragment length alone cannot explain the other misses in these families.
 
-## Primer review and data availability
+## Data and reproducibility
 
 We checked the 12 current pairs and four first-round pairs. Among complete, indel-free templates for each end, we flagged sites where the most common base was absent from the oligo and more frequent than any included base. We tested single and combined replacements. No current 28S pair had such a site. For 16S-SD, reverse C10T would raise coverage from 62 to 69 but lose five previously covered species and add 79 background record–model hits. Other tested 16S substitutions also gained background hits. We retained the published sequences.
 
@@ -77,6 +79,10 @@ We checked the 12 current pairs and four first-round pairs. Among complete, inde
 With Biopython and primer3-py installed, run `python3 scripts/finish_sml.py` to verify the frozen per-record scans and `python3 scripts/review.py` to regenerate base matching and substitution tests.
 
 Run `python3 scripts/check_release.py` to check the documentation, reference panels, FASTA exports and matching figures together.
+
+## Citation
+
+Xia, F. (2026). *MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
 
 ## References
 

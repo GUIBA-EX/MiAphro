@@ -1,8 +1,10 @@
-# MiAphro, a set of PCR primers for metabarcoding environmental DNA from scale worms
+# MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding
 
 **Fei Xia**
 
 [English](README.en.md) | 中文
+
+## 使用入口
 
 [现行 12 对引物 FASTA](SML/primers.fasta) · [现行结果](SML/results.csv) · [首轮 4 对基线](baseline/results.csv)
 
@@ -68,7 +70,7 @@
 
 进一步核对参考片段两端：4 条 Aphroditidae 的 16S 记录均跨越三个窗口；其 3 条 28S 记录均跨越 S 和 M，但仅 2 条跨越 L。Eulepethidae 的 2 条 28S 记录均跨越三个窗口。因此，28S 长档有一条 Aphroditidae 记录的未命中需结合片段缺失解读，其余这些未命中不能仅用片段过短解释。
 
-## 引物复核与数据
+## 数据与复现
 
 复核涵盖现行 12 对和首轮 4 对。按每端完整、无插缺的模板统计逐位碱基；若最常见碱基未被引物包含且频数高于任一已包含碱基，则重算单点及组合替换。现行 28S 未见这一类偏差。16S-SD 的 R10 C→T 可将覆盖由 62 提高至 69 种，但丢失原先覆盖的 5 种，并新增 79 个背景「记录×模型」命中。其他 16S 修改也会增加背景命中，本轮保留原序列。
 
@@ -77,6 +79,10 @@
 使用 Biopython 与 primer3-py，运行 `python3 scripts/finish_sml.py` 复核冻结的逐记录搜索结果，再运行 `python3 scripts/review.py` 重算逐位匹配与替换试验。
 
 运行 `python3 scripts/check_release.py` 可检查文档、面板、FASTA 及匹配图的一致性。
+
+## 引用 / Citation
+
+Xia, F. (2026). *MiAphro: in silico design and evaluation of mitochondrial and nuclear rRNA primers for scale-worm (Aphroditiformia) eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
 
 ## 参考文献
 
