@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "pairs": 102,
+  "oligos_checked": 204,
+  "author": "Fei Xia",
+  "visual_review": "all 13 rendered pages",
+  "pdf_sha256": "c587f0aeb2bc3e0defe5e1b2c99acbf1c821d88f4c57968de4b0fe2ebffb5c4d"
+}

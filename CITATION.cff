@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this project's primers, data or analysis code, please cite this repository."
 type: software
-title: "MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding"
+title: "MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida"
 authors:
   - family-names: "Xia"
     given-names: "Fei"

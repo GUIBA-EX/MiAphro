@@ -1,12 +1,16 @@
-# MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding
+# MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida
 
 **Fei Xia**
+
+[Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
+
+MiPhyllo names the expanded collection; the MiAphro repository URL and sequence identifiers are retained. / 整合版命名MiPhyllo，保留MiAphro仓库地址与序列编号。
 
 [中文](README.md) | English
 
 ## Overview
 
-MiAphro integrates eight nested target units within Phyllodocida: the order itself, four suborders, and three families. It contains 94 current primer pairs (188 oligos) and 8 distinct conditional alternatives (16 oligos). Each unit retains its own reference panel, background panel and selection criteria; this is a collection of computational designs, not one universal assay for all polychaetes.
+MiPhyllo integrates eight nested target units within Phyllodocida: the order itself, four suborders, and three families. It contains 94 current primer pairs (188 oligos) and 8 distinct conditional alternatives (16 oligos). Each unit retains its own reference panel, background panel and selection criteria; this is a collection of computational designs, not one universal assay for all polychaetes.
 
 [Current FASTA](primers.fasta) · [Catalogue](catalog.csv) · [Reference panels](panels.csv) · [Conditional alternatives](conditional/README.en.md) · [Methods](docs/METHODS.en.md)
 
@@ -80,6 +84,6 @@ The retained preprint reports Aphroditiformia only. The additional order-, subor
 
 ## Citation and copyright
 
-Xia, F. (2026). *MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
+Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
 
 [Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)

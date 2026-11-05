@@ -1,12 +1,16 @@
-# MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding
+# MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida
 
 **Fei Xia**
+
+[Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
+
+MiPhyllo names the expanded collection; the MiAphro repository URL and sequence identifiers are retained. / 整合版命名MiPhyllo，保留MiAphro仓库地址与序列编号。
 
 [English](README.en.md) | 中文
 
 ## 项目概览
 
-MiAphro整合Phyllodocida内8个相互嵌套的设计单元：目级、4个亚目及3个科。现行目录包含94对引物（188条寡核苷酸），另有8对不同的条件备选（16条寡核苷酸）。各设计单元保留自己的参考库、背景库和筛选条件；这些是分级设计的计算候选，并非一套覆盖全部多毛类的通用实验方案。
+MiPhyllo整合Phyllodocida内8个相互嵌套的设计单元：目级、4个亚目及3个科。现行目录包含94对引物（188条寡核苷酸），另有8对不同的条件备选（16条寡核苷酸）。各设计单元保留自己的参考库、背景库和筛选条件；这些是分级设计的计算候选，并非一套覆盖全部多毛类的通用实验方案。
 
 [现行序列](primers.fasta) · [完整目录](catalog.csv) · [参考库清单](panels.csv) · [条件备选](conditional/README.md) · [方法与复现](docs/METHODS.md)
 
@@ -80,6 +84,6 @@ python3 scripts/recheck_catalog.py
 
 ## 引用与著作权
 
-Xia, F. (2026). *MiAphro, a collection of 16S and 28S PCR primer candidates for polychaete eDNA metabarcoding*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
+Xia, F. (2026). *MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida*. [MiAphro](https://github.com/GUIBA-EX/MiAphro).
 
 [Citation metadata](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)

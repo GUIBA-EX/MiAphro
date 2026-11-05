@@ -1,0 +1,17 @@
+{
+  "title": "MiPhyllo: taxon-stratified 16S and 28S PCR primer candidates for environmental DNA metabarcoding of Phyllodocida",
+  "author": "Fei Xia",
+  "current_pairs": 94,
+  "conditional_pairs": 8,
+  "units": [
+    "Aphroditiformia",
+    "Phyllodocida",
+    "Glyceriformia",
+    "Nereidiformia",
+    "Phyllodociformia",
+    "Syllidae",
+    "Nereididae",
+    "Hesionidae"
+  ],
+  "source_commit": "fd29c4b17f7a97c8ce06e6dec8e052bf9d8e0d4c"
+}
