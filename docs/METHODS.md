@@ -15,24 +15,31 @@
 ## 背景与选择条件
 
 - Aphroditiformia原研究：六类群多毛类背景；严格WC和GT各≤10、宽松各≤50；不能将其称为后续扩展海洋背景评估。
-- Phyllodocida目级现行结果：扩展海洋背景，严格WC和GT各≤10、宽松各≤50；目录保留原选择与对应背景。
+- 已归档Phyllodocida目级结果：扩展海洋背景，严格WC和GT各≤10、宽松各≤50；归档保留原选择与对应背景。
 - 三个新增亚目和三个科：海洋背景加目标之外的Phyllodocida。严格WC≤1%、GT≤3%，宽松WC≤5%、GT≤10%；近缘非目标严格WC/GT各≤max(2, floor(3%×近缘参考数))。
-- 最新Syllidae 16S与Nereididae 28S：现行方案要求普通/D的覆盖与完全匹配四项不低于前轮，再按D覆盖、D完全匹配、普通覆盖、普通完全匹配、较低GT背景命中排序。第二套条件备选保留严格及近缘阈值，取消宽松模型硬阈值，另列结果。
+- 最新Syllidae 16S与Nereididae 28S：现行方案要求普通/D的覆盖与完全匹配四项不低于前轮，再按D覆盖、D完全匹配、普通覆盖、普通完全匹配、较低GT背景命中排序。原第二套条件备选保留严格及近缘阈值、取消宽松模型硬阈值；现已全部归档。
 
 后续海洋背景以既有WoRMS海洋属筛查和去重参考整理为基础，并非逐物种、逐采样地点的完整海洋属性核验。各面板的背景组成与参考分母独立保留，不混算跨设计单元的覆盖率。覆盖率表示参考物种中的比例，不是所有已知物种的分类覆盖率。
 
 ## 数据布局
 
 - `panels/`：按目标类群保存现行结果、FASTA、逐物种结果及参考库。
-- `conditional/`：四组独立条件备选；不与现行FASTA混合。
+- `archive/`：原始94对标准候选和8对条件备选、上一版整合PDF、54对移除候选与逐组取舍表。
+- `conditional/`：仅保留归档入口，现行FASTA为空。
 - `studies/Aphroditiformia/`：原研究、图表、WoRMS参考覆盖、原始题目预印本与其可复现代码。
 - `analysis/`：后续源分析的脚本、冻结输入、候选评分和最终筛选结果。大型逐候选命中矩阵、缓存、下载原始GenBank文本不重复收录；选定序列可直接重扫。
 - `provenance.csv`：统一名称与源结果行的对应；`analysis/source_manifest.json`记录导入文件校验值。
 
 ## 运行
 
-安装`requirements.txt`。`python3 scripts/build_catalog.py`从冻结结果构建统一目录，`python3 scripts/build_docs.py`同步中英文文档，`python3 scripts/check_release.py`检查名称、FASTA、面板、指标、坐标、链接与校验值。`python3 scripts/recheck_catalog.py`编译C++扫描器，逐记录对照独立Python实现，复核全部现行及条件候选；需要C++17编译器。绘图可运行`python3 scripts/plot_catalog.py`，需要matplotlib。
+安装`requirements.txt`。`python3 scripts/build_catalog.py`从冻结结果构建统一目录，`python3 scripts/build_docs.py`同步中英文文档，`python3 scripts/check_release.py`检查名称、FASTA、面板、指标、坐标、链接与校验值。`python3 scripts/recheck_catalog.py`编译C++扫描器，逐记录对照独立Python实现，复核全部现行候选，新结果写入`audit/current_rescan.json`，保留原完整复核记录；需要C++17编译器。绘图可运行`python3 scripts/plot_catalog.py`，需要matplotlib。
 
 完整重新搜索还需要MAFFT和primer3-py。源分析保留其相对目录；先编译相应目录中的`raw_scan.cpp`，再从冻结输入运行设计脚本。完整候选命中矩阵应先重建，再运行依赖这些矩阵的旧汇总脚本。当前统一目录的复核不依赖被省略的中间矩阵。
 
-本次整合保留既有序列和统计，仅选用已经独立复核的最新版方案并统一名称。未新增实验结果。原预印本内容和PDF未更改，其结论仅适用于Aphroditiformia。
+本次精简保留既有序列与统计：48对现行引物是原102对独立复核候选的原序列子集。原复核记录完整保留；取舍记录和序列身份由发布检查核验。未新增实验结果。整合预印本按精简目录更新；原Aphroditiformia专题预印本作为历史研究保留。
+
+## 2026-11-05目录精简
+
+按普通/D组合筛选：D覆盖至少50%的参考物种、完全匹配至少1种，并保留原完整背景筛选条件。Phyllodocida和Nereidiformia大范围设计退出现行目录；全部放宽宽松背景限制的条件备选归档。最终保留6个单元、24组普通/D方案（48对、96条寡核苷酸），54对归档。普通引物作为同坐标对照保留；筛选门槛作用于D方案，不意味着普通引物也达到50%覆盖。
+
+50%与非零完全匹配是本次目录整理的操作性标准，不是经过实验验证的最低有效性标准。仍有方案的完全匹配率很低，主图同时展示覆盖与完全匹配。不同长度可能服务于不同片段长度需求，因此未仅因某长度覆盖低于另一长度就删除。所有取舍见`archive/selection_decisions.csv`，不重新计算或改写原始匹配结果。

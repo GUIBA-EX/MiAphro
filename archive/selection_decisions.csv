@@ -1,0 +1,52 @@
+set,target_taxon,gene,band,profile,covered,exact,target_species,status,reason
+MiPhyllo-Aphroditiformia-16S-S,Aphroditiformia,16S,S,standard,62,1,94,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Aphroditiformia-16S-M,Aphroditiformia,16S,M,standard,44,24,94,archived,D coverage below 50%
+MiPhyllo-Aphroditiformia-16S-L,Aphroditiformia,16S,L,standard,41,24,94,archived,D coverage below 50%
+MiPhyllo-Aphroditiformia-28S-S,Aphroditiformia,28S,S,standard,59,47,68,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Aphroditiformia-28S-M,Aphroditiformia,28S,M,standard,58,53,68,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Aphroditiformia-28S-L,Aphroditiformia,28S,L,standard,59,33,68,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Phyllodocida-16S-S,Phyllodocida,16S,S,standard,40,16,515,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodocida-16S-M,Phyllodocida,16S,M,standard,71,10,515,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodocida-16S-L,Phyllodocida,16S,L,standard,70,14,515,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodocida-28S-S,Phyllodocida,28S,S,standard,44,24,302,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodocida-28S-M,Phyllodocida,28S,M,standard,53,22,302,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodocida-28S-L,Phyllodocida,28S,L,standard,51,38,302,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Glyceriformia-16S-S,Glyceriformia,16S,S,standard,14,1,20,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Glyceriformia-16S-M,Glyceriformia,16S,M,standard,14,1,20,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Glyceriformia-16S-L,Glyceriformia,16S,L,standard,8,2,20,archived,D coverage below 50%
+MiPhyllo-Glyceriformia-28S-S,Glyceriformia,28S,S,standard,7,6,12,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Glyceriformia-28S-M,Glyceriformia,28S,M,standard,7,4,12,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Glyceriformia-28S-L,Glyceriformia,28S,L,standard,7,4,12,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Nereidiformia-16S-S,Nereidiformia,16S,S,standard,50,15,315,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Nereidiformia-16S-M,Nereidiformia,16S,M,standard,57,8,315,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Nereidiformia-16S-L,Nereidiformia,16S,L,standard,62,0,315,archived,Broad-target unit withdrawn; D coverage below 50%; No D exact matches
+MiPhyllo-Nereidiformia-28S-S,Nereidiformia,28S,S,standard,31,0,133,archived,Broad-target unit withdrawn; D coverage below 50%; No D exact matches
+MiPhyllo-Nereidiformia-28S-M,Nereidiformia,28S,M,standard,36,7,133,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Nereidiformia-28S-L,Nereidiformia,28S,L,standard,45,6,133,archived,Broad-target unit withdrawn; D coverage below 50%
+MiPhyllo-Phyllodociformia-16S-S,Phyllodociformia,16S,S,standard,49,11,59,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Phyllodociformia-16S-M,Phyllodociformia,16S,M,standard,44,0,59,archived,No D exact matches
+MiPhyllo-Phyllodociformia-16S-L,Phyllodociformia,16S,L,standard,40,3,59,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Phyllodociformia-28S-S,Phyllodociformia,28S,S,standard,51,4,63,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Phyllodociformia-28S-M,Phyllodociformia,28S,M,standard,52,5,63,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Phyllodociformia-28S-L,Phyllodociformia,28S,L,standard,50,0,63,archived,No D exact matches
+MiPhyllo-Syllidae-16S-S,Syllidae,16S,S,standard,110,7,180,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Syllidae-16S-M,Syllidae,16S,M,standard,104,0,180,archived,No D exact matches
+MiPhyllo-Syllidae-16S-L,Syllidae,16S,L,standard,87,7,180,archived,D coverage below 50%
+MiPhyllo-Syllidae-28S-S,Syllidae,28S,S,standard,2,2,28,archived,D coverage below 50%
+MiPhyllo-Syllidae-28S-M,Syllidae,28S,M,standard,1,1,28,archived,D coverage below 50%
+MiPhyllo-Nereididae-16S-S,Nereididae,16S,S,standard,57,7,61,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Nereididae-16S-M,Nereididae,16S,M,standard,52,8,61,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Nereididae-16S-L,Nereididae,16S,L,standard,58,11,61,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Nereididae-28S-S,Nereididae,28S,S,standard,29,8,52,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Nereididae-28S-M,Nereididae,28S,M,standard,11,1,52,archived,D coverage below 50%
+MiPhyllo-Nereididae-28S-L,Nereididae,28S,L,standard,4,0,52,archived,D coverage below 50%; No D exact matches
+MiPhyllo-Hesionidae-16S-S,Hesionidae,16S,S,standard,37,1,53,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Hesionidae-16S-M,Hesionidae,16S,M,standard,30,3,53,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Hesionidae-16S-L,Hesionidae,16S,L,standard,37,3,53,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Hesionidae-28S-S,Hesionidae,28S,S,standard,40,8,45,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Hesionidae-28S-M,Hesionidae,28S,M,standard,35,7,45,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Hesionidae-28S-L,Hesionidae,28S,L,standard,38,1,45,retained,"D coverage >=50%, exact >0, original full background profile; ordinary retained as same-coordinate comparator"
+MiPhyllo-Syllidae-16S-S2,Syllidae,16S,S,conditional,126,48,180,archived,Relaxed loose-background gate; not in core catalogue
+MiPhyllo-Syllidae-16S-M2,Syllidae,16S,M,conditional,126,1,180,archived,Relaxed loose-background gate; not in core catalogue
+MiPhyllo-Syllidae-16S-L2,Syllidae,16S,L,conditional,91,50,180,archived,Relaxed loose-background gate; not in core catalogue
+MiPhyllo-Nereididae-28S-M2,Nereididae,28S,M,conditional,19,1,52,archived,D coverage below 50%; Relaxed loose-background gate; not in core catalogue

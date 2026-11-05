@@ -1,16 +1,14 @@
 # MiPhyllo · Hesionidae
 
-[Catalogue](../../README.en.md) | [FASTA](primers.fasta) | [CSV](results.csv) | [Species](species.csv)
+[Catalogue](../../README.en.md) · [Archive](../../archive/README.en.md)
 
-28S S covers 40/45 reference species; all length comparisons are retained.
+Both genes retain S/M/L. The 28S SD covers 40/45 species with eight exact matches.
+
+[FASTA](primers.fasta) · [CSV](results.csv) · [Species](species.csv)
 
 ## 16S
 
-Target / background reference species: **53 / 3802**
-
-Families: Hesionidae (53)
-
-[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background FASTA](references/16S/background.fa) · [Background metadata](references/16S/background.csv)
+[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background](references/16S/background.fa)
 
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
@@ -29,13 +27,12 @@ Families: Hesionidae (53)
 |MiPhyllo-Hesionidae-16S-MD|DQ442579.1|65–84|303–322|2/2|
 |MiPhyllo-Hesionidae-16S-L|DQ442579.1|59–76|403–420|1/1|
 |MiPhyllo-Hesionidae-16S-LD|DQ442579.1|59–76|403–420|6/4|
+
+Background reference species: 3802
+
 ## 28S
 
-Target / background reference species: **45 / 2342**
-
-Families: Hesionidae (45)
-
-[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background FASTA](references/28S/background.fa) · [Background metadata](references/28S/background.csv)
+[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background](references/28S/background.fa)
 
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
@@ -55,4 +52,6 @@ Families: Hesionidae (45)
 |MiPhyllo-Hesionidae-28S-L|DQ790046.1|245–272|639–660|1/1|
 |MiPhyllo-Hesionidae-28S-LD|DQ790046.1|245–272|639–660|2/1|
 
-[Methods and background profiles](../../docs/METHODS.en.md)
+Background reference species: 2342
+
+[Methods](../../docs/METHODS.en.md)

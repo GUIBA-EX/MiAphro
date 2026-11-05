@@ -1,0 +1,720 @@
+{
+  "status": "PASS",
+  "pairs": 102,
+  "records": [
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 94,
+      "background_species": 381
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Aphroditiformia-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 68,
+      "background_species": 214
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 515,
+      "background_species": 3340
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Phyllodocida-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 302,
+      "background_species": 2085
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 20,
+      "background_species": 3835
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Glyceriformia-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 12,
+      "background_species": 2375
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 315,
+      "background_species": 3540
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Nereidiformia-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 133,
+      "background_species": 2254
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 59,
+      "background_species": 3796
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Phyllodociformia-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 63,
+      "background_species": 2324
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-S2",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-S2D",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-M2",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-M2D",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-L2",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-16S-L2D",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 180,
+      "background_species": 3675
+    },
+    {
+      "name": "MiPhyllo-Syllidae-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 28,
+      "background_species": 2359
+    },
+    {
+      "name": "MiPhyllo-Syllidae-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 28,
+      "background_species": 2359
+    },
+    {
+      "name": "MiPhyllo-Syllidae-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 28,
+      "background_species": 2359
+    },
+    {
+      "name": "MiPhyllo-Syllidae-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 28,
+      "background_species": 2359
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 61,
+      "background_species": 3794
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-M2",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Nereididae-28S-M2D",
+      "profile": "conditional",
+      "status": "PASS",
+      "target_species": 52,
+      "background_species": 2335
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-16S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 53,
+      "background_species": 3802
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-S",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-SD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-M",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-MD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-L",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    },
+    {
+      "name": "MiPhyllo-Hesionidae-28S-LD",
+      "profile": "standard",
+      "status": "PASS",
+      "target_species": 45,
+      "background_species": 2342
+    }
+  ]
+}

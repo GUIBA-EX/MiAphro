@@ -4,85 +4,71 @@
 
 **Fei Xia**
 
-[Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
-
-The repository and current primer identifiers use MiPhyllo. / 仓库和现行引物编号统一使用MiPhyllo。
-
 [中文](README.md) | English
+
+[Preprint PDF](publications/MiPhyllo_preprint.pdf) · [Manuscript](publications/MiPhyllo_preprint.md)
 
 ## Overview
 
-MiPhyllo integrates eight nested target units within Phyllodocida: the order itself, four suborders, and three families. It contains 94 current primer pairs (188 oligos) and 8 distinct conditional alternatives (16 oligos). Each unit retains its own reference panel, background panel and selection criteria; this is a collection of computational designs, not one universal assay for all polychaetes.
+The curated catalogue contains **48 primer pairs (96 oligos), arranged in 24 same-coordinate ordinary/D sets across six target units**: three suborders and three families. The original search considered eight units. Each retained unit keeps its own species-deduplicated reference and background panels. Phyllodocida remains the project scope; no order-wide primer is retained.
 
-[Current FASTA](primers.fasta) · [Catalogue](catalog.csv) · [Reference panels](panels.csv) · [Conditional alternatives](conditional/README.en.md) · [Methods](docs/METHODS.en.md)
+[Current FASTA](primers.fasta) · [Catalogue](catalog.csv) · [Species outcomes](species.csv) · [Methods](docs/METHODS.en.md) · [Archive and selection](archive/README.en.md)
 
-## Target units
+The banner illustrates taxonomic context. Nereidiformia is represented by three family panels, not a retained suborder-wide assay.
 
-|Target|Rank|16S references|28S references|Results|
-|---|---|---:|---:|---|
-|Aphroditiformia|suborder|94|68|[Aphroditiformia](panels/Aphroditiformia/README.en.md)|
-|Phyllodocida|order|515|302|[Phyllodocida](panels/Phyllodocida/README.en.md)|
-|Glyceriformia|suborder|20|12|[Glyceriformia](panels/Glyceriformia/README.en.md)|
-|Nereidiformia|suborder|315|133|[Nereidiformia](panels/Nereidiformia/README.en.md)|
-|Phyllodociformia|suborder|59|63|[Phyllodociformia](panels/Phyllodociformia/README.en.md)|
-|Syllidae|family|180|28|[Syllidae](panels/Syllidae/README.en.md)|
-|Nereididae|family|61|52|[Nereididae](panels/Nereididae/README.en.md)|
-|Hesionidae|family|53|45|[Hesionidae](panels/Hesionidae/README.en.md)|
+## Retained designs
 
-```mermaid
-graph TD
-  P[Phyllodocida] --> A[Aphroditiformia]
-  P --> G[Glyceriformia]
-  P --> N[Nereidiformia]
-  P --> F[Phyllodociformia]
-  N --> S[Syllidae]
-  N --> R[Nereididae]
-  N --> H[Hesionidae]
-```
+|Target|16S lengths|28S lengths|16S references|28S references|Results|
+|---|---|---|---:|---:|---|
+|Aphroditiformia|S|S/M/L|94|68|[Aphroditiformia](panels/Aphroditiformia/README.en.md)|
+|Glyceriformia|S/M|S/M/L|20|12|[Glyceriformia](panels/Glyceriformia/README.en.md)|
+|Phyllodociformia|S/L|S/M|59|63|[Phyllodociformia](panels/Phyllodociformia/README.en.md)|
+|Syllidae|S|—|180|28|[Syllidae](panels/Syllidae/README.en.md)|
+|Nereididae|S/M/L|S|61|52|[Nereididae](panels/Nereididae/README.en.md)|
+|Hesionidae|S/M/L|S/M/L|53|45|[Hesionidae](panels/Hesionidae/README.en.md)|
 
-The diagram shows included design units, not a complete taxonomic classification. Nested panels contain overlapping species and must not be summed.
+Reference counts describe the available libraries; a count does not imply a retained primer for that gene. Each listed length includes its ordinary and D pair.
 
-## Names and profiles
+## Selection and naming
 
-`MiPhyllo-{taxon}-{gene}-{length}[2][D]_{F|R}`. S/M/L denote short, medium and long designs. D marks degeneracy in at least one oligo of the pair; each oligo has degeneracy ≤8. The suffix 2 identifies a distinct conditional alternative, not a two-pair mixture. Examples: `MiPhyllo-Syllidae-16S-S_F`, `MiPhyllo-Syllidae-16S-SD_R`, and `MiPhyllo-Syllidae-16S-S2D_R`. Ordinary/D counterparts share all four endpoints within a profile. Different profiles or taxa may use different windows and references.
+Retain a standard ordinary/D set when D covers at least 50% of its reference species and exactly matches at least one, under its original full background selection profile. Phyllodocida and Nereidiformia broad-target designs and all relaxed-background alternatives are archived. This is an editorial catalogue rule, not an experimentally established efficacy threshold. Ordinary primers are retained as same-coordinate comparators; the D criterion does not imply that ordinary coverage is also ≥50%.
+
+`MiPhyllo-{taxon}-{gene}-{S|M|L}[D]_{F|R}`. Ordinary primers contain only A/C/G/T; D marks degeneracy in at least one oligo. Each oligo has degeneracy ≤8, restricted to its 3′ half. Ordinary/D counterparts share all four binding endpoints. S/M/L denote length classes, not mandatory sets.
 
 ## Results
 
-![Within-panel D coverage](figures/catalog_coverage.svg)
+![D coverage and exact matching](figures/catalog_coverage.svg)
 
-The figure shows D coverage within each frozen reference panel. Panel sizes and background composition differ; these are not common-panel comparisons.
+Filled markers show D coverage; open markers show exact matching. Grey connectors show the gap between them. Missing lengths were removed or had no original candidate. Percentages use each unit’s own full reference denominator and are not common-panel comparisons.
 
-- **Aphroditiformia**: The original scale-worm study, base-matching figures, WoRMS genus coverage and preprint are retained.
-- **Phyllodocida**: Order-wide coverage remains low; these candidates document the broad-target search.
-- **Glyceriformia**: Lacydoniidae is absent from the reference panel; 16S coverage substantially exceeds exact matching.
-- **Nereidiformia**: Suborder-wide coverage remains low; three constituent families have separate designs.
-- **Phyllodociformia**: The current references represent Phyllodocidae only.
-- **Syllidae**: Prioritize examination of 16S. The 28S S/M candidates have very low coverage; no L pair passed.
-- **Nereididae**: 16S has relatively high panel coverage; S is the principal 28S candidate, while M/L remain limited.
-- **Hesionidae**: 28S S covers 40/45 reference species; all length comparisons are retained.
+- **Aphroditiformia**: Only S is retained for 16S; S/M/L are retained for 28S. The 16S SD covers 62/94 species but exactly matches only one.
+- **Glyceriformia**: 16S retains S/M and 28S retains S/M/L; both 16S D pairs exactly match only one species. Lacydoniidae is absent from the reference panel.
+- **Phyllodociformia**: 16S retains S/L and 28S retains S/M. The references represent Phyllodocidae only.
+- **Syllidae**: Only 16S S/SD is retained; 28S and the other lengths are archived.
+- **Nereididae**: 16S retains S/M/L; 28S retains S only. The 16S LD has the highest coverage but more background matches than SD.
+- **Hesionidae**: Both genes retain S/M/L. The 28S SD covers 40/45 species with eight exact matches.
 
-The latest Nereididae 28S SD covers 29/52 species with 8 exact matches. A conditional Syllidae 16S S2D covers 126/180 with 48 exact matches: strict background WC/GT hits are 33/42 of 3,675, but loose-model hits are 1,007/601. Conditional candidates remain separate from the current FASTA.
+## Reproducibility
 
-## Reproducibility and evidence
+[Selection decisions](archive/selection_decisions.csv) · [Curation audit](audit/curation.json) · [Independent scan](audit/catalog_rescan.json) · [Provenance](provenance.csv) · [Checksums](SHA256SUMS)
 
-[Species-level results](species.csv) · [Naming provenance](provenance.csv) · [Independent re-scan](audit/catalog_rescan.json) · [Checksums](SHA256SUMS)
+The 48 retained pairs are sequence-identical subsets of the 102 independently re-scanned original pairs. This revision changes selection and presentation, not sequences or matching outcomes. Original results and the previous integrated PDF remain in the archive. No experimental validation is added.
 
 ```bash
 python3 -m pip install -r requirements.txt
 python3 scripts/build_catalog.py
 python3 scripts/build_docs.py
+python3 scripts/plot_catalog.py  # requires matplotlib
+python3 publications/render_integrated.py  # requires pandoc and Chrome
+python3 scripts/update_checksums.py
 python3 scripts/check_release.py
-# Optional full independent re-scan / 可选：完整独立重扫
-python3 scripts/recheck_catalog.py
 ```
 
-Frozen references and alignments are under `panels/`; compact source analyses are under `analysis/`. Large intermediate hit matrices and caches are regenerated rather than duplicated. Selected results were re-scanned with independent C++ and Python implementations; this integration adds no wet-lab validation.
+## Historical study
 
-## Aphroditiformia study and preprint
+[Aphroditiformia study](studies/Aphroditiformia/README.en.md) · [Historical PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf)
 
-[Study and bibliography](studies/Aphroditiformia/README.en.md) · [Preprint PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf) · [Manuscript](studies/Aphroditiformia/publications/MiAphro_preprint.md)
-
-The retained preprint reports Aphroditiformia only. The additional order-, suborder- and family-level designs are documented in this catalogue and their individual pages.
+The historical study preserves the original complete search and figures. Use the current catalogue above for the curated selection.
 
 ## Citation and copyright
 

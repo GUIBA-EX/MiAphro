@@ -26,6 +26,6 @@ def run(job):
  print('PASS',taxon,gene,len(answer),'pairs',flush=True);return answer
 if __name__=='__main__':
  subprocess.run(['c++','-std=c++17','-O2',str(R/'scripts/raw_scan.cpp'),'-o',str(R/'scripts/scan')],check=True)
- jobs=[(x['target_taxon'],x['gene']) for x in read(R/'panels.csv')]
+ jobs=list(dict.fromkeys((x['target_taxon'],x['gene']) for x in read(R/'catalog.csv')))
  with concurrent.futures.ProcessPoolExecutor(max_workers=2) as p:result=[x for batch in p.map(run,jobs) for x in batch]
- (R/'audit').mkdir(exist_ok=True);(R/'audit/catalog_rescan.json').write_text(json.dumps(dict(status='PASS',pairs=len(result),records=result),indent=2));print('ALL PASS',len(result),flush=True)
+ (R/'audit').mkdir(exist_ok=True);(R/'audit/current_rescan.json').write_text(json.dumps(dict(status='PASS',pairs=len(result),records=result),indent=2));print('ALL PASS',len(result),flush=True)

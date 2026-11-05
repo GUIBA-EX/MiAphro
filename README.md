@@ -4,85 +4,71 @@
 
 **Fei Xia**
 
-[Integrated preprint / 整合版预印本](publications/MiPhyllo_preprint.pdf) · [Manuscript / 原稿](publications/MiPhyllo_preprint.md)
-
-The repository and current primer identifiers use MiPhyllo. / 仓库和现行引物编号统一使用MiPhyllo。
-
 [English](README.en.md) | 中文
+
+[Preprint PDF](publications/MiPhyllo_preprint.pdf) · [Manuscript](publications/MiPhyllo_preprint.md)
 
 ## 项目概览
 
-MiPhyllo整合Phyllodocida内8个相互嵌套的设计单元：目级、4个亚目及3个科。现行目录包含94对引物（188条寡核苷酸），另有8对不同的条件备选（16条寡核苷酸）。各设计单元保留自己的参考库、背景库和筛选条件；这些是分级设计的计算候选，并非一套覆盖全部多毛类的通用实验方案。
+精简目录保留**48对引物（96条寡核苷酸），组成24组同坐标普通/D方案，覆盖6个设计单元**：3个亚目和3个科。原始搜索涉及8个单元。各单元独立保存一物种一序列的参考库与背景库。Phyllodocida表示项目研究范围，现行目录不再保留目级引物。
 
-[现行序列](primers.fasta) · [完整目录](catalog.csv) · [参考库清单](panels.csv) · [条件备选](conditional/README.md) · [方法与复现](docs/METHODS.md)
+[现行序列](primers.fasta) · [现行目录](catalog.csv) · [逐物种结果](species.csv) · [方法](docs/METHODS.md) · [归档与取舍](archive/README.md)
 
-## 设计单元
+顶部简介图展示分类背景；Nereidiformia由三个科级面板代表，不表示保留了亚目通用引物。
 
-|目标类群|层级|16S参考物种|28S参考物种|结果入口|
-|---|---|---:|---:|---|
-|Aphroditiformia|亚目|94|68|[Aphroditiformia](panels/Aphroditiformia/README.md)|
-|Phyllodocida|目|515|302|[Phyllodocida](panels/Phyllodocida/README.md)|
-|Glyceriformia|亚目|20|12|[Glyceriformia](panels/Glyceriformia/README.md)|
-|Nereidiformia|亚目|315|133|[Nereidiformia](panels/Nereidiformia/README.md)|
-|Phyllodociformia|亚目|59|63|[Phyllodociformia](panels/Phyllodociformia/README.md)|
-|Syllidae|科|180|28|[Syllidae](panels/Syllidae/README.md)|
-|Nereididae|科|61|52|[Nereididae](panels/Nereididae/README.md)|
-|Hesionidae|科|53|45|[Hesionidae](panels/Hesionidae/README.md)|
+## 保留方案
 
-```mermaid
-graph TD
-  P[Phyllodocida] --> A[Aphroditiformia]
-  P --> G[Glyceriformia]
-  P --> N[Nereidiformia]
-  P --> F[Phyllodociformia]
-  N --> S[Syllidae]
-  N --> R[Nereididae]
-  N --> H[Hesionidae]
-```
+|目标类群|16S长度|28S长度|16S参考物种|28S参考物种|结果入口|
+|---|---|---|---:|---:|---|
+|Aphroditiformia|S|S/M/L|94|68|[Aphroditiformia](panels/Aphroditiformia/README.md)|
+|Glyceriformia|S/M|S/M/L|20|12|[Glyceriformia](panels/Glyceriformia/README.md)|
+|Phyllodociformia|S/L|S/M|59|63|[Phyllodociformia](panels/Phyllodociformia/README.md)|
+|Syllidae|S|—|180|28|[Syllidae](panels/Syllidae/README.md)|
+|Nereididae|S/M/L|S|61|52|[Nereididae](panels/Nereididae/README.md)|
+|Hesionidae|S/M/L|S/M/L|53|45|[Hesionidae](panels/Hesionidae/README.md)|
 
-示意图仅列出本项目的设计单元，不是完整分类系统。上下级面板包含重叠物种，不能直接相加。
+参考物种数表示可用参考库规模，不表示该基因一定保留引物。每个保留长度均含普通与D两对。
 
-## 命名与方案
+## 筛选与命名
 
-`MiPhyllo-{目标类群}-{基因}-{长度}[2][D]_{F|R}`。S/M/L表示短、中、长设计；D表示该对引物至少一条含简并，每条简并度≤8。数字2表示另一套条件候选，不表示两对引物混合。例：`MiPhyllo-Syllidae-16S-S_F`、`MiPhyllo-Syllidae-16S-SD_R`、`MiPhyllo-Syllidae-16S-S2D_R`。同一方案内普通/D的四个结合端点一致；不同方案、类群可能使用不同窗口和参考序列。
+保留D覆盖率≥50%、至少有1种完全匹配且通过原完整背景筛选的普通/D组合。Phyllodocida、Nereidiformia大范围方案及放宽背景限制的条件备选归档。这是目录精简规则，不是实验有效性阈值。普通引物保留为同坐标对照，D达到标准不代表普通引物也达到50%覆盖率。
+
+`MiPhyllo-{类群}-{基因}-{S|M|L}[D]_{F|R}`。普通引物仅含A/C/G/T；D表示至少一条含简并。每条简并度≤8，简并限于3′半段。普通/D四个结合端点相同；S/M/L是长度分档，不要求凑齐。
 
 ## 结果概览
 
-![Within-panel D coverage](figures/catalog_coverage.svg)
+![D coverage and exact matching](figures/catalog_coverage.svg)
 
-图示为各自冻结参考库内的D方案覆盖率。不同设计单元的分母和背景组成不同，不能解释为共同面板上的直接性能比较。
+实心点为D覆盖率，空心点为完全匹配率，灰线表示二者差距。缺失长度表示已移除或原本无候选。各自完整参考库作为分母，不作共同面板性能比较。
 
-- **Aphroditiformia**: 保留原鳞虫研究、碱基匹配图、WoRMS属级覆盖与预印本。
-- **Phyllodocida**: 目级覆盖仍低，保留为广谱搜索结果。
-- **Glyceriformia**: 参考未包含Lacydoniidae；16S覆盖与完全匹配之间存在明显差距。
-- **Nereidiformia**: 亚目级覆盖仍低；另提供三个科的独立设计。
-- **Phyllodociformia**: 当前参考仅代表Phyllodocidae。
-- **Syllidae**: 优先关注16S。28S的S/M覆盖很低，L无通过候选。
-- **Nereididae**: 16S覆盖较高；28S以S为主要候选，M/L覆盖仍有限。
-- **Hesionidae**: 28S S覆盖40/45种；完整长度比较见本单元结果。
+- **Aphroditiformia**: 16S仅保留S；28S保留S/M/L。16S SD覆盖62/94种，完全匹配仅1种。
+- **Glyceriformia**: 16S保留S/M，28S保留S/M/L；16S两个D均仅1种完全匹配。参考未包含Lacydoniidae。
+- **Phyllodociformia**: 16S保留S/L，28S保留S/M。参考仅代表Phyllodocidae。
+- **Syllidae**: 仅保留16S S/SD；28S和其余长度归档。
+- **Nereididae**: 16S保留S/M/L，28S仅保留S。16S LD覆盖最高，但背景命中高于SD。
+- **Hesionidae**: 16S与28S均保留S/M/L。28S SD覆盖40/45种，完全匹配8种。
 
-最新Nereididae 28S SD覆盖29/52种，完全匹配8种。条件备选Syllidae 16S S2D覆盖126/180种、完全匹配48种；在3675种背景中，严格WC/GT命中33/42，宽松模型命中1007/601。条件备选与现行FASTA分开保存。
+## 复现与证据
 
-## 数据、复现与证据
+[Selection decisions](archive/selection_decisions.csv) · [Curation audit](audit/curation.json) · [Independent scan](audit/catalog_rescan.json) · [Provenance](provenance.csv) · [Checksums](SHA256SUMS)
 
-[逐物种结果](species.csv) · [来源与命名对应](provenance.csv) · [独立重扫检查](audit/catalog_rescan.json) · [文件校验值](SHA256SUMS)
+48对保留引物均为原102对独立复核引物的原序列子集。本次变更筛选与展示，不修改序列和匹配结果。原始结果与上一版整合PDF保留在归档中，未新增实验验证。
 
 ```bash
 python3 -m pip install -r requirements.txt
 python3 scripts/build_catalog.py
 python3 scripts/build_docs.py
+python3 scripts/plot_catalog.py  # requires matplotlib
+python3 publications/render_integrated.py  # requires pandoc and Chrome
+python3 scripts/update_checksums.py
 python3 scripts/check_release.py
-# Optional full independent re-scan / 可选：完整独立重扫
-python3 scripts/recheck_catalog.py
 ```
 
-冻结参考序列和比对位于`panels/`，精简后的源分析位于`analysis/`。大型中间命中矩阵与缓存可重建，不重复收录。入选结果已使用独立C++和Python实现重新扫描；本次整合未添加实验验证。
+## 原始研究
 
-## Aphroditiformia原研究与预印本
+[Aphroditiformia study](studies/Aphroditiformia/README.md) · [Historical PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf)
 
-[Study and bibliography](studies/Aphroditiformia/README.md) · [Preprint PDF](studies/Aphroditiformia/publications/MiAphro_preprint.pdf) · [Manuscript](studies/Aphroditiformia/publications/MiAphro_preprint.md)
-
-保留的预印本仅报告Aphroditiformia。新增目级、亚目级和科级设计由当前目录及各单元页面报告，不将其归入原预印本结论。
+原研究保留完整搜索结果与图表；精简后的保留方案以本页现行目录为准。
 
 ## 引用与著作权
 

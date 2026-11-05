@@ -1,41 +1,30 @@
 # MiPhyllo · Aphroditiformia
 
-[Catalogue](../../README.en.md) | [FASTA](primers.fasta) | [CSV](results.csv) | [Species](species.csv)
+[Catalogue](../../README.en.md) · [Archive](../../archive/README.en.md)
 
-The original scale-worm study, base-matching figures, WoRMS genus coverage and preprint are retained.
+Only S is retained for 16S; S/M/L are retained for 28S. The 16S SD covers 62/94 species but exactly matches only one.
+
+[FASTA](primers.fasta) · [CSV](results.csv) · [Species](species.csv)
 
 ## 16S
 
-Target / background reference species: **94 / 381**
-
-Families: Acoetidae (1), Aphroditidae (4), Eulepethidae (3), Pholoidae (5), Pisionidae (8), Polynoidae (69), Sigalionidae (4)
-
-[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background FASTA](references/16S/background.fa) · [Background metadata](references/16S/background.csv)
+[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background](references/16S/background.fa)
 
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Aphroditiformia-16S-S|138|`ATAAACTACCTTAGGGATAACA`|`GAGATTTAACAGTTGAACAAAC`|58/94|1/94|0/0|23/0|
 |MiPhyllo-Aphroditiformia-16S-SD|138|`ATAAACTACCTYRGGGATAACA`|`GAGATTTAACAGTTGAACRAAC`|62/94|1/94|0/0|25/0|
-|MiPhyllo-Aphroditiformia-16S-M|210|`AAGACAAGAAGACCCTATAG`|`ACCATCCTATCAATAAGAGCTC`|28/94|24/94|0/0|0/0|
-|MiPhyllo-Aphroditiformia-16S-MD|210|`AAGACAAGAAGACCCYRTWG`|`ACCATCCTATCAATWWGARCTC`|44/94|24/94|2/9|12/9|
-|MiPhyllo-Aphroditiformia-16S-L|329|`GTAGCATAATCATTTGCCTT`|`ACCATCCTATCAATAAGAGC`|28/94|24/94|0/0|0/0|
-|MiPhyllo-Aphroditiformia-16S-LD|329|`GTAGCATAATMAYTTGCCTY`|`ACCATCCTATCAATWWGARC`|41/94|24/94|0/7|7/7|
 
 |Pair|Reference|F start–end|R start–end|Deg F/R|
 |---|---|---:|---:|---:|
 |MiPhyllo-Aphroditiformia-16S-S|MG905038.1|369–390|485–506|1/1|
 |MiPhyllo-Aphroditiformia-16S-SD|MG905038.1|369–390|485–506|4/2|
-|MiPhyllo-Aphroditiformia-16S-M|MG905038.1|219–238|407–428|1/1|
-|MiPhyllo-Aphroditiformia-16S-MD|MG905038.1|219–238|407–428|8/8|
-|MiPhyllo-Aphroditiformia-16S-L|MG905038.1|100–119|409–428|1/1|
-|MiPhyllo-Aphroditiformia-16S-LD|MG905038.1|100–119|409–428|8/8|
+
+Background reference species: 381
+
 ## 28S
 
-Target / background reference species: **68 / 214**
-
-Families: Acoetidae (1), Aphroditidae (3), Eulepethidae (2), Pholoidae (5), Pisionidae (8), Polynoidae (41), Sigalionidae (8)
-
-[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background FASTA](references/28S/background.fa) · [Background metadata](references/28S/background.csv)
+[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background](references/28S/background.fa)
 
 |Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
@@ -55,6 +44,6 @@ Families: Acoetidae (1), Aphroditidae (3), Eulepethidae (2), Pholoidae (5), Pisi
 |MiPhyllo-Aphroditiformia-28S-L|DQ790064.1|391–412|737–758|1/1|
 |MiPhyllo-Aphroditiformia-28S-LD|DQ790064.1|391–412|737–758|2/2|
 
-[Methods and background profiles](../../docs/METHODS.en.md)
+Background reference species: 214
 
-[Original base-matching figures and reference-coverage analysis](../../studies/Aphroditiformia/README.en.md)
+[Methods](../../docs/METHODS.en.md)

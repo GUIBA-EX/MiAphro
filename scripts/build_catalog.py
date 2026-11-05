@@ -50,3 +50,10 @@ write(R/'catalog.csv',catalog);write(R/'species.csv',allsp);write(R/'panels.csv'
 (R/'primers.fasta').write_text(''.join(f">{x['name']}_{e}\n{x[e]}\n" for x in catalog for e in 'FR'))
 write(R/'conditional/results.csv',conditional);write(R/'conditional/species.csv',condsp);(R/'conditional/primers.fasta').write_text(''.join(f">{x['name']}_{e}\n{x[e]}\n" for x in conditional for e in 'FR'))
 print('Catalogue',len(catalog),'pairs;',len(conditional),'conditional pairs;',len(units),'target units')
+
+# Apply the published editorial selection after rebuilding the full source catalogue.
+# Identity check prevents silently applying an old selection to changed scientific results.
+assert read(R/'catalog.csv') == read(R/'archive/2026-11-05-unfiltered/catalog.csv')
+assert read(R/'conditional/results.csv') == read(R/'archive/2026-11-05-unfiltered/conditional/results.csv')
+import subprocess,sys
+subprocess.run([sys.executable,str(R/'scripts/curate_catalog.py')],check=True)

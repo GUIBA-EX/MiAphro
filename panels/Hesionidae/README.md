@@ -1,18 +1,16 @@
 # MiPhyllo · Hesionidae
 
-[Catalogue](../../README.md) | [FASTA](primers.fasta) | [CSV](results.csv) | [Species](species.csv)
+[Catalogue](../../README.md) · [Archive](../../archive/README.md)
 
-28S S覆盖40/45种；完整长度比较见本单元结果。
+16S与28S均保留S/M/L。28S SD覆盖40/45种，完全匹配8种。
+
+[FASTA](primers.fasta) · [CSV](results.csv) · [Species](species.csv)
 
 ## 16S
 
-目标 / 背景参考物种：**53 / 3802**
+[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background](references/16S/background.fa)
 
-Families: Hesionidae (53)
-
-[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background FASTA](references/16S/background.fa) · [Background metadata](references/16S/background.csv)
-
-|引物对|bp|F（5′→3′）|R（5′→3′）|覆盖|完全匹配|严格WC/GT|宽松WC/GT|
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Hesionidae-16S-S|188|`TGAACTAAGGTTTTAACGGC`|`AAACTCTATAGGGTCTTCTTGTCT`|28/53|2/53|1/7|1/7|
 |MiPhyllo-Hesionidae-16S-SD|188|`TGAATTACGGYTTHAACGGC`|`AAACTCAATAGGGTCTTCTTGTCY`|37/53|1/53|1/43|32/44|
@@ -29,15 +27,14 @@ Families: Hesionidae (53)
 |MiPhyllo-Hesionidae-16S-MD|DQ442579.1|65–84|303–322|2/2|
 |MiPhyllo-Hesionidae-16S-L|DQ442579.1|59–76|403–420|1/1|
 |MiPhyllo-Hesionidae-16S-LD|DQ442579.1|59–76|403–420|6/4|
+
+Background reference species: 3802
+
 ## 28S
 
-目标 / 背景参考物种：**45 / 2342**
+[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background](references/28S/background.fa)
 
-Families: Hesionidae (45)
-
-[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background FASTA](references/28S/background.fa) · [Background metadata](references/28S/background.csv)
-
-|引物对|bp|F（5′→3′）|R（5′→3′）|覆盖|完全匹配|严格WC/GT|宽松WC/GT|
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Hesionidae-28S-S|196|`CACTTTCCGCGGGGAGAG`|`TGTGAACAGTCCTCCCCAGT`|31/45|3/45|5/14|22/17|
 |MiPhyllo-Hesionidae-28S-SD|196|`CACTTTCCGYSGRGAGAG`|`TGTGAACAGTCCTYCCMRGT`|40/45|8/45|10/44|78/70|
@@ -55,4 +52,6 @@ Families: Hesionidae (45)
 |MiPhyllo-Hesionidae-28S-L|DQ790046.1|245–272|639–660|1/1|
 |MiPhyllo-Hesionidae-28S-LD|DQ790046.1|245–272|639–660|2/1|
 
-[Methods and background profiles](../../docs/METHODS.md)
+Background reference species: 2342
+
+[Methods](../../docs/METHODS.md)

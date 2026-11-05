@@ -1,18 +1,16 @@
 # MiPhyllo · Nereididae
 
-[Catalogue](../../README.md) | [FASTA](primers.fasta) | [CSV](results.csv) | [Species](species.csv)
+[Catalogue](../../README.md) · [Archive](../../archive/README.md)
 
-16S覆盖较高；28S以S为主要候选，M/L覆盖仍有限。
+16S保留S/M/L，28S仅保留S。16S LD覆盖最高，但背景命中高于SD。
+
+[FASTA](primers.fasta) · [CSV](results.csv) · [Species](species.csv)
 
 ## 16S
 
-目标 / 背景参考物种：**61 / 3794**
+[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background](references/16S/background.fa)
 
-Families: Nereididae (61)
-
-[Target FASTA](references/16S/target.fa) · [Metadata](references/16S/target.csv) · [Alignment](references/16S/aligned.fa) · [Background FASTA](references/16S/background.fa) · [Background metadata](references/16S/background.csv)
-
-|引物对|bp|F（5′→3′）|R（5′→3′）|覆盖|完全匹配|严格WC/GT|宽松WC/GT|
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Nereididae-16S-S|194|`AATTTGGTTGGGACAACC`|`CTGTCAATGTGGTCTCTCTAGT`|30/61|7/61|0/0|16/6|
 |MiPhyllo-Nereididae-16S-SD|194|`AATTTGGTTGGGACRAYY`|`CTGTCAATGTGRTCTCTCTARY`|57/61|7/61|0/12|51/25|
@@ -29,32 +27,23 @@ Families: Nereididae (61)
 |MiPhyllo-Nereididae-16S-MD|JX078950.1|215–232|407–426|1/8|
 |MiPhyllo-Nereididae-16S-L|EU221670.1|39–58|433–450|1/1|
 |MiPhyllo-Nereididae-16S-LD|EU221670.1|39–58|433–450|8/4|
+
+Background reference species: 3794
+
 ## 28S
 
-目标 / 背景参考物种：**52 / 2335**
+[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background](references/28S/background.fa)
 
-Families: Nereididae (52)
-
-[Target FASTA](references/28S/target.fa) · [Metadata](references/28S/target.csv) · [Alignment](references/28S/aligned.fa) · [Background FASTA](references/28S/background.fa) · [Background metadata](references/28S/background.csv)
-
-|引物对|bp|F（5′→3′）|R（5′→3′）|覆盖|完全匹配|严格WC/GT|宽松WC/GT|
+|Pair|bp|F (5′→3′)|R (5′→3′)|Covered|Exact|Strict WC/GT|Loose WC/GT|
 |---|---:|---|---|---:|---:|---:|---:|
 |MiPhyllo-Nereididae-28S-S|150|`GACGCGTGCACTTTCCGG`|`CAGAGGGCCTGCGACTCG`|19/52|1/52|0/0|0/0|
 |MiPhyllo-Nereididae-28S-SD|150|`GACGCGTGCAMTTTCCRG`|`CAGAGGGCCTGCGACYHG`|29/52|8/52|0/0|0/0|
-|MiPhyllo-Nereididae-28S-M|202|`CTGTAGCGTTAGGGACGTCGATCGAG`|`CGGACTCGTGCCAGTATTTAGCCTTAGA`|1/52|1/52|0/0|0/0|
-|MiPhyllo-Nereididae-28S-MD|202|`CTGTAGCGTTAGGGACGTCGRTCGAV`|`CGGACTCGTGCCAGTRTTTAGCSTTRGA`|11/52|1/52|0/0|0/0|
-|MiPhyllo-Nereididae-28S-L|385|`GGTGAGCACGGAAGTCTCG`|`CCGATTCCAGGGAGCTCGT`|2/52|2/52|0/4|28/32|
-|MiPhyllo-Nereididae-28S-LD|385|`GGTGGGCACRGAAGYCTYG`|`CCGATTCCAGGGWRCTCGY`|4/52|0/52|14/28|57/51|
 
 |Pair|Reference|F start–end|R start–end|Deg F/R|
 |---|---|---:|---:|---:|
 |MiPhyllo-Nereididae-28S-S|AF212165.1|549–566|681–698|1/1|
 |MiPhyllo-Nereididae-28S-SD|AF212165.1|549–566|681–698|4/6|
-|MiPhyllo-Nereididae-28S-M|AY210464.1|125–150|299–326|1/1|
-|MiPhyllo-Nereididae-28S-MD|AY210464.1|125–150|299–326|6/8|
-|MiPhyllo-Nereididae-28S-L|AY210464.1|1654–1672|2020–2038|1/1|
-|MiPhyllo-Nereididae-28S-LD|AY210464.1|1654–1672|2020–2038|8/8|
 
-[Methods and background profiles](../../docs/METHODS.md)
+Background reference species: 2335
 
-[Conditional alternatives](../../conditional/README.md)
+[Methods](../../docs/METHODS.md)

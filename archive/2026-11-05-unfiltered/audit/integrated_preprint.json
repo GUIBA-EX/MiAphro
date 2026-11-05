@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "pairs": 102,
+  "oligos_checked": 204,
+  "author": "Fei Xia",
+  "visual_review": "all 13 rendered pages",
+  "pdf_sha256": "b5bfd91f40d4b9964f3330513c2c845b25d021fda520112a9d66a558de1a9c53",
+  "naming": "MiPhyllo"
+}

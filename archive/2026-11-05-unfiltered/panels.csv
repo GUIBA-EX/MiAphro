@@ -1,0 +1,17 @@
+target_taxon,rank,gene,target_species,background_species,source_root
+Aphroditiformia,suborder,16S,94,381,studies/Aphroditiformia
+Aphroditiformia,suborder,28S,68,214,studies/Aphroditiformia
+Phyllodocida,order,16S,515,3340,analysis/Phyllodocida
+Phyllodocida,order,28S,302,2085,analysis/Phyllodocida
+Glyceriformia,suborder,16S,20,3835,analysis/Phyllodocida_suborders/Glyceriformia
+Glyceriformia,suborder,28S,12,2375,analysis/Phyllodocida_suborders/Glyceriformia
+Nereidiformia,suborder,16S,315,3540,analysis/Phyllodocida_suborders/Nereidiformia
+Nereidiformia,suborder,28S,133,2254,analysis/Phyllodocida_suborders/Nereidiformia
+Phyllodociformia,suborder,16S,59,3796,analysis/Phyllodocida_suborders/Phyllodociformia
+Phyllodociformia,suborder,28S,63,2324,analysis/Phyllodocida_suborders/Phyllodociformia
+Syllidae,family,16S,180,3675,analysis/Phyllodocida_families/Syllidae
+Syllidae,family,28S,28,2359,analysis/Phyllodocida_families/Syllidae
+Nereididae,family,16S,61,3794,analysis/Phyllodocida_families/Nereididae
+Nereididae,family,28S,52,2335,analysis/Phyllodocida_families/Nereididae
+Hesionidae,family,16S,53,3802,analysis/Phyllodocida_families/Hesionidae
+Hesionidae,family,28S,45,2342,analysis/Phyllodocida_families/Hesionidae
