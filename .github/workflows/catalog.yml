@@ -11,3 +11,11 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python scripts/check_release.py
       - run: python studies/Aphroditiformia/scripts/check_release.py
+      - name: Independently rescan current target and background panels
+        run: python scripts/recheck_catalog.py
+      - name: Recompute variant-level structures and recovered insert identities
+        run: |
+          python scripts/review_terminal_windows.py
+          python scripts/review_structures.py
+          python scripts/review_insert_identity.py
+          python scripts/review_candidate_verify.py

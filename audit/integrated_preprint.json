@@ -1,11 +1,12 @@
 {
   "status": "PASS",
-  "pages": 12,
+  "pages": 13,
   "pairs": 48,
   "oligos_checked": 96,
   "author": "Fei Xia",
-  "visual_review": "all 12 rendered pages",
+  "visual_review": "all 13 rendered pages",
   "sequence_and_metric_tables": "all 48 pairs match current catalogue",
-  "pdf_sha256": "37ef0aa1f6e6cea75aa953c24da09ea68dbbe5f1e92a90052b933a4467295185",
-  "naming": "MiPhyllo"
+  "pdf_sha256": "a77e82d08b6dd90ac2caf7c759c05746098274fae6e1d293fb2ea87366f97ab5",
+  "naming": "MiPhyllo",
+  "review_revision": "retrospective addendum; exploratory candidate not adopted"
 }

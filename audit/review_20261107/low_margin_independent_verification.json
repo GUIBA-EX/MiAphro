@@ -1,0 +1,31 @@
+[
+  {
+    "name": "MiPhyllo-Nereididae-16S-LD",
+    "F": "TTAATTGAAGGCYRGTATGA",
+    "R": "CAATGTGATCTCTCTARY",
+    "candidate_counts": {
+      "covered": 58,
+      "exact": 11,
+      "WC": 30,
+      "GT": 58,
+      "WCloose": 166,
+      "GTloose": 282,
+      "nearWC": 0,
+      "nearGT": 1
+    },
+    "target_accession_comparison": {
+      "strict": {
+        "lost": [],
+        "gained": [],
+        "retained": 58
+      },
+      "exact": {
+        "lost": [],
+        "gained": [],
+        "retained": 11
+      }
+    },
+    "status": "PASS",
+    "same_target_set": true
+  }
+]

@@ -45,6 +45,8 @@ for en in [False,True]:
   b,a=z['before'],z['after'];section.append(f"|{z['name'].removeprefix('MiPhyllo-')}|{b['covered']} → {a['covered']} / {z['target_N']}|{b['exact']} → {a['exact']} / {z['target_N']}|{b['WC']}/{b['GT']} → {a['WC']}/{a['GT']}|{b['WCloose']}/{b['GTloose']} → {a['WCloose']}/{a['GTloose']}|{z['status']}|")
  section+=['','![Before and after](figures/terminal_optimization.svg)','']
  pos=lines.index('## Reproducibility' if en else '## 复现与证据');lines[pos:pos]=section
+ review_note='> **Computational review:** All 48 pairs pass the original basic structure gates; eight have a minimum structure margin below 5°C in at least one concentration scenario, including three with negative margins. Seven of 24 D pairs lose candidate records under the terminal-triplet rule on their reference panels. See [variant-level structures and recovered inserts](audit/review_20261107/README.md). These predictions do not replace primers or establish experimental performance.' if en else '> **计算复核提示：**48 对均通过原基本结构门槛，但 8 对在至少一种浓度情景下的最小结构余量不足 5°C；其中 3 对出现负余量。24 对 D 中 7 对在当前参考面板上因双端末三位约束损失候选记录。已补充[逐变体结构和扩增片段分析](audit/review_20261107/README.md)。这些结果仅为计算预测，未替代引物或证明实验表现。'
+ pos=next(i for i,line in enumerate(lines) if line.startswith('## '));lines[pos:pos]=[review_note,'']
  (R/f).write_text('\n'.join(lines))
  for p in (R/'panels').iterdir():
   if not p.is_dir():continue
@@ -73,5 +75,5 @@ for en in [False,True]:
  for d in decisions:ls.append(f"|{d['set']}|{d['covered']}/{d['target_species']}|{d['exact']}/{d['target_species']}|{d['status']}|{d['reason']}|")
  (R/'archive'/f).write_text('\n'.join(ls)+'\n')
  (R/'conditional'/f).write_text(('# Archived conditional alternatives' if en else '# 已归档条件备选')+f'\n\n[Archive](../archive/{f})\n\n'+('No conditional alternatives remain in the current catalogue.' if en else '现行目录不再保留条件备选。')+'\n')
-(R/'publications/README.md').write_text('# MiPhyllo curated preprint / 精简版预印本\n\n[PDF](MiPhyllo_preprint.pdf) · [Manuscript](MiPhyllo_preprint.md) · [HTML](MiPhyllo_preprint.html)\n\nFei Xia · 6 target units · 24 ordinary/D sets · 48 primer pairs · 96 oligos.\n\n[Previous integrated PDF / 原整合版PDF](../archive/2026-11-05-unfiltered/publications/MiPhyllo_preprint.pdf) · [Historical Aphroditiformia PDF / 原鳞虫PDF](MiAphro_preprint.pdf)\n')
+(R/'publications/README.md').write_text('# MiPhyllo curated preprint / 精简版预印本\n\n[2026-11-07 computational review addendum](MiPhyllo_review_addendum.md) · [PDF](MiPhyllo_preprint.pdf) · [Manuscript](MiPhyllo_preprint.md) · [HTML](MiPhyllo_preprint.html)\n\nFei Xia · 6 target units · 24 ordinary/D sets · 48 primer pairs · 96 oligos.\n\n[Previous integrated PDF / 原整合版PDF](../archive/2026-11-05-unfiltered/publications/MiPhyllo_preprint.pdf) · [Historical Aphroditiformia PDF / 原鳞虫PDF](MiAphro_preprint.pdf)\n')
 print('Built bilingual curated documents and archive decisions')

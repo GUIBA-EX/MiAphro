@@ -8,6 +8,8 @@
 
 [Preprint PDF](publications/MiPhyllo_preprint.pdf) · [Manuscript](publications/MiPhyllo_preprint.md)
 
+> **Computational review:** All 48 pairs pass the original basic structure gates; eight have a minimum structure margin below 5°C in at least one concentration scenario, including three with negative margins. Seven of 24 D pairs lose candidate records under the terminal-triplet rule on their reference panels. See [variant-level structures and recovered inserts](audit/review_20261107/README.md). These predictions do not replace primers or establish experimental performance.
+
 ## Overview
 
 The curated catalogue contains **48 primer pairs (96 oligos), arranged in 24 same-coordinate ordinary/D sets across six target units**: three suborders and three families. The original search considered eight units. Each retained unit keeps its own species-deduplicated reference and background panels. Phyllodocida remains the project scope; no order-wide primer is retained.

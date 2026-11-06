@@ -19,6 +19,10 @@ body=[]
 for z in cs:
  b,a=z['before'],z['after'];body.append([z['name'].removeprefix('MiPhyllo-'),f"{b['covered']} → {a['covered']}/{z['target_N']}",f"{b['exact']} → {a['exact']}/{z['target_N']}",f"{b['WC']}/{b['GT']} → {a['WC']}/{a['GT']}",f"{b['WCloose']}/{b['GTloose']} → {a['WCloose']}/{a['GTloose']}"])
 page('<h2>Terminal optimization: nine-pair comparison</h2>'+table(['D pair','Covered','Exact','Strict WC/GT','Loose WC/GT'],body)+'<p><b>Table 2.</b> Before and after joint degeneracy redistribution. Four replacements were accepted. Ordinary sequences and all endpoints remained fixed. The full original background gates, including the close-relative gate, were retained; small increases in individual background counts are reported rather than treated as zero cost.</p><img src="../figures/terminal_optimization.png"><p><b>Figure 2.</b> Coverage and exact matching before (open) and after (filled) optimization. Teal indicates accepted replacements. Each pair uses its own reference denominator.</p><p>Syllidae 16S SD retained its sequence: 74,215 forward and 82,665 reverse allocations generated no shortlisted pair improving one target metric without reducing the other. The 16 species excluded by its terminal constraint remain excluded. These staged searches are not proofs of global optimality. Per-pair candidate and background results are available under optimization/terminal_2026-11-05/.</p>')
+# Include the independently documented retrospective review before references.
+review=subprocess.run(['pandoc',str(O/'MiPhyllo_review_addendum.md'),'-f','markdown','-t','html'],check=True,text=True,capture_output=True).stdout
+review=review.replace('<h1 ', '<h2 ').replace('</h1>', '</h2>').replace('<h2 ', '<h3 ').replace('</h2>', '</h3>')
+page(review)
 page((O/'references.html').read_text())
 for i,t in enumerate(taxa,1):
  rs=[x for x in rows if x['target_taxon']==t];s=f'<h2>Appendix A{i}. {t}</h2><p>Canonical prefix: MiPhyllo-{t}-. Sequences are 5′→3′. Covered and exact counts use the full target reference denominator. Strict and loose background values are WC/GT. Ordinary primers are same-coordinate comparators.</p>'

@@ -1,6 +1,6 @@
 # MiPhyllo curated preprint / 精简版预印本
 
-[PDF](MiPhyllo_preprint.pdf) · [Manuscript](MiPhyllo_preprint.md) · [HTML](MiPhyllo_preprint.html)
+[2026-11-07 computational review addendum](MiPhyllo_review_addendum.md) · [PDF](MiPhyllo_preprint.pdf) · [Manuscript](MiPhyllo_preprint.md) · [HTML](MiPhyllo_preprint.html)
 
 Fei Xia · 6 target units · 24 ordinary/D sets · 48 primer pairs · 96 oligos.
 

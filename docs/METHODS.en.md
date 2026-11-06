@@ -40,3 +40,8 @@ The 50% and nonzero-exact rules are operational editorial criteria, not experime
 ## Joint terminal optimization
 
 Nine D pairs with terminal-constraint exclusions underwent joint redistribution, preserving the ordinary pair, four endpoints, oligo lengths, fixed 5′ halves and degeneracy ≤8 per oligo. Canonical expansions and frequent target-window suffixes seeded simultaneous allocation across up to three positions in the 3′ half, including ternary/four-base masks and all compatible terminal-triplet allocations. Coverage-oriented and exact-oriented oligo shortlists were combined; original local-search candidates and baseline pairs were included. This staged search is not exhaustive over all possible primers. Candidates required no loss of target coverage or exact matching, with at least one strict improvement. Thermodynamic conditions and original full background/near-relative gates were retained. Selected outcomes were re-scanned by C++ and Python. Four replacements passed; five original sequences remain. Counts, candidates and reproducible code are in `optimization/terminal_2026-11-05/`.
+
+
+## 2026-11-07 computational review
+
+See [review evidence](../audit/review_20261107/README.md) for all-pair, expanded-variant structures and identity among recovered inserts. The latter excludes unrecovered competitors and is not full-library resolution. Revalidation remains retrospective, with no independent external test or wet-lab result. Run `python scripts/recheck_catalog.py`, `python scripts/review_structures.py`, then `python scripts/review_insert_identity.py` after installing `requirements.txt`.

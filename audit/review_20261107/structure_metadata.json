@@ -1,0 +1,7 @@
+{
+  "primer3_py": "2.4.0",
+  "pairs": 48,
+  "scenarios": 2,
+  "model": "50 mM monovalent, 1.5 mM Mg, 0.6 mM dNTP; no adapters; F/R heterodimers use higher participating concentration",
+  "status": "PASS"
+}

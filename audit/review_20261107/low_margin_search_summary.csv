@@ -1,0 +1,9 @@
+name,baseline_margin,thermally_eligible,passes_all
+MiPhyllo-Phyllodociformia-28S-S,4.79545860839346,30,0
+MiPhyllo-Phyllodociformia-28S-SD,4.79545860839346,30,0
+MiPhyllo-Syllidae-16S-SD,-1.4314326394733712,15,0
+MiPhyllo-Nereididae-16S-S,3.5805221692434657,14,0
+MiPhyllo-Nereididae-16S-SD,-0.8087404596726628,4,0
+MiPhyllo-Nereididae-16S-LD,-2.0822160488663712,11,1
+MiPhyllo-Hesionidae-28S-M,3.79972529603657,22,0
+MiPhyllo-Hesionidae-28S-MD,0.39103526335418337,6,0
